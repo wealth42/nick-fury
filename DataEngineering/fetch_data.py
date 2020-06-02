@@ -11,19 +11,19 @@ data = pd.DataFrame(json.loads(response.text))
 data['time'] = datetime.now()
 data.drop(['url','$type','placeType','children','childrenUrls'],axis=1,inplace=True)
 
-def getdata(li):
+data["NbBikes"] = pd.Series()
+data["NbDocks"] = pd.Series()
+for idx,li in data['additionalProperties'].items():
     for ele in li:
         if ele["key"] == "NbBikes":
-            data["NbBikes"] = ele["value"]
+            data["NbBikes"][idx] = ele["value"]
         elif ele["key"] == "NbDocks":
-            data["NbDocks"] = ele["value"]
+            data["NbDocks"][idx] = ele["value"]
             
-data['additionalProperties'].apply(getdata)
-
 data.drop(['additionalProperties'],axis=1,inplace=True)
-
 data_types = {"NbBikes" : int,"NbDocks":int}
 data = data.astype(data_types)
+
 
 db = mysql.connect(user='root', password='',host='localhost', database='db')
 cursor = db.cursor()
