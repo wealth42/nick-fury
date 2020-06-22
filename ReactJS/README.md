@@ -10,8 +10,9 @@ You can select any one of the stories mentioned in the [stories](../stories/) fo
 ### Instructions
 
 *   API: 
-    *   Create stubs based on the user story selected
-    *   Mock those stubs (an easy way to do this is to use Postman)
+    *   Create an API design for all integrations required for the selected user story (this can be a simple JSON request/response structure)
+    *   Create dummy data for all APIs designed
+    *   Create mock server stubs from this dummy data (an easy way to do this is to use [Postman](https://www.postman.com))
     *   Integrate with the mock stubs
 *   View: 
     *   Design reusable components that are used across all the screens relevant
@@ -43,3 +44,20 @@ For a ReactJS dev, this could translate to:
 2. Remove the assignment README’s (and all folders) and start developing your project in it
 3. Add a readme that details on exactly how to run the code
 4. Raise a Pull Request
+
+
+### Learning Resources
+
+* ReactJS
+    * [The official ReactJS Tutorial](https://reactjs.org/tutorial/tutorial.html)
+
+* Redux 
+    * [Basics](https://redux.js.org/basics/actions)
+    * [Redux Toolkit (Advanced)](https://www.valentinog.com/blog/redux/)
+* Saga/Thunk
+    * [Hackernoon Saga tutorial](https://hackernoon.com/redux-saga-tutorial-for-beginners-and-dog-lovers-aa69a17db645)
+    * [Digital Ocean Thunk tutorial](https://www.digitalocean.com/community/tutorials/redux-redux-thunk)
+    * [Codeburst Thunk blog](https://codeburst.io/understanding-redux-thunk-6dbae0241817) 
+* UI Component Libraries
+    * [Material UI](https://material-ui.com)
+    * [ANT Design](https://ant.design)
