@@ -12,9 +12,9 @@ class KeySearch extends Component {
         const filteredTherapist = this.props.therapist.filter(doctor =>
             doctor.name.toLowerCase().includes(searchFields.toLowerCase())
         );
-        return(
+        return( 
             <div>
-                <input
+            <input
                 placeholder={this.props.placeholder}
                 onChange={e=> this.setState({searchFields: e.target.value})}
             />

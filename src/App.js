@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 
 import Dashboard from './pages/dashboard/dashboard.component';
+import EmotionRecord from './component/emotionRecord/emotionRecord.component';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Dashboard} />
+          <Route exact path='/test' component={EmotionRecord} />
         </Switch>
       </BrowserRouter>
     </div>
