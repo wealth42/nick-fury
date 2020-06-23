@@ -15,8 +15,7 @@ As a simple solution for the clients and the therapist, we need an app:
 
 The app must cover these stories –
 
-*   A Client should be able to …
-    *   Create a Client account and login using their email and password
+*   A Client should be able to …   
     *   Search and map a Therapist to their account.
     *   View list of therapists who have access to emotions journal along with these actions –
         *   Remove a therapist mapped to account
@@ -28,7 +27,6 @@ The app must cover these stories –
     *   Select therapists from a list of available therapists on the platform
     *   Run keyword search across Therapists’ notes and emotions journals.
 *   A Therapist should be able to …
-    *   Create a Therapist account and login using their email and password
     *   Create a new session (therapy appointment). Each session with –
         *   Private notes, visible only to the therapist
         *   Shared notes with the client. For any assignments.
