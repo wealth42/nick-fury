@@ -8,10 +8,19 @@ from .permissions import *
 
 # Create your views here.
 class LoginView(APIView):
+    """
+    This APIView takes POST request only to log users into the session
+    """
     authentication_classes = (CsrfExemptSessionAuthentication,)
     permission_classes = [NotAuthenticated]
 
     def post(self, request, format=None):
+        """
+        This method logs user into the session.
+        Required params:
+            email - user's email
+            password - user's password
+        """
         data = request.data
 
         username = data.get('email', None)
@@ -30,9 +39,15 @@ class LoginView(APIView):
 
 
 class LogoutView(APIView):
+    """
+    This APIView is to log users out of the session.
+    """
     permission_classes = [IsAuthenticated]
 
     def get(self, request, format=None):
+        """
+        This method logs out authenticated user.
+        """
         if request.user.is_authenticated:
             logout(request)
             return Response({"message": "successfully logged out."}, status=status.HTTP_200_OK)
@@ -41,10 +56,20 @@ class LogoutView(APIView):
 
 
 class RegisterView(APIView):
+    """
+    This APIView is intended to create new users.
+    """
     authentication_classes = (CsrfExemptSessionAuthentication,)
     permission_classes = [NotAuthenticated]
 
     def post(self, request, format=None):
+        """
+        This is used to create new users
+        Required form-data:
+            email - must be an email
+            password
+            type - must be either 'Client' or 'Therapist'
+        """
         data = request.data
 
         email = data.get('email', None)
