@@ -158,6 +158,9 @@ class RecordEmotionView(APIView):
     def post(self, request, format=None):
         """
         This method will store emotion felt by the client.
+        Required Params:
+            - emotion - see choices in the model for options available
+            - intensity - see choices in the model for options available
         """
         serialized = serializers.EmotionSerializer(data={
             'client': request.user.pk,
