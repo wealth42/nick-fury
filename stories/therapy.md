@@ -16,13 +16,8 @@ As a simple solution for the clients and the therapist, we need an app:
 The app must cover these stories –
 
 *   A Client should be able to …   
-        *   Remove a therapist mapped to account
-        *   Remove a therapist’s access to the journal, but not mapping to account
-        *   Send a message to a therapist and view the history of exchanges.
     *   Approve or reject a therapist’s request for access to Client emotions journal.
-    *   Add record of an emotion felt. This should include the time of emotion, feeling and intensity (For vocabulary of emotions/feelings with intensity, refer to [this link](https://tomdrummond.com/app/uploads/2019/11/Emotion-Feelings.pdf))
     *   Request for an appointment in an available slot
-    *   Select therapists from a list of available therapists on the platform
     *   Run keyword search across Therapists’ notes and emotions journals.
 *   A Therapist should be able to …
     *   Create a new session (therapy appointment). Each session with –

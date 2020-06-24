@@ -1,9 +1,11 @@
 from django.contrib.auth import authenticate, login, logout
+from django.db.models import Q
 from rest_framework.views import APIView, Response, status
 from rest_framework.permissions import IsAuthenticated
 from . import models
 from .authentication_classes import CsrfExemptSessionAuthentication
 from .permissions import *
+from . import serializers
 
 
 # Create your views here.
@@ -87,3 +89,70 @@ class RegisterView(APIView):
             # this will be executed when any one value is null or when an Integrity Error is thrown
             return Response({'error': "Please provide proper email, password, and type."},
                             status=status.HTTP_400_BAD_REQUEST)
+
+
+class ChatView(APIView):
+    """
+    This APIView is intended to POST message and GET list of message.
+    """
+    authentication_classes = (CsrfExemptSessionAuthentication,)
+    permission_classes = [IsClient | IsTherapist]
+
+    def get(self, request, id1, format=None):
+        """
+        This method will chat history of requesting user and corresponding mapped user.
+        """
+        if models.User.objects.exclude(pk=request.user.pk).filter(is_deleted=False, pk=id1).exists():
+            try:
+                if request.user.type == "Client":
+                    mapping = models.Mapping.objects.get(is_deleted=False, client=request.user, therapist__id=id1)
+                elif request.user.type == "Therapist":
+                    mapping = models.Mapping.objects.get(is_deleted=False, client__id=id1, therapist=request.user)
+                if mapping:
+                    chats = models.Chat.objects.filter(is_deleted=False).filter(
+                        (Q(from_user=request.user) & Q(to_user__id=id1)) |
+                        (Q(to_user=request.user) & Q(from_user__id=id1))).order_by('created_at')
+                    serialized = serializers.ChatSerializer(chats, many=True)
+                    return Response(serialized.data, status=status.HTTP_200_OK)
+                else:
+                    raise Exception
+            except Exception as e:
+                return Response({'data': 'There does not exist such an active mapping.'},
+                                status=status.HTTP_417_EXPECTATION_FAILED)
+        else:
+            return Response({'message': 'No such User (therapist or client) exists'}, status=status.HTTP_404_NOT_FOUND)
+
+    def post(self, request, id1, format=None):
+        """
+        This will be executed on POST requests.
+        Required Parameters:
+            - message - Character string
+        """
+        if models.User.objects.exclude(pk=request.user.pk).filter(is_deleted=False, pk=id1).exists():
+            try:
+                if request.user.type == "Client":
+                    mapping = models.Mapping.objects.get(is_deleted=False, client=request.user, therapist__id=id1)
+                elif request.user.type == "Therapist":
+                    mapping = models.Mapping.objects.get(is_deleted=False, client__id=id1, therapist=request.user)
+                if mapping:
+                    serialized = serializers.ChatSerializer(data={
+                        "from_user": request.user.pk,
+                        "to_user": id1,
+                        "message": request.data.get('message')
+                    })
+                    if serialized.is_valid():
+                        serialized.save()
+                        return Response({"message": "Your message has been sent.",
+                                         "from_user": request.user.pk,
+                                         "to_user": id1,
+                                         "your message": request.data.get('message')},
+                                        status=status.HTTP_200_OK)
+                    else:
+                        return Response({"message": "Your message can not be sent"}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    raise Exception
+            except Exception as e:
+                return Response({'data': 'There does not exist such an active mapping.'},
+                                status=status.HTTP_417_EXPECTATION_FAILED)
+        else:
+            return Response({'message': 'No such User (therapist or client) exists'}, status=status.HTTP_404_NOT_FOUND)

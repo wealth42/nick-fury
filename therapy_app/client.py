@@ -29,6 +29,7 @@ class MapTherapistView(APIView):
     """
     This APIView takes GET request only to map available therapists to clients.
     This only maps those therapists that are not actively mapped to the requesting client.
+    takes DELETE request to remove mapping of a therapist and requesting client.
     """
     authentication_classes = (CsrfExemptSessionAuthentication,)
     permission_classes = [IsClient]
@@ -48,6 +49,24 @@ class MapTherapistView(APIView):
                                  'client_id': request.user.pk}, status=status.HTTP_200_OK)
             except Exception as e:
                 return Response({'message': 'The Therapist is already mapped.'}, status=status.HTTP_200_OK)
+        else:
+            return Response({'message': 'No such therapist exists'}, status=status.HTTP_404_NOT_FOUND)
+
+    def delete(self, request, id1, format=None):
+        """
+        This method will remove the mapping of a therapist and a requesting client.
+        """
+        if models.User.objects.filter(is_deleted=False, type='Therapist', pk=id1).exists():
+            try:
+                mapping = models.Mapping.objects.get(is_deleted=False, client=request.user, therapist__id=id1)
+                mapping.is_deleted = True
+                mapping.save()
+                return Response({"message": "Mapping has been removed.",
+                                 "therapist_id": id1,
+                                 "client_id": request.user.id}, status=status.HTTP_200_OK)
+            except Exception as e:
+                return Response({'data': 'There does not exist such an active mapping.'},
+                                status=status.HTTP_417_EXPECTATION_FAILED)
         else:
             return Response({'message': 'No such therapist exists'}, status=status.HTTP_404_NOT_FOUND)
 
@@ -95,3 +114,59 @@ class TherapistsWithJournalAccessView(APIView):
                 'message': 'There currently does not exists any active mapped therapists who has access to your '
                            'journal. '
             }, status=status.HTTP_200_OK)
+
+
+class RemoveJournalAccessView(APIView):
+    """
+    This APIView is intended to remove journal access for a therapist GET request.
+    """
+    authentication_classes = (CsrfExemptSessionAuthentication,)
+    permission_classes = [IsClient]
+
+    def delete(self, request, id1, format=None):
+        """
+        This method will remove the journal access of a therapist for a requesting client.
+        """
+        if models.User.objects.filter(is_deleted=False, type='Therapist', pk=id1).exists():
+            try:
+                mapping = models.Mapping.objects.get(is_deleted=False, client=request.user, therapist__id=id1)
+                if mapping.journal_access:
+                    mapping.journal_access = False
+                    mapping.journal_requested = "Declined"
+                    mapping.save()
+                    return Response({"message": "Access to your journal has been revoked for the requested therapist.",
+                                     "therapist_id": id1,
+                                     "client_id": request.user.id}, status=status.HTTP_200_OK)
+                else:
+                    return Response({"message": "Therapist does not have access to your journal.",
+                                     "therapist_id": id1,
+                                     "client_id": request.user.id}, status=status.HTTP_400_BAD_REQUEST)
+            except Exception as e:
+                return Response({'data': 'There does not exist such an active mapping.'},
+                                status=status.HTTP_417_EXPECTATION_FAILED)
+        else:
+            return Response({'message': 'No such therapist exists'}, status=status.HTTP_404_NOT_FOUND)
+
+
+class RecordEmotionView(APIView):
+    """
+    This APIView takes POST request to store emotion that is felt by a client.
+    """
+    authentication_classes = (CsrfExemptSessionAuthentication,)
+    permission_classes = [IsClient]
+
+    def post(self, request, format=None):
+        """
+        This method will store emotion felt by the client.
+        """
+        serialized = serializers.EmotionSerializer(data={
+            'client': request.user.pk,
+            'emotion': request.data.get("emotion"),
+            'intensity': request.data.get("intensity")
+        })
+        if serialized.is_valid():
+            serialized.save()
+            return Response({"message": "Emotion has been recorded.", "data": serialized.data},
+                            status=status.HTTP_200_OK)
+        else:
+            return Response(serialized.errors, status=status.HTTP_400_BAD_REQUEST)
