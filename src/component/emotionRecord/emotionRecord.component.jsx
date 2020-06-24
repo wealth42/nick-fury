@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Tag from '../../component/tag/tag.component';
 
 class EmotionRecord extends Component {
     constructor() {
@@ -15,25 +16,19 @@ class EmotionRecord extends Component {
         this.setState({
             emotions: data
         })
-        var data1 = require('../../assets/journals.json')
-        this.setState({
-            journ: data1
-        })
     }
 
-    wordCounter({journ, emotions}) {
-        var blog = [];
-        var array = [];
-        journ.map(item=>
-            blog.push(item.name))
-        console.log(blog);
-        blog = blog[0];
+    wordCounter({journ, emotions, result}) {
+        var blog = journ.name
+        console.log(blog)
+        result = [];
         emotions.map(item => 
             item.words.map(word => 
                 // blog.search(word)!==-1 ? count++ : null
-                blog.search(word)!==-1 ? array.push(item.name) : null
+                blog.search(word)!==-1 ? result.push(item.name) : null
         ))
-        console.log(array);        
+        console.log(result); 
+        return result[0];
     }
 
 
@@ -44,12 +39,12 @@ class EmotionRecord extends Component {
     // )}
 
     render() {
-        const { journ, emotions } = this.state;
-        this.wordCounter({journ, emotions});
-        
+        var { journ, emotions, result } = this.state;
+        journ = this.props.journal;
+        var emo = this.wordCounter({journ, emotions, result});
         return(
             <div>
-                <h2>Test Test Test</h2>
+                <Tag emotionVal={emo} />
             </div>
         );
     }

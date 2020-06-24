@@ -1,0 +1,28 @@
+.tag-space {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    .tag-box {
+        background-color: rgb(1, 133, 67);
+        color: white;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 6px;
+        margin-left: 10px;
+        border-radius: 9px;
+        font-size: 12px;
+    }
+    .tag-box-another {
+        background-color: rgb(255, 210, 8);
+        color: black;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 6px;
+        margin-left: 10px;
+        border-radius: 9px;
+        font-size: 12px;
+    }
+}

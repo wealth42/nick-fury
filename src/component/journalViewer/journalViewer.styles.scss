@@ -1,0 +1,17 @@
+.journal-box {
+    background-color: lightblue;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    .content{
+        background-color: rgb(255, 249, 214);
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .date{
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
