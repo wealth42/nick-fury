@@ -45,3 +45,23 @@ class EmotionSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Emotion
         fields = ('id', 'client', 'client_email', 'emotion', 'intensity', 'time')
+
+
+class JournalSerializer(serializers.ModelSerializer):
+    """
+    This serializer class will be used to show journals to the therapists.
+    """
+
+    class Meta:
+        model = models.User
+        fields = ('id', 'email', 'journal')
+
+
+class MappingRequestSerializer(serializers.ModelSerializer):
+    """
+    This will be used to serialize the objects of Mapping Request Model.
+    """
+
+    class Meta:
+        model = models.MappingRequest
+        fields = ('id', 'who', 'whom', 'status')

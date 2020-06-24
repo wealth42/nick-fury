@@ -17,17 +17,14 @@ The app must cover these stories –
 
 *   A Client should be able to …   
     *   Approve or reject a therapist’s request for access to Client emotions journal.
+    *   Client should be able to accept or reject mapping requests from therapists.
     *   Request for an appointment in an available slot
     *   Run keyword search across Therapists’ notes and emotions journals.
 *   A Therapist should be able to …
+    *   Approve or Reject session request from clients.
     *   Create a new session (therapy appointment). Each session with –
         *   Private notes, visible only to the therapist
-        *   Shared notes with the client. For any assignments.
-    *   View list of clients along with actions like –
-        *   Request a new client to be mapped for therapy. This allows for associating session notes to client. By default, journal access is off. 
+        *   Shared notes with the client. For any assignments. 
         *   Request a new client for journal access. 
-        *   Send a message to a client and view the history of exchanges.
-        *   Remove a client
-    *   View client journals
     *   Modify details of each session
     *   Run keyword search across customers, notes and emotions journals.
