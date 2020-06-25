@@ -1,0 +1,27 @@
+.note-box {
+    background-color: rgb(106, 152, 238);
+    border-radius: 30px;
+    padding: 15px;
+    width: 35%;
+    margin-bottom: 2%;
+    .message-box{
+        background-color: rgb(176, 232, 247);
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    .text {
+        border-radius: 10px;
+        margin-right: 30px;
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .insert{
+        display: flex;
+        margin-left: 15%;
+
+    }
+}

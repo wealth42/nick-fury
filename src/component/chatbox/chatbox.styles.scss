@@ -1,0 +1,37 @@
+.chat-box {
+    background-color: rgb(238, 106, 139);
+    border-radius: 30px;
+    padding: 15px;
+    width: 40%;
+    margin-bottom: 2%;
+    
+    .scroll-content {
+        overflow-y: scroll;
+        height: 400px;
+    }
+    .message-box{
+        background-color: rgb(247, 233, 208);
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        margin-right: 5px;
+    }
+    .time {
+        font-size: small;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .from {
+        font-weight: bold;
+        font-size: medium;
+    }
+    .text {
+        border-radius: 10px;
+        margin-right: 30px;
+        width: 500px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

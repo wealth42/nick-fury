@@ -18,7 +18,7 @@ const Header = ({ currentUser }) => (
             <Link className='option' to='/journal'>
             Journal
             </Link>
-            <Link className='option' to='/shop'>
+            <Link className='option' to='/session'>
             Sessions
             </Link>
             <Link className='option' to='/test'>
