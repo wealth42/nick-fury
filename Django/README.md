@@ -39,3 +39,6 @@ For a Django dev, this could translate to:
 2. Remove the assignment README’s (and all folders) and start developing your project in it
 3. Add a readme that details on exactly how to run the code
 4. Raise a Pull Request
+
+### Learning Resources
+[The Official Django Tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/)

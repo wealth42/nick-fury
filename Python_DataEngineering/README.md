@@ -41,3 +41,11 @@ For a Python/Data Engineer dev, this could potentially translate to:
 2. Remove the assignment README’s (and all folders) and start developing your project in it
 3. Add a readme that details on exactly how to run the code
 4. Raise a Pull Request
+
+
+### Learning Resources
+1. [Requests Library Official Documentation](https://requests.readthedocs.io/en/master/)
+2. [RealPython guide to using python requests](https://realpython.com/python-requests/)
+3. [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+4. [SQLAlchemy Tutorial](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
+5. [Crontab Tutorial](https://stackabuse.com/scheduling-jobs-with-python-crontab/)

@@ -43,3 +43,9 @@ For a React Native dev, this could translate to:
 2. Remove the assignment README’s (and all folders) and start developing your project in it
 3. Add a readme that details on exactly how to run the code
 4. Raise a Pull Request
+
+### Learning Resources
+1. [Toptal beginners guide to React Native](https://www.toptal.com/react-native/cold-dive-into-react-native-a-beginners-tutorial)
+2. [Routing with React Navigation](https://www.digitalocean.com/community/tutorials/react-react-native-navigation)
+3. [Using Redux for state management in React Native](https://www.digitalocean.com/community/tutorials/react-react-native-redux)
+4. [NativeBase component library](https://nativebase.io)
