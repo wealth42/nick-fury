@@ -5,6 +5,12 @@
   },
   {  
     "id": 2,
-    "name": "I am feeling Terrified today. She neither texted me back nor pick my calls",
+    "name": "I am feeling Terrified today. She neither texted me back nor picked my calls",
     "date": "29-04-2020"
-  }]
+  },
+  {  
+    "id": 3,
+    "name": "I do not want to talk with anyone. My Codeforces Rank is getting worse day by day. I feel Dejected by Online Judge",
+    "date": "05-05-2020"
+  }
+]

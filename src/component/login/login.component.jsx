@@ -35,6 +35,7 @@ class LogIn extends React.Component {
                 <form onSubmit={this.handleSubmit} className="form"> 
                     <h2>Login</h2>
                     <span>You need to Login First to View all features</span>
+                    <span>For credentials see README.md</span>
                     <input
                         name='email'
                         type='email'

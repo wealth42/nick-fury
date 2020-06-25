@@ -33,4 +33,18 @@
         "Terrified",
         "Terror-stricken",
         "Wrecked"]
-  }]
+  },
+  {  
+    "id": 3,
+    "name": "Depression",
+    "words": ["Alienated",
+    "Barren",
+    "Beaten",
+    "Bleak",
+    "Dejected",
+    "Depressed",
+    "Desolate"]
+  }
+
+
+]
