@@ -9,7 +9,7 @@ class PrivateNote extends Component {
             notes:[],
             tasks:[],
             // user: "client"
-            user: "therapist"
+            //user: "therapist"
         }       
     }
 
@@ -19,14 +19,15 @@ class PrivateNote extends Component {
 
     render() {
         //var {notes} = this.state;
-        const {user} = this.state;
+        const user = this.props.userInfo;
         return(
             <div className="note-box">
             {user==='therapist' ? 
                 <div>
                 <div className="message-box">
                     <ul>
-                        <li>No Text</li>
+                        <li>He is lazy to implement firebase</li>
+                        <li>Need mentoring before working on project</li>
                     </ul>
                 </div>
                 <div className="insert">
@@ -42,7 +43,9 @@ class PrivateNote extends Component {
                 <div>
                 <div className="message-box">
                     <ul>
-                        <li>No Text</li>
+                        <li>Read documentation before coding</li>
+                        <li>Practice building more Apps</li>
+                        <li>Try Meditation</li>
                     </ul>
                 </div>
                 <div className="insert">
@@ -57,7 +60,9 @@ class PrivateNote extends Component {
                 <h3>Task Assigned</h3>
                 <div className="message-box">
                     <ul>
-                        <li>No Text</li>
+                        <li>Read documentation before coding</li>
+                        <li>Practice building more Apps</li>
+                        <li>Try Meditation</li>
                     </ul>
                 </div>
                 </div>}

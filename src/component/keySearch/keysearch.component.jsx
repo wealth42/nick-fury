@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './keysearch.styles.scss'
 
 class KeySearch extends Component {
     constructor(){
@@ -13,16 +14,15 @@ class KeySearch extends Component {
             doctor.name.toLowerCase().includes(searchFields.toLowerCase())
         );
         return( 
-            <div>
+            <div className="keyfield">
             <input
+                className="textinput"
                 placeholder={this.props.placeholder}
                 onChange={e=> this.setState({searchFields: e.target.value})}
             />
-            <ul>
-                {filteredTherapist.map(item => {
-                return <li>{item.name}</li>;
-                })}
-            </ul>
+            {filteredTherapist.map(item => {
+            return <div>{item.name}</div>;
+            })}
             </div>
         );
     }

@@ -3,14 +3,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     padding: 10px;
-  
-    .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
-    }
+    padding-left: 50px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
   
     .options {
       width: 50%;
@@ -18,11 +16,22 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      padding-right: 10px;
+      padding-right: 100px;
         
       .option {
         padding: 10px 15px;
         cursor: pointer;
+        text-decoration: none;
+      }
+      .option:hover{
+        background-color: rgb(44, 44, 44);
+        border-radius: 20px;
+      }
+      .option:link{
+        color: rgb(255, 255, 255);
+      }
+      .option:visited{
+        color: rgb(255, 255, 255);
       }
     }
   }

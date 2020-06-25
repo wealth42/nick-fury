@@ -1,0 +1,17 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: yellowgreen;
+    padding: 10px;
+
+    .search-box{
+        background-color: white;
+        padding: 40px;
+        border-radius: 30px;
+        margin: 0 40%;
+        margin-bottom: 50px;
+    }
+}

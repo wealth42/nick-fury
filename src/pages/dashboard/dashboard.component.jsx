@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import KeySearch from '../../component/keySearch/keysearch.component';
-
-import Header from '../../component/header/header.component';
+import LogIn from '../../component/login/login.component';
+import './dashboard.styles.scss';
 
 class Dashboard extends Component{
     constructor(){
@@ -22,29 +22,39 @@ class Dashboard extends Component{
         this.setState({
             clients: data1,
         })
-        this.setState({
-            userInfo: "client"
+        // this.setState
+        //     userInfo: "client"
             // userInfo: "therapist"
-        })
+
     }
 
     render() {
-        var { therapist, userInfo, clients }= this.state;
+        var { therapist, clients }= this.state;
+        if (this.props.currentUser!==null) {
+            var userInfo = this.props.currentUser.userType;
+            //console.log(userInfo);
+        }
+        var currentUser = this.props.currentUser;
         return(
+            <div className="mainContent">
+            {currentUser===null ? <LogIn/>:
             <div>
-                <Header currentUser={false}/>
-                <h1>Welcome to Therapy </h1>
+                <h1>Welcome to Therapy Aid</h1>
+                <h3>India's largest online therapy platform for programmers</h3>
+                <div className="search-box">
                 {userInfo==="client" ? 
                     <KeySearch 
                     placeholder="Search for Therapists"
                     therapist={therapist}
                     />
-                :
+                : null }
+                {userInfo==="therapist" ?
                     <KeySearch 
                     placeholder="Search for Clients"
                     therapist={clients}
-                    />
-                }
+                    />: null}
+                </div>
+            </div>}
             </div>
         );
     }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Header from '../../component/header/header.component';
 import JournalViewer from '../../component/journalViewer/journalViewer.component';
+import LogIn from '../../component/login/login.component';
 
 class Journal extends Component {
     constructor() {
@@ -10,6 +10,7 @@ class Journal extends Component {
             journ:[]
         }
     }
+    
     componentDidMount() {
         var data1 = require('../../assets/journals.json')
         this.setState({
@@ -17,14 +18,21 @@ class Journal extends Component {
         })
     }
     
-
+//{journ.map(journal => <JournalViewer journal={journal}/>)}
     render() {
         const {journ} = this.state;
+        const currentUser = this.props.currentUser;
         return(
             <div>
-                <Header currentUser={false}/>
-                {journ.map(journal => <JournalViewer journal={journal}/>)}
-
+                {currentUser===null ?
+                <div>
+                    <LogIn/>
+                </div>
+                :
+                <div>
+                    {journ.map(journal => <JournalViewer journal={journal}/>)}
+                </div>
+                }
             </div>
         );
     }

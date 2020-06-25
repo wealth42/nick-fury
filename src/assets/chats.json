@@ -1,24 +1,24 @@
 [{  
     "id": 5,
-    "sender": "Varun",
-    "text": "Hey! Varun how are you?",
-    "time": "1800"
+    "sender": "Dr Chirag",
+    "text": "Hello Rohit how are you?",
+    "time": "18:00"
   },
   {  
     "id": 4,
-    "sender": "Varun",
-    "text": "Hey! Varun how are you?",
-    "time": "1800"
+    "sender": "Rohit",
+    "text": "I was unable to sleep last night",
+    "time": "18:01"
   },
   {  
     "id": 3,
-    "sender": "Varun",
-    "text": "Hey! Varun how are you?",
-    "time": "1800"
+    "sender": "Dr Chirag",
+    "text": "Why so? Were you stressed about something?",
+    "time": "18:01"
   },
   {  
     "id": 2,
-    "sender": "Varun",
-    "text": "Hey! Varun how are you?",
-    "time": "1800"
+    "sender": "Rohit",
+    "text": "Yes! Actually I was unable to connect firebase with this application.",
+    "time": "18:02"
   }]

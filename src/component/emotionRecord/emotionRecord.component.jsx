@@ -20,14 +20,12 @@ class EmotionRecord extends Component {
 
     wordCounter({journ, emotions, result}) {
         var blog = journ.name
-        console.log(blog)
         result = [];
         emotions.map(item => 
             item.words.map(word => 
                 // blog.search(word)!==-1 ? count++ : null
                 blog.search(word)!==-1 ? result.push(item.name) : null
         ))
-        console.log(result); 
         return result[0];
     }
 
