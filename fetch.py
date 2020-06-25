@@ -17,17 +17,16 @@ def fetch_data_from_api():
             for item in info['additionalProperties']:
                 if item['key'] == 'NbBikes':
                     _NbBikes = int(item['value'])
+                    try:
+                        _time = datetime.strptime(
+                            item['modified'][:-1], '%Y-%m-%dT%H:%M:%S.%f'
+                        )
+                    except ValueError:
+                        _time = datetime.strptime(
+                            item['modified'][:-1], '%Y-%m-%dT%H:%M:%S'
+                        )
                 elif item['key'] == 'NbDocks':
                     _NbDocks = int(item['value'])
-
-                try:
-                    _time = datetime.strptime(
-                        item['modified'][:-1], '%Y-%m-%dT%H:%M:%S.%f'
-                    )
-                except ValueError:
-                    _time = datetime.strptime(
-                        item['modified'][:-1], '%Y-%m-%dT%H:%M:%S'
-                    )
 
             # adding or updating depending on
             # existance of the data in the table

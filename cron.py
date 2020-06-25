@@ -1,7 +1,11 @@
+import os
 from crontab import CronTab
 
-my_cron = CronTab(user='yourusername')
-job = my_cron.new(command='python3 /path/to/nick-fury/fetch.py')
+username = os.environ.get("LOGNAME")
+path = os.environ.get("path_fetch")
+
+my_cron = CronTab(user=username)
+job = my_cron.new(command=path)
 job.minute.every(5)
  
 my_cron.write()

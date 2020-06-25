@@ -1,3 +1,4 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import IntegrityError
@@ -22,7 +23,7 @@ def add_update_data(id: str, name: str, lat: float, lon: float, time, NbBikes: i
     try:
         # create LondonBikes object (ORM)
         bikes = LondonBikes(
-            id = id,
+            bikepoint_id = id,
             name = name,
             latitude = lat,
             longitude = lon,
@@ -38,7 +39,7 @@ def add_update_data(id: str, name: str, lat: float, lon: float, time, NbBikes: i
         # rollbacking to previous state of the session
         session.rollback()
 
-        bikes = session.query(LondonBikes).filter(LondonBikes.id==id).update({
+        bikes = session.query(LondonBikes).filter(LondonBikes.bikepoint_id==id).update({
             LondonBikes.NbDocks : NbDocks,
             LondonBikes.NbBikes : NbBikes,
             LondonBikes.time : time
@@ -46,20 +47,22 @@ def add_update_data(id: str, name: str, lat: float, lon: float, time, NbBikes: i
 
         session.commit()
 
-def fetch_data():
+def fetch_data(common_name):
     session = Session()
 
-    results = session.query(LondonBikes).all()
+    results = session.query(LondonBikes).filter(
+        LondonBikes.name.in_(common_name)
+    ).all()
 
     entries = list()
     
     for result in results:
         entries.append({
-            "id": result.id,
+            "bikepoint_id": result.bikepoint_id,
             "name" : result.name,
             "latitude" : result.latitude,
             "longitude": result.longitude,
-            "time" : result.time.strftime("%d-%m-%YYYY %H:%M:%S.%f"),
+            "time" : result.time.strftime("%Y-%m-%d %H:%M:%S"),
             "NbBikes" : result.NbBikes,
             "NbDocks" : result.NbDocks
         })

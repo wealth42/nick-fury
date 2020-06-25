@@ -1,12 +1,14 @@
-from flask import Flask, make_response
+from flask import Flask, make_response, request
 
 from db_conection import fetch_data
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['POST'])
 def view():
-    response = fetch_data()
+    common_name = request.get_json(silent=True).get('common_name')
+
+    response = fetch_data(common_name)
 
     return {
         "response" : response
