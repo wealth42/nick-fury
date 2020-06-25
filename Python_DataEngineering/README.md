@@ -6,7 +6,7 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 
 ### User story
 Once the COVID-19 lock-down is lifted in many parts of the world, it would still be absolutely crucial to follow social distancing
-to avoid re-flaring the infection rates of the virus. Wherever possible, users who currently use public transport should
+to avoid re-flaring the infection ```rates of the virus. Wherever possible```, users who currently use public transport should
 be able to switch to alternate commute (like rental bikes). Specifically for the residents of London, you
 can utilize a feed provided by Transport For London, available [here](https://api-portal.tfl.gov.uk/docs).
 
