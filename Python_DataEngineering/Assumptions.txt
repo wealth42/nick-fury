@@ -1,0 +1,36 @@
+Assumptions-
+------------------
+1.There are no faulty bikes.
+2.Key="Nbbikes" represents the no of bikes available without considering the no of locked bikes,and key="commonName" ,
+represents the bikepoint.
+3.If users fetch from database using query_from_users method,I have considered time to be input in the format represented 
+in API.
+
+DDL query statements
+----------------------
+1.create database base;
+2.use base;
+3.create table bikes_available1 (dock_point varchar(100),no_of_bikes numeric,timestamp varchar(100),date varchar(50))
+4.create table timestamps_table1(timestamp varchar(20),nof_of_bikes numeric,dock_point varchar(100),date varchar(50))
+5.insert into bikes_available1 values(%s,%s,%s,%s)
+6.insert into timestamps_table1 values(%s,%s,%s,%s)
+7.select no_of_bikes from bikes_available1 where dock_point=%s and timestamp=%s and date=%s
+8.select nof_of_bikes,dock_point from timestamps_table1 where timestamp= %s and date=%s
+
+In this assignement we have used Scheduler package which will work as cron job and execute our Extract, Store and Fetch 
+method every 5 minutes.
+
+
+Note:
+-------------------
+We have added extra functionality which is called query_from_users. 
+1.This function takes input as the bikepoint name provided by the user and the time at which the user try to check the
+avilable bikes. It then return the total number of available bikes present in that bikepoint at that point of time.
+2.It also takes input ,time stamp and returns no of bikes available ,in all dock points accross London at that 
+particular time stamp.
+
+
+
+
+
+
