@@ -15,16 +15,16 @@ User type  | E-mail | Password
 Client   | client@abc.com | client123
 Therapist  | therapy@abc.com | therapist
 ### Functionalities
--[x] Different userType have different features and functions
--[x] Dynamic Searching depending on userType (Therapist can search for Clients & vice versa)
--[x] Firebase Authentication
--[x] Journal Emotion Detector
--[x] Routing via Navbar
--[x] Session Page
--[x] Attend Session
--[x] Private Notebook (for Therapist)
--[x] Session Assignment Box
--[ ] Sign Up
--[ ] Realtime Chatbox
--[ ] JSON from firestore (currently imported locally)
--[ ] Managing Request from Therapist to view journal
+- [x] Different userType have different features and functions
+- [x] Dynamic Searching depending on userType (Therapist can search for Clients & vice versa)
+- [x] Firebase Authentication
+- [x] Journal Emotion Detector
+- [x] Routing via Navbar
+- [x] Session Page
+- [x] Attend Session
+- [x] Private Notebook (for Therapist)
+- [x] Session Assignment Box
+- [ ] Sign Up
+- [ ] Realtime Chatbox
+- [ ] JSON from firestore (currently imported locally)
+- [ ] Managing Request from Therapist to view journal
