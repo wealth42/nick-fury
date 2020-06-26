@@ -44,15 +44,16 @@ def main():
 	# Sending data to Local Database
 	df.to_sql("info", engine, if_exists="append", index=False)
 
-	return df
+	# Getting Data from data.py file
+	data_from_db = select_user()
 
-# Getting Data from data.py file
-info = select_user()
+	return df,data_from_db
 
 # Routing in Flask to render "index.html" template
 @app.route("/")
 def index():
-	data = main() # Now 'data' variable contains the Pandas DataFrame df
+	data = main()[0] # Now 'data' variable contains the Pandas DataFrame df
+	info = main()[1]
 	length = len(data)
 	return render_template("index.html", data=data,length=length, info=info)
 
