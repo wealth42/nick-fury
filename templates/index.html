@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="jumbotron">
+		<h1 class="text-center" style="margin-bottom: 20px">Bike Point <i style="font-size: 50px; position: relative; top: 5px " class="material-icons">directions_bike</i></h1>
+
+			<!-- Location Select -->
+		   	<div class="form-row" style="margin-bottom: 20px">
+		   		<div class="col-sm-2">
+			      <label><h4></h4></label>
+				</div>
+		    	<div class="col-sm-2">
+		      		<label><h4>List of Locations: </h4></label>
+		    	</div>
+		    	<div class="col-sm-5">
+		     		<select class="form-control">
+				      	{% for i in range(0,length)%}
+				      		<option>{{data["commonName"][i]}}</option>
+				      	{% endfor %}
+			 		</select>
+		    	</div>
+		  	</div>
+
+
+		  	<!-- Table -->
+		  	<div style="position: relative; height:500px;overflow-y: scroll; overflow-x: hidden; border: 1px solid black">
+				<div class="text-center">
+			  		<table class="table table-bordered table-hover" ">
+					  <thead class="thead-dark">
+					    <tr>
+					      <th scope="col">Bike Point ID</th>
+					      <th scope="col">Location</th>
+					      <th scope="col">Available Bikes</th>
+					      <th scope="col">Total Docks</th>
+					      <th scope="col">Empty Docks</th>
+					      <th scope="col">Time</th>
+					    </tr>
+					  </thead>
+					  <tbody class="border border-dark">
+					  	{% for i in range(0,782) %}
+					  	  <tr>
+					      <th scope="row">{{info[0][i][0]}}</th>
+					      <th scope="row">{{info[0][i][1]}}</th>
+					      <th scope="row">{{info[0][i][6]}}</th>
+					      <th scope="row">{{info[0][i][5]}}</th>
+					      <th scope="row">{{info[0][i][4]}}</th>
+					      <th scope="row">{{info[0][i][7][11:19]}}</th>
+					    </tr>
+					  	{% endfor %}   
+					   </tbody>
+					</table>
+		  		</div>
+		 	</div>
+
+		 	<div class="text-center" style="margin: 50px auto">
+		 		<h6>Created by Pradnyal Gandhi</h6>
+		 	</div>		
+	</div>
+</body>
+</html>
