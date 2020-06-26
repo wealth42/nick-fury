@@ -24,38 +24,70 @@
 > Follow the below instructions to run the code on your computer
 
 #### 1. Requirements:
-Before starting, it is mandatory to have Python and Anaconda installed on your PC
+
+Before starting, it is mandatory to have Python and Anaconda installed on your PC.
+
 [Download Python](https://www.python.org/downloads/) 
+
 [Download Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
-To check it installation, open command prompt and run the following 2 commands
+
+To check it installation, open command prompt and run the following 2 commands:
+
 ``` python --version ```
 ``` conda --version```
 
 #### 2. Creating the Environment
-Open command prompt and navigate to the desired folder where you want to save the project
-Use ```cd ``` for navigation in Windows
-Run the following command to create an environment by the name ```bike_point_env```
-``` conda create -n bike_point_env python=3.6```
-Activate the env
-``` activate bike_point_env	```
+
+Open command prompt and navigate to the desired folder where you want to save the project.
+
+Use ```cd ``` for navigation in Windows.
+
+Run the following command to create an environment by the name ```bike_point_env```:
+
+``` conda create -n bike_point_env python=3.6```.
+
+Activate the env:
+
+``` activate bike_point_env	```.
+
 #### 3. Installing the packages
-Run the folowing command to Install all the necessary packages required to run the Project
-``` pip install requirements.txt```
+
+Run the folowing command to Install all the necessary packages required to run the Project.
+
+``` pip install requirements.txt```.
+
 #### 4 . Setting up our Database
-Its is mandatory to have MySQL installed on the computer to run the Database Server
+
+Its is mandatory to have MySQL installed on the computer to run the Database Server.
+
 [Download MySQL](https://dev.mysql.com/downloads/installer/)
+
 Once you setup the Server note down the "Username", "Passoword".
+
 Open ```script.py, data.py``` file in an editor and change the _User_ and _Password_ fields.
+
 ##### _The setup is now Complete_ ! 
+
 Moving on with the execution
+
 #### 4. Run the setup.py file
+
 Open command prompt, navigate to the project folder. Activate the environment if not done earlier.
+
 Run the following command to create Database: "local_database" with Table "info":
+
 ```python setup.py```
-``` python setup.py```
-#### 5. Run the main.py File 
+
+#### 5. Run the main.py File
+
 Run the main file :
+
 ``` python main.py```
+
 If everything is executed correctly The Flask application will run on http://127.0.0.1:5000.
+
 The webpage will display latest information of the Available Bikes across all the locations along with the time.
+
 Also, you can check the database which will run the python script every 5 minutes.
+
+
