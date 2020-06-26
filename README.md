@@ -19,3 +19,9 @@ e. Fetching data from online API in python using request module. Structuring the
 f. For real time database. Deleting rows which is being modified in online API and re uploading the data in database.
 g. For Other database uploading the data if it get modified in online API.
 h. Use root directory of mysql database.
+
+# Install
+please install
+pip install mysqlclient
+pip install schedule
+pip install mysql-connector-python
