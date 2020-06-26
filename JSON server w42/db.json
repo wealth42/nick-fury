@@ -1,0 +1,265 @@
+{
+  "therapists": [
+    {
+      "id": 0,
+      "name": "Therapists A",
+      "email": "abcdA@xyz.com",
+      "telnum": "123456",
+      "password": "abcd",
+      "image": "images/therapy.jpeg",
+      "featured": true,
+      "description": "Id duis et labore exercitation sit dolore irure ullamco ad amet anim minim ut dolor laborum do."
+    },
+    {
+      "id": 1,
+      "name": "Therapists B",
+      "email": "abcdB@xyz.com",
+      "telnum": "123456",
+      "password": "abcd",
+      "image": "images/therapy.jpeg",
+      "featured": false,
+      "description": "Eiusmod veniam dolor dolore aliqua irure veniam enim sint laborum reprehenderit eu deserunt."
+    },
+    {
+      "id": 2,
+      "name": "Therapists C",
+      "email": "abcdC@xyz.com",
+      "telnum": "123456",
+      "password": "abcd",
+      "image": "images/therapy.jpeg",
+      "featured": false,
+      "description": "Sunt anim sunt est excepteur ad sit nulla consequat reprehenderit elit enim aliquip in."
+    },
+    {
+      "id": 3,
+      "name": "Therapists D",
+      "email": "abcdD@xyz.com",
+      "telnum": "123456",
+      "password": "abcd",
+      "image": "images/therapy.jpeg",
+      "featured": false,
+      "description": "Lorem ipsum do minim in commodo sunt irure laborum fugiat sed eiusmod sunt esse reprehenderit in incididunt tempor irure qui aliqua."
+    },
+    {
+      "name": "abcd",
+      "email": "abcd@abc.com",
+      "telnum": "654321",
+      "password": "abcd321",
+      "image": "images/therapy.jpeg",
+      "featured": false,
+      "description": "Nostrud velit ex sit esse in aliquip duis laborum eu nostrud voluptate dolore.",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "Abel David",
+      "email": "abel@xyz.com",
+      "telnum": "123546",
+      "password": "abel123",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "therapistId": 0,
+      "rating": 5,
+      "comment": "Dolor ut non do in veniam ut ex incididunt dolore aute et magna voluptate sint excepteur et.",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "therapistId": 0,
+      "rating": 4,
+      "comment": "Et magna sunt sed esse ex esse adipisicing sunt mollit laborum sed duis nulla eiusmod sit.",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "therapistId": 0,
+      "rating": 3,
+      "comment": "Fugiat dolore consectetur aute ut ut deserunt non ut quis do proident in.",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "therapistId": 1,
+      "rating": 5,
+      "comment": "Lorem ipsum non aliqua consectetur aliquip commodo est ut qui adipisicing reprehenderit aliquip.",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "therapistId": 1,
+      "rating": 4,
+      "comment": "Mollit nulla duis aliquip quis minim ullamco amet aliquip in.",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "therapistId": 2,
+      "rating": 5,
+      "comment": "Aute irure aute ut sit duis duis officia culpa voluptate cillum ut aliquip est irure dolore deserunt in.",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "therapistId": 2,
+      "rating": 4,
+      "comment": "Lorem ipsum velit ad cupidatat esse irure dolore laborum in laboris veniam.",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "therapistId": 2,
+      "rating": 3,
+      "comment": "Sed dolor id cillum cillum cupidatat tempor et in in tempor eiusmod ullamco amet ut ut.",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "therapistId": 3,
+      "rating": 5,
+      "comment": "In ea ad mollit fugiat proident cillum dolore do ut.",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "therapistId": 3,
+      "rating": 4,
+      "comment": "Ad sit culpa minim dolore non nulla dolor ut.",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "therapistId": 3,
+      "rating": 3,
+      "comment": "Lorem ipsum consectetur est ut tempor cillum dolore ea magna tempor nostrud consequat fugiat pariatur dolor.",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "therapistId": 1,
+      "rating": "4",
+      "author": "Hugo Weaving",
+      "comment": "Very peaceful session, all my stress is relieved and I'm calm.",
+      "date": "2020-06-24T06:41:45.374Z",
+      "id": 11
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Family Therapy",
+      "image": "images/Ftherapy.jpeg",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Irure minim do velit incididunt labore tempor sit elit veniam. Aliqua sit et excepteur laborum eu pariatur sint sit eu nisi."
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/executive.jpeg",
+      "designation": "Chief Executive Officer",
+      "abbr": "CEO",
+      "featured": true,
+      "description": "Our CEO, Peter, Lorem ipsum voluptate enim officia ex minim anim id aliqua veniam in enim. Commodo aliquip exercitation sint occaecat mollit incididunt nisi et proident ut et."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/executive.jpeg",
+      "designation": "Chief Technical Officer",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Our CTO, Danny, Elit incididunt nulla deserunt fugiat est nisi nostrud ad ut elit irure officia proident tempor."
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/executive.jpeg",
+      "designation": "Chief Something Officer",
+      "abbr": "CSO",
+      "featured": false,
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CSO, Sit deserunt eiusmod pariatur velit ut nostrud est ex voluptate sunt cupidatat."
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Pan",
+      "telnum": "1324567980",
+      "email": "as12@xyz.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "This is just a test feedback.",
+      "date": "2020-06-23T13:08:24.028Z",
+      "id": 2
+    }
+  ],
+  "bookings": [
+    {
+      "therapistId": 1,
+      "firstname": "Harward",
+      "lastname": "Peckard",
+      "telnum": "1452671455",
+      "email": "abcd@xyz.com",
+      "bookingSlot": "11 AM",
+      "message": "Please, try to keep a chocolate in room. I'm diabetic.",
+      "date": "2020-06-24T12:26:01.513Z",
+      "id": 1
+    },
+    {
+      "therapistId": 3,
+      "firstname": "Mark",
+      "lastname": "Walberg",
+      "telnum": "32165478",
+      "email": "marK@xyz.com",
+      "bookingSlot": "2 PM",
+      "message": "Just a glass of water will be good.",
+      "date": "2020-06-26T13:44:49.340Z",
+      "id": 2
+    },
+    {
+      "therapistId": 0,
+      "firstname": "Phoebe",
+      "lastname": "Buffay",
+      "telnum": "987641230",
+      "email": "Phebo@friends.com",
+      "bookingSlot": "8 AM",
+      "message": "Nothing.",
+      "date": "2020-06-26T15:24:40.095Z",
+      "id": 3
+    }
+  ],
+  "login": [
+    {
+      "status": 0
+    }
+  ]
+}
