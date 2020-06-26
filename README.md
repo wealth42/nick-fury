@@ -54,7 +54,7 @@ Activate the env:
 
 Run the folowing command to Install all the necessary packages required to run the Project.
 
-``` pip install requirements.txt```.
+``` pip install -r requirements.txt```.
 
 #### 4 . Setting up our Database
 
