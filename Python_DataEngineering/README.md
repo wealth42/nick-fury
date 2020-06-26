@@ -1,51 +1,43 @@
-## Data Engineering challenge assignments for Wealth42
+1. First, MYSQL server needs to be started and running up.
 
-### Introduction
-The goal of this challenge is to test your familiarity with concepts in *Python and Data Engineering*.
-To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-hiring)
+2. Database.py file is used to create the database. On line 37 in Database.py, the username and password should be changed to the username and password of the running MYSQL server. This file should be executed.
 
-### User story
-Once the COVID-19 lock-down is lifted in many parts of the world, it would still be absolutely crucial to follow social distancing
-to avoid re-flaring the infection rates of the virus. Wherever possible, users who currently use public transport should
-be able to switch to alternate commute (like rental bikes). Specifically for the residents of London, you
-can utilize a feed provided by Transport For London, available [here](https://api-portal.tfl.gov.uk/docs).
+3. crontab file contains the script to run the file for every 5 minutes.
+It contains the line 'cd /home/harsha/Desktop/internshala/ && /usr/bin/python3 /home/harsha/Desktop/internshala/intern.py' where the first path is the path to the directory where 'intern.py' file is in. Second path is the path to python (you can use python or python3). Third path is the path to 'intern.py' file.
 
-### Instructions
-* Explore the [API documentation](https://api-portal.tfl.gov.uk/docs)
-* Use the bikepoint API to extract information on bike availability on various bike stands
-* Design DDLs for - 
-    * storing the real-time bike availability data across London
-    * storing the bike availability across London across different time snapshots
-* Implement these DDLs and create table(s) in MySQL for the schemas.
-* Write script in Python to query this data source and update both databases accordingly
-* Schedule this script to run every 5 minutes
-* Include all of the DDL statements, python scripts and cron files in the repository
-* Document list of assumptions made, which are not covered in the stories but have been used in building the app.
-* Ask us anything – hiring at wealth42 dot com.
+After editing this paths, add this line to crontab. ('using crontab -e').
 
+Now, the tables in the database will get updated every 5 minutes.
 
-### Assessment Criteria
-1. Maintainability and organisation of code
-2. Correctly choosing normalisation or denormalisation where applicable 
-3. Balancing between speed and quality of code - we understand that candidates can only spend limited time on these challenges.
-If you do make any trade-offs in favour of saving time, do mention them in comments.  
-4. Ownership - going beyond the exact job description to deliver a finished product.
-For a Python/Data Engineer dev, this could potentially translate to: 
-    1. Ensuring safety of API keys (if any are used)
-    2. Creating a query utility that lets a user query the number of free bikes currently available by giving a subset of the 'commonName' string
-5. How much the candidate stays in touch with us during the process of the project
-6. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages
+Database and intern are the two python scripts.
 
-### Submission Process
-1. Clone this repository
-2. Remove the assignment README’s (and all folders) and start developing your project in it
-3. Add a readme that details on exactly how to run the code
-4. Raise a Pull Request
+Database.py
+Database connects to the mysql server and creates a database 'BikePoints' and creates two tables within it.
+1. bikes_availablility to store the real time bikes availability across different places in London (along with lattitude and longitude). Columns in this table are:
+
+i bikeid,
+ii name,
+iii latitude,
+iv longitude,
+v installed (true or false),
+vi locked (true or false),
+vii number of bikes,
+viii number of empty docks.
+
+2. timestamp_bikes_data to store the time snapshots of the availability of bikes when each time updated. Columns in this table are:
+
+i bikeid,
+ii name,
+iii latitude,
+iv longitude,
+v installed (true or false),
+vi locked (true or false),
+vii TimeSnap when the data is updated
+viii number of bikes,
+ix number of empty docks.
+
+Only difference is TimeSnap. Entire data is stored at each updated timesnap.
 
 
-### Learning Resources
-1. [Requests Library Official Documentation](https://requests.readthedocs.io/en/master/)
-2. [RealPython guide to using python requests](https://realpython.com/python-requests/)
-3. [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
-4. [SQLAlchemy Tutorial](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
-5. [Crontab Tutorial](https://stackabuse.com/scheduling-jobs-with-python-crontab/)
+intern.py
+intern gets the data using requests and converts it into json object. Using this object, the values required to fill the tables are taken. These values are inserted into the tables.

@@ -1,0 +1,3 @@
+
+
+*/5 * * * * cd /home/harsha/Desktop/internshala/ && /usr/bin/python3 /home/harsha/Desktop/internshala/intern.py # comment
