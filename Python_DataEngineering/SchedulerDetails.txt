@@ -1,0 +1,8 @@
+In this assignement we have used Scheduler package which will work as cron job and execute our Extract, Store and Fetch method every 5 minutes.
+
+
+Note:
+-------------------
+We have added extra functionality which is called databaseFetch. This function takes input as the bikepoint name provided by the user and the time at which the user try to check the avilable bikes. It then return the total number of available bikes present in that bikepoint at that point of time.
+
+This "databaseFetch" function will not run every 5 minutes. We have just added this functionality. 

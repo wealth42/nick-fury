@@ -1,0 +1,8 @@
+Assumptions:
+------------------------------
+
+1.All the bikes Work fine and nothing is Faulty.
+2.The key "NbBikes" in the API represent the total number of bike Present in that particular bikepoint name i.e key as "commonName" and at that particular time key as "modified"
+3.Here, i am not considering the how many bikes are docked and how many bikes are not docked or locked as i am assuming that the key "NbBikes" represent the number of Bike available.
+
+

@@ -1,0 +1,13 @@
+Query Statements Used todo the assigned Task:
+---------------------------------------------------
+
+"create table Bike_Detail(bikepointname varchar(255),noofbike varchar(255),datetime varchar(255))"
+"create table time_snap_shot_detail(datetime varchar(255),noofbike varchar(255))"
+
+"insert into Bike_Detail(bikepointname, noofbike, datetime) VALUES (%s, %s, %s)"
+"insert into time_snap_shot_detail(datetime,noofbike) VALUES(%s, %s)"
+
+"select noofbike from Bike_Detail where bikepointname= %s and datetime= %s"
+   
+    
+   
