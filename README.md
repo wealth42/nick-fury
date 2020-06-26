@@ -24,4 +24,4 @@ h. Use root directory of mysql database.\
 please install\
 pip install mysqlclient\
 pip install schedule\
-pip install mysql-connector-python\
+pip install mysql-connector-python
