@@ -1,46 +1,51 @@
-import database_auth
-import requests
-import json
-from datetime import date
-from datetime import datetime
-from mysql.connector import Error
+import sqlalchemy
+from sqlalchemy.ext.declarative import declarative_base
+import database_credentials as dc
+from table_skeleton import Base,Table
 
-connection = database_auth.connection()
+### database connection
+def connect_with_database():
+	path = 'mysql+mysqlconnector://{}:{}@localhost:{}/{}'.format(dc.USER_NAME,dc.USER_PASS,dc.DATABASE_PORT,dc.DATABASE_NAME)
+	engine = sqlalchemy.create_engine(path)
+	return engine
 
 
-try:
-	if connection.is_connected():
-		cursor = connection.cursor()
-		fetch_query = 'select common_name from bikeapitest;'
-		cursor.execute(fetch_query)
-		records = cursor.fetchall()
-		records = [str(record[0]).lower() for record in records]
+### session variable to make changes
+def create_session(engine):
+	Session = sqlalchemy.orm.sessionmaker()
+	Session.configure(bind=engine)
+	session = Session()
+	return session
 
-		###get input from user
-		place = input("Enter place name : ")
-		place = place.lower()
 
-		## find match_cases from records
-		match_cases = [record for record in records if place in record]
-		print("Total Match Cases are: ",len(match_cases))
+### take input from user
+def get_input():
+	text = str(input("Enter place name to search for bike :"))
+	text = text.lower()
+	return text
 
-		###fetch values from database
-		for i in range(len(match_cases)):
-			query = 'select * from bikeapitest where common_name="'+match_cases[i]+'";'
-			cursor.execute(query)
-			results = cursor.fetchall()
-			print("------------ RESULT - "+str(i+1)+"-------------")
-			print("Commaon Name : "+results[0][1])
-			print("Terminal ID : "+str(results[0][2]))
-			print("Number of Available Bikes : "+str(results[0][3]))
-			print("Number of Empty Docks : "+str(results[0][4]))
-			print("Number of Total Docks : "+str(results[0][5]))
-			print("Last Update Time : "+str(results[0][6]))
-			print("Last Update Date : "+str(results[0][7]))
-			print("\n")
 
-		cursor.close()
-		connection.close()
+### function to search and display results
+def get_search(text,session):
+	search = "%{}%".format(text)
+	records = session.query(Table).filter(Table.common_name.like(search)).all()
 
-except Error as error:
-	print(error)
+	print("Total Match Cases Found = "+str(len(records)))
+	for record in records:
+		print("-----------------------------------")
+		print("Common Name: "+str(record.common_name))
+		print("Terminal ID : "+str(record.terminal_id))
+		print("Available Bikes : "+str(record.bike))
+		print("Empty Docks : "+str(record.empty_docks))
+		print("Total Docks : "+str(record.total_docks))
+		print("Update Time : "+str(record.update_time))
+		print("Update Date : "+str(record.update_date))
+	pass
+
+
+if __name__=="__main__":
+	engine = connect_with_database()
+	session = create_session(engine)
+	text = get_input()
+	get_search(text,session)
+	pass

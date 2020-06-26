@@ -1,47 +1,57 @@
-import database_auth
 import requests
 import json
-from mysql.connector import Error
+import sqlalchemy
+from sqlalchemy.ext.declarative import declarative_base
+import database_credentials as dc
+from table_skeleton import Base,Table
 
-connection = database_auth.connection()
 
-api_url = 'https://api.tfl.gov.uk/bikepoint'
+### connect with mysql database using user credentials
+def connect_with_database():
+	path = 'mysql+mysqlconnector://{}:{}@localhost:{}/{}'.format(dc.USER_NAME,dc.USER_PASS,dc.DATABASE_PORT,dc.DATABASE_NAME)
+	engine = sqlalchemy.create_engine(path)
+	return engine
 
 
-try:
-	if connection.is_connected():
-		cursor = connection.cursor()
-		## create table in database
-		create_table_query = "create table bikeapitest(id varchar(30) NOT NULL, common_name varchar(70) NOT NULL, terminal_id int NOT NULL, bike int, empty_docks int, total_docks int,update_time varchar(20), update_date varchar(20), CONSTRAINT UC_bikeapi UNIQUE(id, terminal_id));"
-		cursor.execute(create_table_query)
-		connection.commit()
 
-		## initilize table with current values
-		try:
-			r = requests.get(api_url)
-			data = json.loads(r.text)
+### create table function
+def create_table(engine):
+	
+	Base.metadata.create_all(engine)
+	pass
 
-			for i in range(len(data)):
-				bikestation_id = data[i]['id'].lower()
-				common_name = data[i]['commonName'].lower()
-				terminal_id = data[i]['additionalProperties'][0]['value']
+### create session execute query and commit changes to database
+def create_session(engine):
+	Session = sqlalchemy.orm.sessionmaker()
+	Session.configure(bind=engine)
+	session = Session()
+	return session
 
-				try:
-					insert_query = 'insert into bikeapitest(id, common_name,terminal_id) values(%s,%s,%s);'
-					val = (bikestation_id,common_name,terminal_id)
-					cursor.execute(insert_query,val)
-				except Error as error:
-					print(error)
-					cursor.close()
-					connection.close()
-			connection.commit()
-			cursor.close()
-			connection.close()
 
-		except:
-			print("API key is not reachable.")
-			cursor.close()
-			connection.close()
+### first time initilized table with necessary information
+def initilize_table(session):
+	api_url = 'https://api.tfl.gov.uk/bikepoint'
 
-except:
-	print("error while connecting database. generated error as follow: "+str(connection))
+	try:
+		r = requests.get(api_url)
+		data = json.loads(r.text)
+
+		for i in range(len(data)):
+			bikestation_id = data[i]['id'].lower()
+			common_name = data[i]['commonName'].lower()
+			terminal_id = data[i]['additionalProperties'][0]['value']
+
+			add_station = Table(bike_id=bikestation_id, common_name=common_name, terminal_id=terminal_id)
+			session.add(add_station)
+
+		session.commit()
+	except:
+		print("API is not reachable.")
+	pass
+
+if __name__=="__main__":
+	engine = connect_with_database()
+	create_table(engine)
+	session = create_session(engine)
+	initilize_table(session)
+	pass

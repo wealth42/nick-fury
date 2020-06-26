@@ -5,14 +5,22 @@ I hope you have already installed python3.X and MySQL in host system. And instal
 ### Assumption
 1. every bike-stands are permanent. There is no temporary installed bike-stand.
 
-### 1. Necessary changes made by user in file.
-first you have to change ```database_auth.py``` to select database, user and password for that user.
+run below command for installing dependancy of projects.
+```pip3 install -r requirements.txt```
+
+### 1. Export user database credentials into environment variables.
+```
+export db_user_name=your_database_username
+export db_user_pass=your_database_password
+export db_name=your_database_name
+export db_port=database_port(default_value:3306)
+```
 
 ### 2. First run.
 run ```create_database.py``` file. this will create tables in selected database.
 
 ### 3. Initialize values
-now, run ```update_database.py``` file that is update database table with current values on API.
+now, run ```update_database.py``` file. It is update database table with current values on API.
 
 
 ### set-up cronjob for run script every 5 min. 
