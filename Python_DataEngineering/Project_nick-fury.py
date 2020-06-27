@@ -44,7 +44,7 @@ def activity ():
         db.close()
 
 if __name__=="__main__":
-    schedule.every(5).seconds.do(activity)#schedule to run the script every 5 minutes.
+    schedule.every(5).minutes.do(activity)#schedule to run the script every 5 minutes.
     while True:
         schedule.run_pending()
         time.sleep(1)
