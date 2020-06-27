@@ -7,6 +7,7 @@ import mysql.connector
 from sqlalchemy import create_engine
 import threading
 from data import select_user
+from dbsecrets import USERNAME, PASSWORD, PORT, DATABASENAME
 
 app = Flask(__name__)
 
@@ -39,7 +40,7 @@ def main():
 	df["time"] = datetime.datetime.now()
 
 	# Creating sqlalchemy Engine
-	engine = create_engine('mysql+pymysql://' + '{}:{}@{}/{}'.format("admin","admin","localhost","local_database"))
+	engine = create_engine('mysql+pymysql://' + '{}:{}@{}/{}'.format(USERNAME,PASSWORD,"localhost",DATABASENAME))
 
 	# Sending data to Local Database
 	df.to_sql("info", engine, if_exists="append", index=False)
