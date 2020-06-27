@@ -105,7 +105,7 @@ If everything is executed correctly The Flask application will run on http://127
 
 The webpage will display latest information of the Available Bikes across all the locations along with the time after every 5 minutes.
 
-The My SQL Database also show the retrieved data from the API along with the TimeStamps.
+The My SQL Database also shows the retrieved data from the API along with the TimeStamps.
  > Refresh the webpage every 5 minutes to see the change in the Time and the Data.
 
 
