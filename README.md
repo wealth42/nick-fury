@@ -62,9 +62,11 @@ Its is mandatory to have MySQL installed on the computer to run the Database Ser
 
 [Download MySQL](https://dev.mysql.com/downloads/installer/)
 
-Once you setup the Server note down the "Username", "Passoword".
+Open up the MySQL server. Note down the `USERNAME`, `PASSWORD`.
 
-Open ```script.py, data.py``` file in an editor and change the _User_ and _Password_ fields.
+Make the changes in the ```dbsecrets.py``` file by change the values of above mentioned Varibales.
+
+> Make sure the USERNAME & PASSWORD are correct in order to connect to the server.
 
 ##### _The setup is now Complete_ ! 
 
@@ -74,7 +76,7 @@ Moving on with the execution
 
 Open command prompt, navigate to the project folder. Activate the environment if not done earlier.
 
-Run the following command to create Database: "local_database" with Table "info":
+Run the following command to create Table "info":
 
 ```python setup.py```
 

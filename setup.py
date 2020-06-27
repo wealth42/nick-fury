@@ -1,8 +1,9 @@
 # Setting up the Local Database with MySQL
 import mysql.connector
+from dbsecrets import USERNAME, PASSWORD, PORT
 
-db = mysql.connector.connect(user="admin", #Your Database Username
-							  password = "admin", # Your Database Password
+db = mysql.connector.connect(user=USERNAME, #Your Database Username
+							  password = PASSWORD, # Your Database Password
 							  host = "localhost",
 							  )
 

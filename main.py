@@ -1,11 +1,12 @@
 # Imports
-from flask import Flask, render_template
 import requests, json
 import pandas as pd
 import datetime
 import mysql.connector
-from sqlalchemy import create_engine
 import threading
+
+from flask import Flask, render_template
+from sqlalchemy import create_engine
 from data import select_user
 from dbsecrets import USERNAME, PASSWORD, PORT, DATABASENAME
 
