@@ -14,12 +14,14 @@ def load(df):
                         CHANGE COLUMN `ID` `ID` BIGINT NOT NULL PRIMARY KEY,
                         CHANGE COLUMN `Name` `Name` TEXT NOT NULL;
                         """)
+        print("Data updated")
     except Exception as e:
         print(e)
 
 
 #Extract Data from API
 def extract_load():
+    print("Fetching data")
     url = "https://api.tfl.gov.uk/bikepoint"
     try:
         response = requests.get(url)
@@ -30,7 +32,7 @@ def extract_load():
 
     d = []
     for bikepoint in data:
-        _id = bikepoint["id"][11:]  #"id" keys in the api have value like "BikePoints_1" so storing only integer part which starts from 11th index.
+        _id = bikepoint["id"][11:] #"id" keys in the api have value like "BikePoints_1" so storing only integer part which starts from 11th index.
         name = bikepoint["commonName"]
         latitude = bikepoint["lat"]
         longitude = bikepoint["lon"]
@@ -48,8 +50,8 @@ def extract_load():
         d.append([int(_id), name, lockedStatus, int(totaldocks), int(availablebikes), int(emptydocks), float(latitude),
                   float(longitude), pd.to_datetime(lastupdated)])
 
-    df = pd.DataFrame(d,columns=['ID', 'Name', 'Locked', 'Total Docks', 'Available Bikes', 'Empty Docks', 'Latitude',
-                                   'Logitude', 'Last Update'])
+    df = pd.DataFrame(d,columns=['ID', 'Name', 'Locked', 'TotalDocks', 'AvailableBikes', 'EmptyDocks', 'Latitude',
+                                   'Logitude', 'LastUpdate'])
 
     df=df.sort_values(by="ID")
 
