@@ -3,16 +3,16 @@
 * Need to install python3.X
 * Need to install Mysql and all the plugins needed
 # STEPS
-
-* 1) Create The Enviroment Variable using following command
+* 1) Run this script ```pip install -r reqirement.txt```
+* 2) Create The Enviroment Variable using following command
  * ```setx User_name "Enter Your Database user name"```
  * ```setx Password "Enter Your Database Password of that user"```
  * ```setx Port "Enter Your Database Port Number"```
  * ```setx Db_name "Enter Name of Database of your choice"```
 
-* 2) Run the file named ``` Create_Database.py``` it will create a database if it dose not exist 
+* 3) Run the file named ``` Create_Database.py``` it will create a database if it dose not exist 
 
-* 3) Run the script named ```Create_table_and_intialize.py``` it will create the table if it dose not exist and intialize with values
+* 4) Run the script named ```Create_table_and_intialize.py``` it will create the table if it dose not exist and intialize with values
 
 	* To Schedule the python script to run at every 5 minutes in windows we use Task Scheduler
 
@@ -31,4 +31,4 @@
 
 		* Again click on ok button.
 
-* 4) Now you can run ```fetch_data_from_database.py``` and see the result of particular location	
+* 5) Now you can run ```fetch_data_from_database.py``` and see the result of particular location	
