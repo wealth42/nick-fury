@@ -4,20 +4,19 @@ import scrape
 import datetime
 import MySQLdb
 import getpass
-
-password = getpass.getpass() #ENTER YOUR PASSWORD in cmd
+import secret
 
 try:
-	con1 = MySQLdb.connect(host='localhost',
-							user='root',
-							passwd=password,
-							db='realtimebikepoint')
+	con1 = MySQLdb.connect(host=secret.host,
+							user=secret.user,
+							passwd=secret.password,
+							db=secret.db1)
 	cur1 = con1.cursor()
 
-	con2 = MySQLdb.connect(host='localhost',
-							user='root',
-							passwd=password,
-							db='bikepoint')
+	con2 = MySQLdb.connect(host=secret.host,
+							user=secret.user,
+							passwd=secret.password,
+							db=secret.db2)
 
 	cur2 = con2.cursor()
 	print("======Connection Established======")
