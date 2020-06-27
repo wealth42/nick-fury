@@ -1,5 +1,0 @@
-host = "localhost"
-user = "root"
-password = "ankit@02217"
-db1 = "realtimebikepoint"
-db2 = "bikepoint"
