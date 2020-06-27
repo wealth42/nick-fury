@@ -1,32 +1,31 @@
-import mysql.connector
+from sqlalchemy import create_engine
 from mysql_details import *
 
 
 def create_db():
     try:
-        # create connection object
-        conn=mysql.connector.connect(host=Host,user=Username,passwd=Password)
+        engine = create_engine("mysql+pymysql://{}:{}@{}".format(Username, Password, Host))
 
-        #creating cursor object
-        mycursor=conn.cursor()
+        # create connection object
+        conn=engine.connect()
 
         #create Database
-        mycursor.execute("CREATE DATABASE bikepoints")
+        conn.execute("CREATE DATABASE bikepoints")
 
         #use database bikepoints
-        mycursor.execute("USE bikepoints")
+        conn.execute("USE bikepoints")
 
         #create table "bikepoints data"  for storing real time bike availability data across London
-        mycursor.execute("""CREATE TABLE `bikepoints data` (
+        conn.execute("""CREATE TABLE `bikepoints data` (
         `ID` INT NOT NULL PRIMARY KEY,
         `Name` VARCHAR(100) NOT NULL,
         `Locked` VARCHAR(45) NULL,
-        `Total Docks` INT NULL,
-        `Available Bikes` INT NULL,
-        `Empty Docks` INT NULL,
+        `TotalDocks` INT NULL,
+        `AvailableBikes` INT NULL,
+        `EmptyDocks` INT NULL,
         `Latitude` DOUBLE NULL,
         `Logitude` DOUBLE NULL,
-        `Last Update` DATETIME NULL);""")
+        `LastUpdate` DATETIME NULL);""")
 
 
         print("Table 'bikepoints data' created successfully.")
