@@ -1,6 +1,6 @@
 # Imports
 from flask import Flask, render_template
-from get_data import main
+from get_data import main,select_user
 
 
 app = Flask(__name__)
@@ -8,8 +8,8 @@ app = Flask(__name__)
 # Routing in Flask to render "index.html" template
 @app.route("/")
 def index():
-	data = main()[0] # Now 'data' variable contains the Pandas DataFrame df
-	info = main()[1]
+	data = main() # Now 'data' variable contains the Pandas DataFrame df
+	info = select_user()
 	length = len(data)
 	return render_template("index.html", data=data,length=length, info=info)
 
