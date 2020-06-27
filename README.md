@@ -21,6 +21,21 @@ Pre-requisite: Python and MYSQL server should be installed.
 	<pre>python Extract&Load.py</pre>
 
 5. Now to update data every 5 minutes, we need to schedule the file <strong><u>Extract&Load.py</u></strong> to run every 5 minutes for that follow the steps below:
+   
+   <strong><u>Using Crontab</u></strong>
+
+ - Open terminal and run command "crontab" with the "-e" flag to edit the cron table
+
+   <pre>crontab -e</pre>
+ 
+ - Now add the following line:
+
+   <pre>*/5 * * * * python3 /path/to/Extract&Load.py
+
+ - Save the file, and that is it.
+
+
+   <strong><u>Using Task Scheduler</u></strong>
 
 -  Click on Start Windows, search for Task Scheduler, and open it.
 -  Click "create task" at the right window, enter a name for the task and go to actions.
