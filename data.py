@@ -1,11 +1,12 @@
 import mysql.connector
+from dbsecrets import USERNAME, PASSWORD, PORT, DATABASENAME
 
 # Setting up the Database
 mydb = mysql.connector.connect(
   host="localhost",
-  user="admin",
-  passwd="admin",
-  database= 'local_database'
+  user=USERNAME,
+  passwd=PASSWORD,
+  database= DATABASENAME
 )
 
 # Setting up the cursor for DB
