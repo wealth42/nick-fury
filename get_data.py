@@ -43,9 +43,6 @@ def main():
 
 	return df
 
-import mysql.connector
-from dbsecrets import USERNAME, PASSWORD, PORT, DATABASENAME
-
 # Setting up the Database
 mydb = mysql.connector.connect(
   host="localhost",

@@ -72,7 +72,7 @@ Make the changes in the ```dbsecrets.py``` file by change the values of above me
 
 Moving on with the execution
 
-#### 4. Run the setup.py file
+#### 5. Run the setup.py file
 
 Open command prompt, navigate to the project folder. Activate the environment if not done earlier.
 
@@ -80,7 +80,22 @@ Run the following command to create Table "info":
 
 ```python setup.py```
 
-#### 5. Run the main.py File
+
+#### 6. Creating a cron job
+
+Create a cron job to run ```get_data.py``` every 5 minutes. Run the following command in the terminal:
+
+``` crontab -e ```
+
+In the newly opened EDITOR type :
+
+```*/5 * * * * python3 /path/to/file/fetch.py```
+
+Windows Task Scheduler is another way of Automating ```get_data.py``` to run every 5 minutes
+ 
+[Task Scheduler](https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279)
+
+#### 7. Run the main.py File
 
 Run the main file :
 
