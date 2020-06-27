@@ -30,7 +30,7 @@ def extract_load():
 
     d = []
     for bikepoint in data:
-        _id = bikepoint["id"][11:]
+        _id = bikepoint["id"][11:]  #"id" keys in the api have value like "BikePoints_1" so storing only integer part which starts from 11th index.
         name = bikepoint["commonName"]
         latitude = bikepoint["lat"]
         longitude = bikepoint["lon"]
