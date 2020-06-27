@@ -1,14 +1,16 @@
 # nick-fury
 
 # How to run
+Add all your secret keys in secret.py file\
+\
 There is a file createdatabase.py. Run this file it will ask for password and will create databases.\
 After that. you have to run cronjob.py. Again it will also ask you for password of you mysql. After enterning the password it will run in every 5 minute.\
 \
-There is a file called check_availability.py\
+There is a file called check_availability.py. This file supposed to be run seperately\
 You have to run it (python check_availability "CommonName"). It will give you the latest information of no. of bikes of this place. Example is below.\
 ![](images/screenshot.png)
 
-There is a file scrape.py. This is a file for all the backend operation. You don't need to run that.
+There is a file scrape.py. This is a file for all the backend operation. You don't need to run that.\
 
 # Approach and assumption.
 a. Two databases for storing real-time bike availability data and bike availability data at different time snapshot. Schema would be same for both databases.\
