@@ -2,11 +2,12 @@
 
 ### What ar the requirements:-
  Python 3.6
- Python Libraries :- Pandas,Schedule,Json,Requests,MySQL-connector-python
+ Python Libraries :- in requirements.txt
  MySQL 
  MySQL server must be running while execution of code
 
 ### How to run:-
+Create a config file names .env and save your database details in it like user, password ,hostname ,etc.. 
 First you create a python environment and activate it and install all the libraries given
 Then open your MySQL server application and enter your password
 Then firstly run the Initialize_database.py to start the database
