@@ -1,0 +1,3 @@
+SQLAlchemy 
+SQLAlchemy-Utils
+requests
