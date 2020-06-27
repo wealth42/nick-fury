@@ -18,7 +18,7 @@ b. Two table in each database\
 c. One table is for storing terminal id, common name, terminal name and terminal id is our primary key.
 d. Second table is for storing terminal name, no. of bikes available, no. of empty docks, no. of docks, modified time. For real-time database terminal name would be our primary key and for other database (terminal,modified time) would be our primary key.\
 e. Fetching data from online API in python using request module. Structuring the data.\
-f. For real time database. Deleting rows which is being modified in online API and re uploading the data in database.\
+f. For real time database. Updating rows which is being modified in online API in database.\
 g. For Other database uploading the data if it get modified in online API.\
 h. Use root directory of mysql database.
 
