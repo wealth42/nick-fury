@@ -1,33 +1,35 @@
-import urllib
-import requests
+import requests,os
 import json
 import mysql.connector
 from mysql.connector import Error
 
 DB_NAME = 'BikePoints'
-cnx = mysql.connector.connect(user='root',password='1234')
+user = os.environ.get('USER')
+password = os.environ.get('password')
+cnx = mysql.connector.connect(user=user, password=password)
 cursor = cnx.cursor()
 
 cursor.execute("USE {}".format(DB_NAME))
 
 data = requests.get('https://api.tfl.gov.uk/bikepoint')
-bike_data=data.json()
-
-# print(type(bike_data))
+bike_data = data.json()
 
 for bd in bike_data:
-    id = int(bd['id'].split('_')[-1])
+    id = int(bd['id'].split('_')[-1])  #id is like BikePoints_1. To take the last number, '-1' index is used.
     name = str(bd['commonName'])
     aP = bd['additionalProperties']
-    installed = aP[1]['value']
-    locked = aP[2]['value']
-    # instD = aP[3]['value']
-    # installedDate = instD[:4]+'-'+instD[4:6]+'-'+instD[6:8]+'T'+instD[8:10]+':'+instD[10:12]+':'+instD[12:14]
-    TimeSnap = aP[0]['modified'][:-5]
-    NbBikes = int(aP[6]['value'])
-    NbEmptyDocks = int(aP[7]['value'])
-    lat = str(bd['lat'])
-    long = str(bd['lon'])
+    for prop in aP:
+        if prop['key'] == 'Installed':
+            installed = prop['value']
+        if prop['key'] == 'Locked':
+            locked = prop['value']
+        if prop['key'] == 'NbBikes':
+            NbBikes = int(prop['value'])
+        if prop['key'] == 'NbEmptyDocks':
+            NbEmptyDocks = int(prop['value'])
+    TimeSnap = aP[0]['modified'][:-5]  #this uses the modified property which is common in all the additional propertied. Hence, 0 will work even if structure is changed.
+    lat = float(bd['lat'])
+    long = float(bd['lon'])
 
     try:
         sql = 'REPLACE INTO bikes_availability (bikeid, nam, lat, longitude, installed, locked, nbBikes, nbEmptyDocks) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)'

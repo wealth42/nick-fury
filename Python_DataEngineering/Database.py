@@ -2,6 +2,10 @@ from __future__ import print_function
 
 import mysql.connector
 from mysql.connector import errorcode
+import os
+
+user = os.environ.get('USER')
+password = os.environ.get('password')
 
 DB_NAME = 'BikePoints'
 
@@ -23,18 +27,18 @@ TABLES['timestamp_bikes_data'] = (
     "CREATE TABLE `timestamp_bikes_data` ("
     "  `bikeid` int(11) NOT NULL,"
     "  `nam` varchar(50) NOT NULL,"
-    "  `lat` varchar(50) NOT NULL,"
-    "  `longitude` varchar(50) NOT NULL,"
+    "  `lat` DECIMAL(10,8) NOT NULL,"
+    "  `longitude` DECIMAL(11,8) NOT NULL,"
     "  `installed` enum('true','false') NOT NULL,"
     "  `locked` enum('true','false') NOT NULL,"
     "   `TimeSnap` datetime,"
     "   `nbBikes` int(3),"
     "   `nbEmptyDocks`  int(3),"
-    "  PRIMARY KEY (`TimeSnap`)"
+    "    CONSTRAINT Bikeid_Time UNIQUE (bikeid, TimeSnap)  "
     ")")
 
 
-cnx = mysql.connector.connect(user='root',password='1234')
+cnx = mysql.connector.connect(user=user, password=password)
 cursor = cnx.cursor()
 
 def create_database(cursor):
