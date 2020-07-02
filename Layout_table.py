@@ -6,7 +6,7 @@ Base = declarative_base()
 class table_structure(Base):
     __tablename__='bikepoint_table'
     bike_id = Column(String(30),primary_key=True)
-    name_of_loaction=Column(String(100))
+    name_of_loaction=Column(String(50))
     latitude= Column(Float)
     longitude= Column(Float)
     available_bikes= Column(Integer)
@@ -14,5 +14,20 @@ class table_structure(Base):
     total_docks=Column(Integer)
     date_of_update= Column(Date)
     time_of_update = Column(Time)
+
+
+class history_table_structure(Base):
+    __tablename__='bikepoint_history_table'
+    bike_id = Column(String(30),primary_key=True )
+    name_of_loaction=Column(String(70))
+    latitude= Column(Float)
+    longitude= Column(Float)
+    available_bikes= Column(Integer)
+    empty_docks=Column(Integer)
+    total_docks=Column(Integer)
+    date_of_update= Column(Date)
+    time_of_update = Column(Time ,primary_key=True)
+
+    
 	
             

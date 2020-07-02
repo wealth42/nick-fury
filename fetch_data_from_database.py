@@ -18,14 +18,13 @@ def Session_create(sess_engine):
 	return sess
 
 #Fetch the data from database
-    
 def fetch(sess,locate):
     list_data = locate.split()
     final_str = str()
     for i in range(len(list_data)):
         list_data[i] =list_data[i].capitalize()
         final_str+=list_data[i]+' '
-    final_str+='%'
+    final_str = '%'+final_str+'%'
     result = sess.query(table_structure).filter(table_structure.name_of_loaction.like(final_str)).all()
     return result[0].__dict__
 
