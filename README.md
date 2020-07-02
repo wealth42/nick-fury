@@ -17,7 +17,7 @@
 * 4) Run the script named ```Create_table_and_intialize.py``` it will create the table if it dose not exist and intialize with values
 
 * 5) To set Python crontab follow the following steps.
-	* Open your terminal.Run the following command
+	* Open your terminal. Run the following command
  	
  	* ```crontab -e ```
 
