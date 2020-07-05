@@ -5,11 +5,11 @@ def script(s):
         db = mysql.connector.connect(user='', password='',#user & #password
                                      host='127.0.0.1', database="bikepoint")
         cursor = db.cursor()
-        querry='SELECT * FROM bikepoint.point where commonName like \'%{query}%\';'
+        querry='SELECT * FROM bikepoint.table where commonName like \'%{query}%\';'
         cursor.execute(querry.format(query=s))
         result=cursor.fetchall()
         for res in result:
-            print(res[8],'bikes',"\tAvailable at",res[2])
+            print(res[8],'bikes',"\tAvailable at",res[3])
         print('Found Locations: ',len(result))
         db.close()
     except mysql.connector.Error as err:
