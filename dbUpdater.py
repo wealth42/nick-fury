@@ -8,7 +8,7 @@ def script():
     try:
         result = requests.get('https://api.tfl.gov.uk/bikepoint')
 
-        engine = create_engine('mysql+pymysql://root:Naman$360@localhost:3306/bikepoint')
+        engine = create_engine('mysql+pymysql://#username:#password@localhost:3306/bikepoint')
         connection = engine.connect()
 
         bike_data = pd.DataFrame(result.json()).drop(columns=['$type', 'childrenUrls', 'children'])
