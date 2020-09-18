@@ -4,8 +4,21 @@
 The goal of this challenge is to test your familiarity with concepts in React Native.
 To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-hiring)
 
-You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop a React Native webapp for it.
+### Pick an evaluation mode
 
+1.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
+     *   Qualifying criteria for submission:
+         *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
+         *   You are authorised to publish the code as a public pull request via GitHub, following the steps as covered in [Submission Process](#submission-process)
+     *   Additional criteria for submission:
+         *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
+                >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
+
+2.   **Wealth42's drafted assignment**: You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop a React Native webapp for it.
+
+### Ethics
+*   Please be original, all your submissions are public via GitHub.
+*   Assignments given by us, are being publicly submitted. Hence, it does not create any moat for Wealth42, and is mostly distant from our core business purpose.
 
 ### Instructions
 
