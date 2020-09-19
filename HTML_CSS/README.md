@@ -20,7 +20,7 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 ### Instructions
 
 *   HTML & CSS: 
-    *   Design 4 main pages, along with a placeholder page to which you can link the rest of the website( with an under consturction sign)
+    *   Design 4 main pages, along with a placeholder page to which you can link the rest of the website( with an under construction sign)
     *   Design and Organise your webpage to depict the frontend and objectives of the story selected.
     *   Integrate CSS to add styling and animations to the webpage.
     *   Use of Frameworks is encouraged, however, you must also	 display excellence in pure CSS as well.
