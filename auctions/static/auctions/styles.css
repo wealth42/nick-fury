@@ -1,0 +1,54 @@
+body {
+    padding: 10px;
+}
+
+.listings {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+    height: 250px;
+    border: 1px solid #b3b3b3;
+    margin-bottom: 20px;
+    border-radius: 7px
+}
+
+a.listings:hover {
+    color: black; 
+    text-decoration: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+a.listings:active {
+    color: black; 
+    text-decoration: none;
+}
+
+a.listings:visited {
+    color: black; 
+    text-decoration: none;
+}
+
+.info {
+    margin-left: 500px;
+}
+
+.details {
+    margin-left: 700px
+}
+
+a.categorylist:hover {
+    color: black; 
+    text-decoration: none;
+}
+
+a.categorylist:active {
+    color: black; 
+    text-decoration: none;
+}
+
+a.categorylist:visited {
+    color: black; 
+    text-decoration: none;
+}

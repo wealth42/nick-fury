@@ -1,0 +1,69 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    {% if request.user == listing.winner and listing.active == False %}
+        <div class="alert alert-success" role="alert">
+            Congratulations! You have won this auction.
+        </div>
+    {% endif %}
+
+    <h2 style="margin-left:30px">Listing: {{ listing.title }}</h1>
+    <br>
+    <div style="width:600px; height:400px; float:left; text-align:center"><img src="{{ listing.imageurl }}" alt="image not available" style="margin-left:30px; max-width:100%; max-height:100%"></div>
+    <br>
+    <p class="details">{{ listing.description }}</p>
+    <h3 class="details" style="margin-top:50px">Price: ${{ listing.price }}</h3>
+    <form class="details" action="{% url 'listing' listing.pk %}" method="post">
+        {% csrf_token %}
+        {{ listing.bidcount }} bid(s) so far.
+        <input type="number" placeholder="Bid" style="width:90%" name="bid">
+        <br>
+        {{ message }}
+        <br>
+        <input class="btn btn-primary" style="margin-top:5px" type="submit" value="Place Bid">
+    </form>
+    <h3 class="details" style="margin-top:50px">Details:</h3>
+    <ul class="details">
+        <li>Listed by: {{ listing.user.username }}</li>
+        <li>Category: {{ listing.category }}</li>
+        <li>Created on: {{ listing.created }}</li>
+        {% if listing.active == True %}
+            <li>Active: Yes</li>      
+        {% else %}
+            <li>Active: No</li>
+        {% endif %}
+    </ul>
+    {% if request.user.is_anonymous == False %}
+    <form class="details" action="{% url 'wishlist' %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" value="{{ listing.pk }}" name="id">
+        <input type="submit" class="btn btn-secondary" style="margin-top:40px" value="{{ value }}">
+    </form>
+    {% endif %}
+    {% if listing.active == True and request.user == listing.user %}
+        <form class="details" action="{% url 'close' listing.pk %}" method="post">     
+            {% csrf_token %}   
+            <input type="submit" style="margin-top:15px" class="btn btn-secondary" value="Close auction">
+        </form>
+    {% endif %}
+    <br>
+    <br>
+    <h2 style="margin-left:20px; float:left">Comments</h2>
+    <form action="{% url 'comment' listing.pk %}" method="post" id="comment">
+        {% csrf_token %}
+        <input type="hidden" value="{{ listing.pk }}" name="id">        
+        <textarea form="comment" name="comment" placeholder="type your comment here.." style="width:97%; margin-top:30px; margin-left:20px"></textarea>
+        {% if request.user.is_anonymous == True %}
+            <span style="width:97%; margin-left:20px">{{ message2 }}</span>
+        {% endif %}
+        <input type="submit" class="btn btn-secondary" style="float:right; margin-right:25px" value="post">
+    </form>
+    <br>
+    {% for comment in listing.comments.all %}
+        <div style="margin:20px; border-bottom: 1px solid #b3b3b3; padding-bottom:20px">
+            <h6>{{ comment.user.username }}</h6>
+            {{ comment.comment }} 
+        </div>
+    {% endfor %}
+
+{% endblock %}

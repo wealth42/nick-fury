@@ -1,0 +1,15 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2>Watchlist</h2>
+
+    {% for wishlist in wishlists %}
+    <a class="listings" href="{% url 'listing' wishlist.listing.pk %}">
+        <img src="{{ wishlist.listing.imageurl }}" alt="Image not available" width="250px" height="250px" style="float:left; margin-left:50px">
+        <h4 class="info" style="margin-top:20px; margin-bottom:10px">{{ wishlist.listing.title }}</h4>        
+        <p class="info">{{ wishlist.listing.description }}</p>
+        <h6 class="info">Price: ${{ wishlist.listing.startingbid }}</h6>
+    </a>
+    {% endfor %}
+    
+{% endblock %}
