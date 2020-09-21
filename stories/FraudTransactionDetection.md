@@ -3,7 +3,7 @@
    1.It is Fraud Transaction Detection using Machine Learning. In this there are 4 modules covered.<br/>
     ->DashBoard is created.<br/>
     In the dashboard there are different are different options for user to do. From this page user can click in **Continue Netbanking**<br/>
-    User gets redirected to new page on which there are 2 options given:<br/>
+    User gets redirected to new page on which there are 2 options given:<br/><br/>
       1.Register.<br/>
       2.Login.<br/>
       In Register there are  fields.<br/>
@@ -16,7 +16,7 @@
       **DateOfBirth(dob)**<br/>
       **PlaceOfBirth(pob)**<br/>
       and using Submit Button User gets redirected to login page. <br/>
-      In Login Page there are fields like.<br/>
+      In Login Page there are fields like.<br/><br/>
       **CustomerId**<br/>
       **Password**<br/>
       Then details are matched and if it is there in database then users dashboard will be visible.<br/>
