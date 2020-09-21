@@ -21,7 +21,7 @@
       **Password**<br/>
       Then details are matched and if it is there in database then users dashboard will be visible.<br/>
       From there user can carry his transaction.<br/>
-      Our MAchine Learning model will predict whether this transaction is fruadulent or not.<br/>
+      Our Machine Learning model will predict whether this transaction is fruadulent or not.<br/>
       If transaction might be fraudulent then security question will be asked else Success.<br/>
        
       
