@@ -9,10 +9,8 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 1.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
      *   Qualifying criteria for submission:
          *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
-         *   You are authorised to publish the code as a public pull request via GitHub, following the steps as covered in [Submission Process](#submission-process)
-     *   Additional criteria for submission:
-         *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
-                >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
+         *   You are authorised to publish the code as a public pull request via GitHub
+     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
 
 2.   **Wealth42's drafted assignment**: 
      *   You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop a ReactJS webapp for it. 
@@ -56,7 +54,10 @@ For a ReactJS dev, this could translate to:
 1. Clone this repository
 2. Remove the assignment README’s (and all folders) and start developing your project in it
 3. Add a readme that details on exactly how to run the code
-4. Raise a Pull Request
+4. If you are submitting a project of your choice, follow these steps –
+    *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
+        >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
+5. Raise a Pull Request
 
 
 ### Learning Resources
