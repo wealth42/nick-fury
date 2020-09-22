@@ -10,7 +10,7 @@ To read more about the recruitment process and open opportunities at Wealth42, c
      *   You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop an API service using Django for it. 
      *   Follow [Instructions](#instructions) and [Submission Process](#submission-process) to complete the assignment.
      *   For success, ensure you get as many checks as in our [Assessment Criteria](#assessment-criteria)
-     *   We typically take 15 days to evaluate this submission.
+     *   We typically take 5 days to evaluate this submission.
 
 
 2.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
