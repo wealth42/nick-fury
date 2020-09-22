@@ -1,0 +1,27 @@
+In Django:
+----------
+
+Establish the Connection:
+-------------------------
+	*python manage.py shell
+		*from django.db import connection
+		*mycursor = connection.cursor()
+		*quit()   (shell will be closed)
+
+Command to Generate sqlquery
+python manage.py makemigrations
+*This is used to generate the sql query for creating the fields inside the table.
+
+In Order to check the SQL Query the command is:
+python manage.py sqlmigrate appname fileno
+ex: python manage.py databaseapp 0001
+
+In order to execute the sql query the command is:
+python manage.py migrate
+
+Once we migrate the tables into MySQL, create the superuser so as to add the details inside tables.
+
+1. python manage.py createsuperuser
+2. give username
+3. mailID
+4. Password

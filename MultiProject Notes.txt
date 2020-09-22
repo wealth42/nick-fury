@@ -1,0 +1,23 @@
+wap using Django to have multiple Applications.
+
+
+Disadvantage:
+-------------
+
+Assume we have 100 Applications
+In each application 3 views.
+
+HENCE 300 VIEWS CONFIGURATION HAS TO BE DONE IN URLS.PY(PROJECT LEVEL).
+
+In order over come the above create urls.py at Application and perform the configuration.
+-----------------------------------------------------------------------------------------
+1)if the url pattern is set at the Application level the readablity of the code increases.
+2)Maintenance of code will become simple.
+
+Whenever urlpattern is set at Application level, the below configuration has to be performed in urls.py of
+project level.
+1)import the include()
+	from django.urls import path,include
+
+2)Add a url pattern
+	path('blog/',include('blog.urls'))
