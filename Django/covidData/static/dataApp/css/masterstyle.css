@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=BenchNine:wght@300&family=Comfortaa&family=Lexend+Peta&family=Open+Sans+Condensed:wght@300&family=Teko:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #fcbf49;
+}
+#logobar{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.navbar{
+    background-color: #f77f00;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.nav-link{
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-nav > li > .dropdown-menu { background-color:#ffba08;}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #457b9d;
+    color: #eae2b7;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+  }
+.footer a{
+    color: #eae2b7;
+}
+.footer a:hover{
+    color: #fcbf49;
+}
+.aboutCovid{
+    
+    background-color: #003049;
+    color: #eae2b7;
+}
+#whatC{
+    font-family: 'Comfortaa', cursive;
+}
+#virus{
+    display: block;
+    margin: 0 auto;
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+    0%{
+            transform: rotate(0deg);
+    }
+    100% {
+            transform: rotate(360deg);
+    }
+}
+
+.globalCases,.countryCases,.preventionPage{
+    background-color: #003049;
+    color: #eae2b7;
+}
+.date{
+    font-family: 'BenchNine', sans-serif;
+}
+.card-title{
+    font-family: 'Acme', sans-serif;
+}
+.card-text{
+    font-family: 'Comfortaa', cursive;
+}
+.totaldata{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.c1{
+    background-color: #9d0208;
+}
+.c2{
+    background-color: #d00000;
+}
+.c3{
+    background-color: #dc2f02;
+}
+.c4{
+    background-color: #e85d04;
+}
+.c5{
+    background-color: #f48c06;
+}
+.c6{
+    background-color: #faa307;
+}
+.tabledata{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.tabledata table{
+    border: 2px solid #ffba08;
+}
+.tabledata th{
+    background-color: #03071e;
+    border: 2px solid #ffba08;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'Acme', sans-serif;
+}
+.tabledata td{
+    border: 2px solid #ffba08;
+    text-align: center;
+    background-color: #9d0208;
+    font-family: 'Comfortaa', cursive;
+}
+
+.infoimg{
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.pc1{
+    background-color: #84a98c;
+}
+.pc2{
+    background-color: #52796f;
+}
+.pc3{
+    background-color: #354f52;
+}
+.pc4{
+    background-color: #2f3e46;
+}
+.pc5{
+    background-color: #d00000;
+}
+.pc6{
+    background-color: #9d0208;
+}
+
+.card-img{
+    max-height: 200px;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.pc1:hover,.pc2:hover,.pc3:hover,.pc4:hover,.pc5:hover,.pc6:hover{
+    box-shadow: 3px 6px 36px -4px rgba(255,255,255,1);;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }

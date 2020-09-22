@@ -1,0 +1,92 @@
+{%extends "dataApp/base.html"%}
+{%block content%}
+    <section class="globalCases">
+        <h1 class="display-3 text-center">GLOBAL CASES</h1>
+        <h4 class="text-center date">Last Update on {{countriescoData.76.Date}}</h4>
+        <div class="container totaldata">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c1">
+                        <h5 class="card-title text-center">New Confirmed</h5>
+                        <p class="card-text text-center">{{globalcoData.NewConfirmed}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c2">
+                        <h5 class="card-title text-center">New Deaths</h5>
+                        <p class="card-text text-center">{{globalcoData.NewDeaths}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c3">
+                        <h5 class="card-title text-center">New Recovered</h5>
+                        <p class="card-text text-center">{{globalcoData.NewRecovered}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c4">
+                        <h5 class="card-title text-center">Total Confirmed</h5>
+                        <p class="card-text text-center">{{globalcoData.TotalConfirmed}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c5">
+                        <h5 class="card-title text-center">Total Deaths</h5>
+                        <p class="card-text text-center">{{globalcoData.TotalDeaths}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body c6">
+                        <h5 class="card-title text-center">Total Recovered</h5>
+                        <p class="card-text text-center">{{globalcoData.TotalRecovered}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container tabledata table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SNo.</th>
+                        <th>COUNTRY</th>
+                        <th>NEW CONFIRMED</th>
+                        <th>NEW DEATHS</th>
+                        <th>NEW RECOVERED</th>
+                        <th>TOTAL CONFIRMED</th>
+                        <th>TOTAL DEATHS</th>
+                        <th>TOTAL RECOVERED</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for c in countriescoData%}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>{{c.Country}}</td>
+                        <td>{{c.NewConfirmed}}</td>
+                        <td>{{c.NewDeaths}}</td>
+                        <td>{{c.NewRecovered}}</td>
+                        <td>{{c.TotalConfirmed}}</td>
+                        <td>{{c.TotalDeaths}}</td>
+                        <td>{{c.TotalRecovered}}</td> 
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+{%endblock%}

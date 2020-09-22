@@ -1,0 +1,94 @@
+{%extends "dataApp/base.html"%}
+{%block content%}
+    <section class="countryCases">
+        <h1 class="display-3 text-center">INDIA CASES</h1>
+        <h4 class="text-center date">Last Update on {{countrycoData.date}}</h4>
+        <div class="container totaldata">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c1">
+                        <h5 class="card-title text-center">New Confirmed</h5>
+                        <p class="card-text text-center">{{countrycoData.dailyconfirmed}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c2">
+                        <h5 class="card-title text-center">New Death</h5>
+                        <p class="card-text text-center">{{countrycoData.dailydeceased}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c3">
+                        <h5 class="card-title text-center">New Recovered</h5>
+                        <p class="card-text text-center">{{countrycoData.dailyrecovered}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c4">
+                        <h5 class="card-title text-center">Total Confirmed</h5>
+                        <p class="card-text text-center">{{countrycoData.totalconfirmed}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c5">
+                        <h5 class="card-title text-center">Total Death</h5>
+                        <p class="card-text text-center">{{countrycoData.totaldeceased}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-4 datacard">
+                        <div class="card-body c6">
+                        <h5 class="card-title text-center">Total Recovered</h5>
+                        <p class="card-text text-center">{{countrycoData.totalrecovered}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container tabledata table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SNo.</th>
+                        <th>STATES</th>
+                        <th>ACTIVE</th>
+                        <th>NEW CONFIRMED</th>
+                        <th>NEW DEATHS</th>
+                        <th>NEW RECOVERED</th>
+                        <th>TOTAL CONFIRMED</th>
+                        <th>TOTAL DEATHS</th>
+                        <th>TOTAL RECOVERED</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for s in statescoData%}
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{s.state}}</td>
+                            <td>{{s.active}}</td>
+                            <td>{{s.deltaconfirmed}}</td>
+                            <td>{{s.deltadeaths}}</td>
+                            <td>{{s.deltarecovered}}</td>
+                            <td>{{s.confirmed}}</td>
+                            <td>{{s.deaths}}</td>
+                            <td>{{s.recovered}}</td>
+                        </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+            <h6 class="text-center pt-1 date">(Data Last Updated {{statescoData.14.lastupdatedtime}})</h6>
+        </div>
+    </section>
+{%endblock%}

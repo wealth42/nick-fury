@@ -1,0 +1,24 @@
+{%extends "dataApp/base.html"%}
+{%load static%}
+{%block content%}
+
+<section class="aboutCovid">
+    <h1 class="display-3 text-center">What Is COVID-19?</h1>
+    <div class="container">
+        <div class="row" id="answer1">
+            <div class="col-lg-6" id="whatC">
+                <p><span class="display-4">A</span> coronavirus is a kind of common virus that causes an infection in your nose, sinuses, or upper throat. Most coronaviruses aren't dangerous.
+                    In early 2020, after a December 2019 outbreak in China, the World Health Organization identified SARS-CoV-2 as a new type of coronavirus. The outbreak quickly spread around the world.
+                    COVID-19 is a disease caused by SARS-CoV-2 that can trigger what doctors call a respiratory tract infection. It can affect your upper respiratory tract (sinuses, nose, and throat) or lower respiratory tract (windpipe and lungs).
+                    It spreads the same way other coronaviruses do, mainly through person-to-person contact. Infections range from mild to deadly.
+                </p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+                <img src="{%static 'images/virus2.png'%}" alt="" width="350" height="350" id="virus">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{%endblock%}

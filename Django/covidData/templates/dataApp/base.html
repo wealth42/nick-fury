@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID19GLOBALINFO</title>
+    <link rel="stylesheet" href="{%static 'dataApp/css/masterstyle.css'%}">
+    <script src="https://kit.fontawesome.com/6a94533f79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body> 
+  <header class="header-bar">
+    <img src="{%static 'images/virus1.png'%}" width="150" height="150" alt="" id="logobar">
+    <nav class="navbar navbar-expand-md navbar-light navbar-fixed-top">
+        <ul class="nav navbar-nav mx-auto" id="listbar">
+            <li class="nav-item"><a href="{%url 'home'%}" class="nav-link">ABOUT</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CASES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{%url 'globalcovidcases' %}">GLOBAL CASES</a>
+                <a class="dropdown-item" href="{%url 'countrycovidcases'%}">INDIA CASES</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="{%url 'preventionfromcovid'%}" class="nav-link">PREVENTION</a></li>
+        </ul>
+    </nav>
+  </header>
+ 
+    {%block content%}
+    {%endblock%}
+
+    <footer class="footer">
+      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div>Info- <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html</a></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
