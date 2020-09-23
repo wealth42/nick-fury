@@ -1,0 +1,699 @@
+[12/Mar/2019 14:32:27] "GET /admin/ HTTP/1.1" 200 7232
+[12/Mar/2019 14:32:27] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[12/Mar/2019 14:32:27] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[12/Mar/2019 14:32:27] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:32:28] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:32:30] "GET /chemistry/take/ HTTP/1.1" 200 3164
+[12/Mar/2019 14:33:27] "POST /chemistry/take/ HTTP/1.1" 200 4070
+[12/Mar/2019 14:33:41] "POST /chemistry/take/ HTTP/1.1" 200 4124
+[12/Mar/2019 14:34:16] "POST /chemistry/take/ HTTP/1.1" 200 4135
+[12/Mar/2019 14:34:40] "POST /chemistry/take/ HTTP/1.1" 200 4114
+[12/Mar/2019 14:35:06] "POST /chemistry/take/ HTTP/1.1" 200 4156
+[12/Mar/2019 14:36:54] "GET / HTTP/1.1" 200 2009
+[12/Mar/2019 14:36:57] "GET /progress/ HTTP/1.1" 200 2426
+[12/Mar/2019 14:37:06] "GET /quizzes/ HTTP/1.1" 200 2355
+[12/Mar/2019 14:37:10] "GET /quizzes/ HTTP/1.1" 200 2355
+[12/Mar/2019 14:37:13] "GET /chemistry/ HTTP/1.1" 200 2038
+[12/Mar/2019 14:37:16] "GET /chemistry/take/ HTTP/1.1" 200 3234
+[12/Mar/2019 14:37:24] "GET /logout/ HTTP/1.1" 302 0
+[12/Mar/2019 14:37:24] "GET /login/ HTTP/1.1" 200 2520
+[12/Mar/2019 14:37:38] "POST /login/ HTTP/1.1" 302 0
+[12/Mar/2019 14:37:38] "GET / HTTP/1.1" 200 2292
+[12/Mar/2019 14:37:41] "GET /quizzes/ HTTP/1.1" 200 2355
+[12/Mar/2019 14:37:44] "GET /chemistry/ HTTP/1.1" 200 2038
+[12/Mar/2019 14:37:48] "GET /chemistry/take/ HTTP/1.1" 200 3234
+[12/Mar/2019 14:38:18] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[12/Mar/2019 14:38:19] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[12/Mar/2019 14:38:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 14:38:19] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:19] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:19] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:38:20] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:38:21] "GET /admin/ HTTP/1.1" 200 7232
+[12/Mar/2019 14:38:23] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[12/Mar/2019 14:38:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 14:38:27] "GET /admin/quiz/quiz/1/change/ HTTP/1.1" 200 14624
+[12/Mar/2019 14:38:27] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[12/Mar/2019 14:38:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 14:38:27] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:27] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:27] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[12/Mar/2019 14:38:27] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[12/Mar/2019 14:38:28] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:38:28] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:38:28] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:39:21] "POST /admin/quiz/quiz/1/change/ HTTP/1.1" 302 0
+[12/Mar/2019 14:39:21] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5635
+[12/Mar/2019 14:39:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 14:39:22] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[12/Mar/2019 14:39:28] "GET /chemistry/take/ HTTP/1.1" 200 3234
+[12/Mar/2019 14:39:34] "GET / HTTP/1.1" 200 2009
+[12/Mar/2019 14:39:37] "GET /progress/ HTTP/1.1" 200 2428
+[12/Mar/2019 14:39:39] "GET /quizzes/ HTTP/1.1" 200 2354
+[12/Mar/2019 14:39:42] "GET /chemistry/ HTTP/1.1" 200 2038
+[12/Mar/2019 14:39:43] "GET /chemistry/take/ HTTP/1.1" 200 3234
+[12/Mar/2019 14:39:55] "POST /chemistry/take/ HTTP/1.1" 200 3176
+[12/Mar/2019 14:40:19] "POST /chemistry/take/ HTTP/1.1" 200 3177
+[12/Mar/2019 14:40:27] "POST /chemistry/take/ HTTP/1.1" 200 3242
+[12/Mar/2019 14:40:39] "POST /chemistry/take/ HTTP/1.1" 200 3254
+[12/Mar/2019 14:40:46] "POST /chemistry/take/ HTTP/1.1" 200 10784
+[12/Mar/2019 14:41:26] "GET /progress/ HTTP/1.1" 200 2842
+[12/Mar/2019 14:41:56] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 15:09:37] "GET /admin HTTP/1.1" 301 0
+[12/Mar/2019 15:09:38] "GET /admin/ HTTP/1.1" 302 0
+[12/Mar/2019 15:09:38] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[12/Mar/2019 15:09:39] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[12/Mar/2019 15:09:39] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[12/Mar/2019 15:09:39] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[12/Mar/2019 15:09:39] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[12/Mar/2019 15:09:40] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[12/Mar/2019 15:09:40] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[12/Mar/2019 15:09:40] "GET /favicon.ico HTTP/1.1" 404 4041
+[12/Mar/2019 15:10:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2023
+[12/Mar/2019 15:10:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[12/Mar/2019 15:10:31] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[12/Mar/2019 15:10:32] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 15:10:32] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[12/Mar/2019 15:10:33] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[12/Mar/2019 15:10:33] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[12/Mar/2019 15:10:41] "GET / HTTP/1.1" 200 2009
+[12/Mar/2019 15:10:44] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 15:22:26] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[12/Mar/2019 15:22:26] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:26] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:26] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:26] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 15:22:26] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:27] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:28] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 15:22:28] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 15:22:28] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:28] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[12/Mar/2019 15:22:30] "GET /admin/quiz/quiz/1/change/ HTTP/1.1" 200 14640
+[12/Mar/2019 15:22:30] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 15:22:31] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:31] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:32] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[12/Mar/2019 15:22:32] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:32] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:32] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[12/Mar/2019 15:22:33] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 15:22:33] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[12/Mar/2019 15:22:35] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[12/Mar/2019 15:22:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 15:22:38] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 15:22:54] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[12/Mar/2019 15:22:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 15:22:57] "GET /admin/quiz/question/10/change/ HTTP/1.1" 200 7589
+[12/Mar/2019 15:22:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 15:24:43] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[12/Mar/2019 15:24:46] "GET /admin/quiz/question/9/change/ HTTP/1.1" 200 7641
+[12/Mar/2019 15:24:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Mar/2019 16:11:01] "GET /admin/ HTTP/1.1" 200 7517
+[12/Mar/2019 16:29:48] "GET /progress/ HTTP/1.1" 200 2842
+[13/Mar/2019 02:06:47] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 02:06:48] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:06:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[13/Mar/2019 02:06:48] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:06:49] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:06:53] "GET / HTTP/1.1" 200 1654
+[13/Mar/2019 02:06:54] "GET / HTTP/1.1" 200 2009
+[13/Mar/2019 02:06:54] "GET / HTTP/1.1" 200 1654
+[13/Mar/2019 02:06:54] "GET / HTTP/1.1" 200 1654
+[13/Mar/2019 02:07:10] "GET /admin/ HTTP/1.1" 302 0
+[13/Mar/2019 02:07:10] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[13/Mar/2019 02:07:10] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[13/Mar/2019 02:07:10] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[13/Mar/2019 02:07:10] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[13/Mar/2019 02:07:10] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[13/Mar/2019 02:07:11] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 02:07:11] "GET /admin/ HTTP/1.1" 302 0
+[13/Mar/2019 02:07:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[13/Mar/2019 02:07:12] "GET /admin/ HTTP/1.1" 302 0
+[13/Mar/2019 02:07:12] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[13/Mar/2019 02:07:12] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[13/Mar/2019 02:07:12] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[13/Mar/2019 02:07:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[13/Mar/2019 02:07:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[13/Mar/2019 02:07:12] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[13/Mar/2019 02:07:12] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[13/Mar/2019 02:07:12] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[13/Mar/2019 02:07:13] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[13/Mar/2019 02:07:13] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[13/Mar/2019 02:07:13] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[13/Mar/2019 02:07:13] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[13/Mar/2019 02:07:13] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[13/Mar/2019 02:07:22] "HEAD / HTTP/1.1" 200 1654
+[13/Mar/2019 02:07:26] "GET / HTTP/1.1" 200 2009
+[13/Mar/2019 02:07:50] "GET / HTTP/1.1" 200 1654
+[13/Mar/2019 02:07:56] "GET /admin/ HTTP/1.1" 302 0
+[13/Mar/2019 02:07:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[13/Mar/2019 02:07:59] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[13/Mar/2019 02:07:59] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 02:08:00] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:00] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:00] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:00] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:01] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:01] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:01] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:12] "GET /admin/mcq/mcqquestion/add/ HTTP/1.1" 200 14231
+[13/Mar/2019 02:08:13] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:13] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[13/Mar/2019 02:08:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 02:08:13] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[13/Mar/2019 02:08:13] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[13/Mar/2019 02:08:13] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[13/Mar/2019 02:08:13] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[13/Mar/2019 02:08:13] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[13/Mar/2019 02:08:13] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[13/Mar/2019 02:08:13] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12680
+[13/Mar/2019 02:08:13] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[13/Mar/2019 02:08:13] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:13] "GET /static/admin/js/inlines.js HTTP/1.1" 200 13673
+[13/Mar/2019 02:08:13] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[13/Mar/2019 02:08:13] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[13/Mar/2019 02:08:13] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:13] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[13/Mar/2019 02:08:13] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:13] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:14] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[13/Mar/2019 02:08:14] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[13/Mar/2019 02:08:14] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[13/Mar/2019 02:08:14] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:14] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:14] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:15] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[13/Mar/2019 02:08:15] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[13/Mar/2019 02:08:15] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[13/Mar/2019 02:08:49] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 02:08:55] "GET /admin/quiz/progress/add/ HTTP/1.1" 200 6204
+[13/Mar/2019 02:08:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 02:08:56] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[13/Mar/2019 02:08:56] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:56] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:08:57] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:57] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:08:57] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:00] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 02:09:10] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[13/Mar/2019 02:09:11] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:11] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[13/Mar/2019 02:09:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 02:09:11] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:11] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:12] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:12] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[13/Mar/2019 02:09:12] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:12] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:18] "GET /admin/quiz/quiz/?category__id__exact=2 HTTP/1.1" 200 4786
+[13/Mar/2019 02:09:19] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 02:09:19] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:19] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:27] "GET /admin/quiz/quiz/? HTTP/1.1" 200 5456
+[13/Mar/2019 02:09:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 02:09:27] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:27] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:28] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Mar/2019 02:09:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[13/Mar/2019 02:09:35] "GET /admin/quiz/quiz/?category__id__exact=2 HTTP/1.1" 200 4786
+[13/Mar/2019 02:09:35] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[13/Mar/2019 02:19:04] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[13/Mar/2019 15:30:22] "GET /admin/quiz/quiz/ HTTP/1.1" 200 5456
+[13/Mar/2019 15:30:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[13/Mar/2019 15:30:23] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[13/Mar/2019 15:30:23] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[13/Mar/2019 15:30:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[13/Mar/2019 15:30:23] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[13/Mar/2019 15:30:23] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[13/Mar/2019 15:30:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[13/Mar/2019 15:30:23] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[13/Mar/2019 15:30:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[13/Mar/2019 15:30:23] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[13/Mar/2019 15:30:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[13/Mar/2019 15:30:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[13/Mar/2019 15:30:23] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[13/Mar/2019 15:30:23] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[13/Mar/2019 15:30:24] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[13/Mar/2019 15:30:24] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[13/Mar/2019 15:30:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[13/Mar/2019 15:30:24] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[13/Mar/2019 15:30:36] "GET /admin/ HTTP/1.1" 200 7517
+[13/Mar/2019 15:30:37] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[13/Mar/2019 15:30:37] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[13/Mar/2019 15:30:37] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[13/Mar/2019 21:17:18] "GET /admin/ HTTP/1.1" 200 7517
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2019 - 13:58:59
+Django version 2.0.7, using settings 'online_test.settings'
+Starting development server at http://0.0.0.0:8034/
+Quit the server with CONTROL-C.
+[(81, 'Iron'), (82, 'Gold'), (83, 'Zinc'), (84, 'Potassium')]
+[(81, 'Iron'), (82, 'Gold'), (83, 'Zinc'), (84, 'Potassium')]
+[(85, 'Mercury'), (86, 'Bromine'), (87, 'Sodium'), (88, 'Gold')]
+[(85, 'Mercury'), (86, 'Bromine'), (87, 'Sodium'), (88, 'Gold')]
+[(89, 'generally liquids'), (90, 'generally gases'), (91, 'generally solids and gases'), (92, 'generally gases and liquids')]
+[(89, 'generally liquids'), (90, 'generally gases'), (91, 'generally solids and gases'), (92, 'generally gases and liquids')]
+[(93, 'Phosphorus'), (94, 'Magnesium'), (95, 'Sodium'), (96, 'Magnesium')]
+[(93, 'Phosphorus'), (94, 'Magnesium'), (95, 'Sodium'), (96, 'Magnesium')]
+[(97, 'Carbon'), (98, 'Iodine'), (99, 'Bromine'), (100, 'Chlorine')]
+[(97, 'Carbon'), (98, 'Iodine'), (99, 'Bromine'), (100, 'Chlorine')]
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+logout function working
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+[(101, 'Elements and compounds'), (102, 'Metals and Non metals'), (103, 'Acids and Bases'), (104, 'None of these')]
+[(105, 'Sodium'), (106, 'Calcium'), (107, 'Mercury'), (108, 'Hydrogen')]
+[(105, 'Sodium'), (106, 'Calcium'), (107, 'Mercury'), (108, 'Hydrogen')]
+[(109, 'Acidic'), (110, 'Basic'), (111, 'Neutral'), (112, 'All of these')]
+[(109, 'Acidic'), (110, 'Basic'), (111, 'Neutral'), (112, 'All of these')]
+[(113, 'Sodium and Potassium'), (114, 'Barium and Calcium'), (115, 'Sodium and mercury'), (116, 'Potassium and calcium')]
+[(113, 'Sodium and Potassium'), (114, 'Barium and Calcium'), (115, 'Sodium and mercury'), (116, 'Potassium and calcium')]
+[(117, 'Hydrogen gas is formed'), (118, 'Carbon Dioxide gas is formed'), (119, 'Non metals do not react with water'), (120, 'None of these')]
+[(117, 'Hydrogen gas is formed'), (118, 'Carbon Dioxide gas is formed'), (119, 'Non metals do not react with water'), (120, 'None of these')]
+[14/Mar/2019 12:54:14] "GET / HTTP/1.1" 200 1654
+Not Found: /favicon.ico
+[14/Mar/2019 12:54:16] "GET /favicon.ico HTTP/1.1" 404 4041
+[14/Mar/2019 12:54:26] "GET /admin HTTP/1.1" 301 0
+[14/Mar/2019 12:54:27] "GET /admin/ HTTP/1.1" 302 0
+[14/Mar/2019 12:54:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1859
+[14/Mar/2019 12:54:28] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[14/Mar/2019 12:54:28] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[14/Mar/2019 12:54:28] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[14/Mar/2019 12:54:28] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+Not Found: /favicon.ico
+[14/Mar/2019 12:54:29] "GET /favicon.ico HTTP/1.1" 404 4041
+[14/Mar/2019 12:54:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[14/Mar/2019 12:54:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[14/Mar/2019 12:54:36] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[14/Mar/2019 12:54:37] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 12:54:37] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[14/Mar/2019 12:54:37] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Mar/2019 12:54:38] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Mar/2019 12:54:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+Internal Server Error: /admin/quiz/bloomstaxonomy/
+Traceback (most recent call last):
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: quiz_bloomstaxonomy
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 575, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1592, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/options.py", line 706, in get_changelist_instance
+    self,
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 77, in __init__
+    self.get_results(request)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/contrib/admin/views/main.py", line 175, in get_results
+    result_count = paginator.count
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/core/paginator.py", line 85, in count
+    return self.object_list.count()
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/models/query.py", line 387, in count
+    return self.query.get_count(using=self.db)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 491, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 476, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/quiz-app/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: quiz_bloomstaxonomy
+[14/Mar/2019 12:54:46] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 500 179231
+[14/Mar/2019 12:55:43] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 3258
+[14/Mar/2019 12:55:43] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[14/Mar/2019 12:55:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 12:55:43] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[14/Mar/2019 12:55:43] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[14/Mar/2019 12:55:43] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[14/Mar/2019 12:55:43] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[14/Mar/2019 12:55:43] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[14/Mar/2019 12:55:44] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[14/Mar/2019 12:55:44] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[14/Mar/2019 12:55:44] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[14/Mar/2019 12:55:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Mar/2019 13:29:04] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:29:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[14/Mar/2019 13:29:05] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[14/Mar/2019 13:29:05] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[14/Mar/2019 13:29:05] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/Mar/2019 13:29:06] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[14/Mar/2019 13:29:06] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[14/Mar/2019 13:29:06] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[14/Mar/2019 13:29:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[14/Mar/2019 13:29:06] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[14/Mar/2019 13:29:15] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 13:29:16] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[14/Mar/2019 13:29:16] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[14/Mar/2019 13:29:16] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[14/Mar/2019 13:29:16] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[14/Mar/2019 13:29:16] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[14/Mar/2019 13:29:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:29:16] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[14/Mar/2019 13:29:16] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[14/Mar/2019 13:29:16] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[14/Mar/2019 13:29:16] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[14/Mar/2019 13:29:16] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[14/Mar/2019 13:29:17] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[14/Mar/2019 13:29:17] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[14/Mar/2019 13:29:26] "GET /admin/mcq/mcqquestion/?o=-2 HTTP/1.1" 200 15495
+[14/Mar/2019 13:29:27] "GET /admin/mcq/mcqquestion/?o= HTTP/1.1" 200 15184
+[14/Mar/2019 13:29:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:29:54] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 13:29:59] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:30:06] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 3258
+[14/Mar/2019 13:30:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:30:10] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:30:12] "GET /admin/quiz/category/ HTTP/1.1" 200 5176
+[14/Mar/2019 13:30:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:30:15] "GET /admin/quiz/category/3/change/ HTTP/1.1" 200 4271
+[14/Mar/2019 13:30:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:30:16] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[14/Mar/2019 13:30:16] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[14/Mar/2019 13:30:16] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[14/Mar/2019 13:30:16] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[14/Mar/2019 13:30:19] "GET /admin/quiz/category/ HTTP/1.1" 200 5176
+[14/Mar/2019 13:30:21] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:30:28] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 13:30:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:30:31] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 13:53:56] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:53:58] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 13:54:02] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:54:14] "GET /admin/auth/group/ HTTP/1.1" 200 3591
+[14/Mar/2019 13:54:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:54:14] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[14/Mar/2019 13:54:18] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:54:20] "GET /admin/auth/user/ HTTP/1.1" 200 6685
+[14/Mar/2019 13:54:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:54:20] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[14/Mar/2019 13:54:21] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[14/Mar/2019 13:54:23] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:54:25] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 13:54:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:54:29] "GET /admin/ HTTP/1.1" 200 9522
+[14/Mar/2019 13:54:33] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 3258
+[14/Mar/2019 13:54:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:54:35] "GET /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 200 4188
+[14/Mar/2019 13:54:35] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[14/Mar/2019 13:54:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:54:36] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[14/Mar/2019 13:54:36] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[14/Mar/2019 13:54:36] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[14/Mar/2019 13:55:07] "POST /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:55:08] "GET /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 200 4410
+[14/Mar/2019 13:55:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:09] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 4397
+[14/Mar/2019 13:55:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:19] "POST /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:55:20] "GET /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 200 4413
+[14/Mar/2019 13:55:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:23] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 4629
+[14/Mar/2019 13:55:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:28] "POST /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:55:28] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 5056
+[14/Mar/2019 13:55:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:38] "GET /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 200 4188
+[14/Mar/2019 13:55:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:41] "GET /admin/quiz/bloomstaxonomy/ HTTP/1.1" 200 4863
+[14/Mar/2019 13:55:42] "POST /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:55:42] "GET /admin/quiz/bloomstaxonomy/add/ HTTP/1.1" 200 4412
+[14/Mar/2019 13:55:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:44] "GET /admin/ HTTP/1.1" 200 10704
+[14/Mar/2019 13:55:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:48] "GET /admin/quiz/chapter/ HTTP/1.1" 200 3251
+[14/Mar/2019 13:55:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:51] "GET /admin/quiz/chapter/add/ HTTP/1.1" 200 6393
+[14/Mar/2019 13:55:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:55:54] "GET /admin/ HTTP/1.1" 200 10704
+[14/Mar/2019 13:55:56] "GET /admin/ HTTP/1.1" 200 10704
+[14/Mar/2019 13:55:58] "GET /admin/quiz/standard/ HTTP/1.1" 200 3256
+[14/Mar/2019 13:55:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:00] "GET /admin/quiz/standard/add/ HTTP/1.1" 200 4164
+[14/Mar/2019 13:56:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:04] "POST /admin/quiz/standard/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:56:04] "GET /admin/quiz/standard/ HTTP/1.1" 200 4563
+[14/Mar/2019 13:56:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:07] "GET /admin/ HTTP/1.1" 200 10986
+[14/Mar/2019 13:56:08] "GET /admin/quiz/subject/ HTTP/1.1" 200 3251
+[14/Mar/2019 13:56:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:10] "GET /admin/quiz/subject/add/ HTTP/1.1" 200 4158
+[14/Mar/2019 13:56:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:16] "POST /admin/quiz/subject/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:56:16] "GET /admin/quiz/subject/ HTTP/1.1" 200 4559
+[14/Mar/2019 13:56:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:17] "GET /admin/ HTTP/1.1" 200 11269
+[14/Mar/2019 13:56:23] "GET /admin/quiz/chapter/ HTTP/1.1" 200 3251
+[14/Mar/2019 13:56:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:26] "GET /admin/quiz/chapter/add/ HTTP/1.1" 200 6460
+[14/Mar/2019 13:56:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:45] "POST /admin/quiz/chapter/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:56:45] "GET /admin/quiz/chapter/ HTTP/1.1" 200 4573
+[14/Mar/2019 13:56:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:56:49] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:56:59] "GET /admin/quiz/topic/ HTTP/1.1" 200 3237
+[14/Mar/2019 13:56:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:57:01] "GET /admin/quiz/topic/add/ HTTP/1.1" 200 7594
+[14/Mar/2019 13:57:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:57:10] "POST /admin/quiz/topic/add/ HTTP/1.1" 302 0
+[14/Mar/2019 13:57:10] "GET /admin/quiz/topic/ HTTP/1.1" 200 4541
+[14/Mar/2019 13:57:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:57:13] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:57:35] "GET /admin/quiz/standard/add/ HTTP/1.1" 200 4164
+[14/Mar/2019 13:57:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:57:39] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:57:57] "GET /admin/quiz/chapter/ HTTP/1.1" 200 4388
+[14/Mar/2019 13:57:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:57:57] "GET /admin/quiz/chapter/ HTTP/1.1" 200 4388
+[14/Mar/2019 13:57:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:03] "GET /admin/quiz/chapter/1/change/ HTTP/1.1" 200 6702
+[14/Mar/2019 13:58:03] "GET /admin/quiz/chapter/add/ HTTP/1.1" 200 6460
+[14/Mar/2019 13:58:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:05] "GET /admin/quiz/chapter/1/history/ HTTP/1.1" 200 2292
+[14/Mar/2019 13:58:08] "GET /admin/quiz/chapter/1/change/ HTTP/1.1" 200 6702
+[14/Mar/2019 13:58:10] "GET /admin/quiz/chapter/ HTTP/1.1" 200 4388
+[14/Mar/2019 13:58:12] "GET /admin/quiz/chapter/add/ HTTP/1.1" 200 6460
+[14/Mar/2019 13:58:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:37] "GET /admin/quiz/chapter/ HTTP/1.1" 200 4388
+[14/Mar/2019 13:58:39] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:58:41] "GET /admin/quiz/topic/ HTTP/1.1" 200 4364
+[14/Mar/2019 13:58:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:44] "GET /admin/quiz/topic/1/change/ HTTP/1.1" 200 7828
+[14/Mar/2019 13:58:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:58:46] "GET /admin/quiz/topic/ HTTP/1.1" 200 4364
+[14/Mar/2019 13:58:49] "GET /admin/quiz/topic/add/ HTTP/1.1" 200 7594
+[14/Mar/2019 13:58:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:59:01] "GET /admin/quiz/topic/ HTTP/1.1" 200 4364
+[14/Mar/2019 13:59:10] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:59:34] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 13:59:35] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[14/Mar/2019 13:59:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:59:42] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[14/Mar/2019 13:59:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:59:48] "GET /admin/quiz/question/6/change/ HTTP/1.1" 200 10603
+[14/Mar/2019 13:59:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 13:59:50] "GET /admin/quiz/question/10/change/ HTTP/1.1" 200 10563
+[14/Mar/2019 13:59:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:03] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:00:06] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 14:00:06] "GET /admin/quiz/question/ HTTP/1.1" 200 11666
+[14/Mar/2019 14:00:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:09] "GET /admin/mcq/mcqquestion/1/change/ HTTP/1.1" 200 19432
+[14/Mar/2019 14:00:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:09] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[14/Mar/2019 14:00:10] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12680
+[14/Mar/2019 14:00:10] "GET /static/admin/js/inlines.js HTTP/1.1" 200 13673
+[14/Mar/2019 14:00:10] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[14/Mar/2019 14:00:10] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[14/Mar/2019 14:00:10] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[14/Mar/2019 14:00:12] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:00:23] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 14:00:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:30] "GET /admin/mcq/mcqquestion/1/change/ HTTP/1.1" 200 19432
+[14/Mar/2019 14:00:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:31] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[14/Mar/2019 14:00:32] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12680
+[14/Mar/2019 14:00:32] "GET /static/admin/js/inlines.js HTTP/1.1" 200 13673
+[14/Mar/2019 14:00:32] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[14/Mar/2019 14:00:32] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 14:00:33] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:00:33] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[14/Mar/2019 14:00:33] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[14/Mar/2019 14:00:35] "GET /admin/quiz/progress/ HTTP/1.1" 200 4818
+[14/Mar/2019 14:00:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:44] "GET /admin/mcq/mcqquestion/ HTTP/1.1" 200 14569
+[14/Mar/2019 14:00:47] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:00:47] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:00:51] "GET /admin/quiz/progress/ HTTP/1.1" 200 4818
+[14/Mar/2019 14:00:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:52] "GET /admin/quiz/progress/ HTTP/1.1" 200 4818
+[14/Mar/2019 14:00:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:57] "GET /admin/quiz/progress/1/change/ HTTP/1.1" 200 6520
+[14/Mar/2019 14:00:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:00:59] "GET /admin/quiz/progress/1/change/ HTTP/1.1" 200 6520
+[14/Mar/2019 14:01:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[14/Mar/2019 14:01:19] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:01:25] "GET /admin/quiz/progress/ HTTP/1.1" 200 4818
+[14/Mar/2019 14:01:39] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:02:38] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:02:45] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:02:46] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:02:53] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:02:58] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:03:18] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 14:03:25] "GET /admin/ HTTP/1.1" 200 11257
+[14/Mar/2019 14:03:30] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:04:02] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:04:10] "GET / HTTP/1.1" 200 1654
+[14/Mar/2019 14:04:11] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:04:11] "GET / HTTP/1.1" 200 1654
+[14/Mar/2019 14:04:11] "GET / HTTP/1.1" 200 1654
+[14/Mar/2019 14:04:25] "GET /chemistry/ HTTP/1.1" 200 2038
+[14/Mar/2019 14:04:27] "GET /chemistry/take/ HTTP/1.1" 200 3164
+[14/Mar/2019 14:04:42] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 14:07:33] "GET / HTTP/1.1" 200 1654
+Not Found: /favicon.ico
+[14/Mar/2019 14:07:35] "GET /favicon.ico HTTP/1.1" 404 4041
+[14/Mar/2019 14:07:38] "GET / HTTP/1.1" 200 1654
+[14/Mar/2019 14:07:40] "GET / HTTP/1.1" 200 1654
+[14/Mar/2019 14:07:43] "GET /login/ HTTP/1.1" 200 2243
+[14/Mar/2019 14:07:46] "POST /login/ HTTP/1.1" 302 0
+[14/Mar/2019 14:07:47] "GET / HTTP/1.1" 200 2292
+[14/Mar/2019 14:07:51] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 14:07:58] "GET /chemistry/ HTTP/1.1" 200 2038
+[14/Mar/2019 14:08:00] "GET /chemistry/take/ HTTP/1.1" 200 3164
+[14/Mar/2019 14:08:06] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 14:08:07] "GET /progress/ HTTP/1.1" 200 2842
+[14/Mar/2019 14:08:12] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 14:08:27] "GET /chemistry/ HTTP/1.1" 200 2038
+[14/Mar/2019 14:08:32] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 14:08:42] "GET /chemistry/ HTTP/1.1" 200 2038
+[14/Mar/2019 14:08:46] "GET /chemistry/take/ HTTP/1.1" 200 3164
+[14/Mar/2019 14:08:52] "POST /chemistry/take/ HTTP/1.1" 200 3180
+[14/Mar/2019 14:09:00] "POST /chemistry/take/ HTTP/1.1" 200 3218
+[14/Mar/2019 14:09:20] "POST /chemistry/take/ HTTP/1.1" 200 3191
+[14/Mar/2019 14:09:26] "POST /chemistry/take/ HTTP/1.1" 200 3197
+[14/Mar/2019 14:09:34] "POST /chemistry/take/ HTTP/1.1" 200 3234
+[14/Mar/2019 14:09:46] "POST /chemistry/take/ HTTP/1.1" 200 3176
+[14/Mar/2019 14:10:02] "POST /chemistry/take/ HTTP/1.1" 200 3177
+[14/Mar/2019 15:41:15] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 15:41:17] "GET / HTTP/1.1" 200 2009
+[14/Mar/2019 16:56:50] "GET / HTTP/1.1" 200 2009
+Not Found: /favicon.ico
+[14/Mar/2019 16:56:50] "GET /favicon.ico HTTP/1.1" 404 4041
+[14/Mar/2019 16:56:56] "GET /quizzes/ HTTP/1.1" 200 2354
+[14/Mar/2019 16:56:58] "GET /chemistry/ HTTP/1.1" 200 2038
+[14/Mar/2019 16:57:00] "GET /chemistry/take/ HTTP/1.1" 200 3177
+[14/Mar/2019 16:57:39] "POST /chemistry/take/ HTTP/1.1" 200 3242
+[14/Mar/2019 16:57:59] "POST /chemistry/take/ HTTP/1.1" 200 3254
+[14/Mar/2019 16:58:17] "POST /chemistry/take/ HTTP/1.1" 200 10902
+[15/Mar/2019 03:22:55] code 400, message Bad request version ('Zë~w\x03GÕø¸eÁL[¡\x8cÅðEçÁ¨\x8f\x81ü\x97&å\x9f\x91\x18û\x14\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[15/Mar/2019 03:22:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /favicon.ico
+[15/Mar/2019 09:41:28] "GET /favicon.ico HTTP/1.1" 404 4041
+[15/Mar/2019 10:58:23] "GET / HTTP/1.1" 200 2009
+[15/Mar/2019 10:58:26] "GET / HTTP/1.1" 200 2009
+[15/Mar/2019 11:01:13] "GET / HTTP/1.1" 200 2009
+Not Found: /favicon.ico
+[15/Mar/2019 11:01:15] "GET /favicon.ico HTTP/1.1" 404 4041
+[15/Mar/2019 11:01:27] "GET /quizzes/ HTTP/1.1" 200 2354
+[15/Mar/2019 11:01:35] "GET /chemistry/ HTTP/1.1" 200 2038
+[15/Mar/2019 11:01:38] "GET /chemistry/take/ HTTP/1.1" 200 3164
+[15/Mar/2019 11:01:51] "GET / HTTP/1.1" 200 2009
+[15/Mar/2019 11:01:58] "GET /admin HTTP/1.1" 301 0
+[15/Mar/2019 11:01:58] "GET /admin/ HTTP/1.1" 200 11257
+[15/Mar/2019 11:01:59] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[15/Mar/2019 11:01:59] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[15/Mar/2019 11:01:59] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[15/Mar/2019 11:02:00] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/Mar/2019 11:02:01] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[15/Mar/2019 11:02:01] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[15/Mar/2019 11:02:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[15/Mar/2019 11:02:01] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[15/Mar/2019 11:02:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
