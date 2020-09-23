@@ -16,10 +16,8 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 2.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
      *   Qualifying criteria for submission:
          *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
-         *   You are authorised to publish the code as a public pull request via GitHub, following the steps as covered in [Submission Process](#submission-process)
-     *   Additional criteria for submission:
-         *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
-                >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
+         *   You are authorised to publish the code as a public pull request via GitHub.
+     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
      *   We typically take 15 days to evaluate this submission.
 
 ### Instructions
