@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> div.main{
+  box-shadow: 0 30px 100px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  width: 1200px;
+  height: 1000px;
+}
+img {
+  border-radius: 50%;
+}
+h2{
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 1px;
+}
+h3{
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  margin-top: 0px;
+}
+</style>
+<body style="background-color: aquamarine;">
+  <div>
+    <div class="main" style="margin-left: 220px;">
+      <header>
+        <h1 id="title" style=" border-style: double; font-family: 'Baloo Paaji 2', cursive; text-align: center; font-size: 60px; margin-bottom: 1px;">VoiceCription</h1>
+        <h2 id="subtitle" style="text-align: center;">Saving lives through digital prescriptions.</h2>
+        <h3>{{ user.username }}'s Dashboard</h3><br><br>
+      </header>
+      <div style="text-align: center;">
+      <form action="show" method="POST">
+        {% csrf_token %}
+        <input type="text" name="title"><br><br>
+        <button type="submit" name="past" id="buttonp" onclick="location.href='{% url 'scriptshow' %}'">Past Records</button>
+    <br>
+    </form>
+    
+    <hr>
+    {{result.name}} : {{result.link}}
+  </div>  
+    <div style="left: 0; bottom: 0; width: 100%; text-align: center;margin-top: 550px;">
+        <button type="submit" name="past" id="buttonp" onclick="location.href='{% url 'scriptsearch' %}'">Back</button>
+        <p>Copyright 2020 | VoiceCription | Early beta access</p>
+      </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

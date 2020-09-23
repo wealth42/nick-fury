@@ -1,0 +1,11 @@
+django
+langdetect
+googletrans
+SpeechRecognition
+qrcode
+python-jose
+jose
+social-auth-app-django
+django-social-auth
+reportlab
+pydrive
