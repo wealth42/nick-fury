@@ -1,0 +1,44 @@
+{% extends 'app/template.html' %}
+
+{% block main_block %}
+<h2 align="center">TEACHER'S FORM</h2>
+
+<form method="post">
+	<table align="center">
+		{{form}}
+		<tr>
+			<td>
+				<input type="submit" value="Save">
+				{% csrf_token %}
+			</td>
+		</tr>
+	</table>
+</form>
+
+<hr>
+
+{% if data %}
+	<table width="90%" align="center" border="1" align="center">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Qualification</th>
+			<th>Experience</th>
+		</tr>
+
+		{% for teacher in data %}
+			<tr>
+				<td>{{teacher.name}}</td>
+				<td>{{teacher.email}}</td>
+				<td>{{teacher.qualification}}</td>
+				<td>{{teacher.experience}}</td>
+			</tr>
+		{% endfor %}
+	</table>
+{% else %}
+	<div>
+		No Records Found... 
+	</div>
+{% endif%}
+
+{% endblock %}

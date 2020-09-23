@@ -1,0 +1,47 @@
+{% extends 'app/template.html' %}
+
+{% block main_block %}
+<h2 align="center">STUDENT'S FORM</h2>
+
+<form method="post">
+	<table align="center">
+		{{form}}
+		<tr>
+			<td>
+				<input type="submit"  value="Save" >
+				{% csrf_token %}
+			</td>
+		</tr>
+	</table>
+</form>
+
+<hr>
+
+{% if data %}
+	<table border="1" width="95%" align="center">
+		<tr>
+			<th >Name</th>
+			<th>Email</th>
+			<th>Degree</th>
+			<th>Branch</th>
+			<th>Semester</th>
+		</tr>
+
+		{% for student in data %}
+			<tr>
+				<td>{{student.name}}</td>
+				<td>{{student.email}}</td>
+				<td>{{student.degree}}</td>
+				<td>{{student.branch}}</td>
+				<td>{{student.semester}}</td>
+			</tr>
+		{% endfor %}
+	</table>
+
+{% else %}
+	<div style="width:500px;text-align:center;border:1px solid red;padding:10px 20px;margin:50px auto">
+		No Records Found...
+	</div>
+{% endif %}
+
+{% endblock %}

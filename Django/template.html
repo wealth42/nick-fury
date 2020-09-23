@@ -1,0 +1,31 @@
+<!doctype html>
+
+{% load static %}
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{% static 'css/template.css' %}">
+  <title>SCHOOLRECORDSPAGE</title>
+ </head>
+ <body>
+  <h1>DELHI PUBLIC SCHOOL</h1>
+  
+  <div id="menu">
+	<a href="/app/home">
+		<img src="{% static 'images/home.png' %}" id="home">
+	</a>
+	<a href="/app/std" class="menu_item">Student</a>
+	<a href="/app/tch" class="menu_item">Teacher</a>
+  </div>
+
+  {% block main_block %}
+
+
+  {% endblock %}
+
+  <div id="footer">
+	<h2>&copy;Since 1956 </h2>	
+  </div>
+ </body>
+</html>
