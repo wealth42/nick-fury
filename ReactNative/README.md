@@ -6,16 +6,19 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 
 ### Pick an evaluation mode
 
-1.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
-     *   Qualifying criteria for submission:
-         *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
-         *   You are authorised to publish the code as a public pull request via GitHub
-     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
-
-2.   **Wealth42's drafted assignment**: 
-     *   You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop a React Native webapp for it. 
+1.   **Wealth42's drafted assignment**: 
+     *   You can select any one of the stories mentioned in the [stories](../stories/) folder, and develop a React Native App for it. 
      *   Follow [Instructions](#instructions) and [Submission Process](#submission-process) to complete the assignment.
      *   For success, ensure you get as many checks as in our [Assessment Criteria](#assessment-criteria)
+     *   We typically take 5 days to evaluate this submission.
+
+
+2.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
+     *   Qualifying criteria for submission:
+         *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
+         *   You are authorised to publish the code as a public pull request via GitHub.
+     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
+     *   We typically take 15 days to evaluate this submission.
 
 ### Instructions
 

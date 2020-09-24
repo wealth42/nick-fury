@@ -7,20 +7,23 @@ To read more about the recruitment process and open opportunities at Wealth42, c
 
 ### Pick an evaluation mode
 
-1.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
-     *   Qualifying criteria for submission:
-         *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
-         *   You are authorised to publish the code as a public pull request via GitHub
-     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
-     
-2.   **Wealth42's drafted assignment**: 
-	 *   **User Story**:
-	 	 *   Once the COVID-19 lock-down is lifted in many parts of the world, it would still be absolutely crucial to follow social distancing
-			 to avoid re-flaring the infection rates of the virus. Wherever possible, users who currently use public transport should
-			 be able to switch to alternate commute (like rental bikes). Specifically for the residents of London, you
-			 can utilize a feed provided by Transport For London, available [here](https://api-portal.tfl.gov.uk/docs).
+1.   **Wealth42's drafted assignment**: 
+     *   **User Story**:
+         *   Once the COVID-19 lock-down is lifted in many parts of the world, it would still be absolutely crucial to follow social distancing
+             to avoid re-flaring the infection rates of the virus. Wherever possible, users who currently use public transport should
+             be able to switch to alternate commute (like rental bikes). Specifically for the residents of London, you
+             can utilize a feed provided by Transport For London, available [here](https://api-portal.tfl.gov.uk/docs).
      *   Follow [Instructions](#instructions) and [Submission Process](#submission-process) to complete the assignment.
      *   For success, ensure you get as many checks as in our [Assessment Criteria](#assessment-criteria)
+     *   We typically take 5 days to evaluate this submission.
+
+2.   **Project of your choice**: You are free to submit a project of your own with *some* conditions.
+     *   Qualifying criteria for submission:
+         *   MUST exhibit everything covered in the [Assessment Criteria](#assessment-criteria) and [Instructions](#instructions).
+         *   You are authorised to publish the code as a public pull request via GitHub.
+     *   Follow instructions as in the [Submission Process](#submission-process) to submit your work
+     *   We typically take 15 days to evaluate this submission.       
+
 
 
 ### Instructions
@@ -57,7 +60,6 @@ For a Python/Data Engineer dev, this could potentially translate to:
     *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
         >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
 5. Raise a Pull Request
-
 
 ### Learning Resources
 1. [Requests Library Official Documentation](https://requests.readthedocs.io/en/master/)
