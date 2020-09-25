@@ -46,8 +46,10 @@ If you do make any trade-offs in favour of saving time, do mention them in comme
 3. Ownership - going beyond the exact job description to deliver a finished product.
 For a Django dev, this could translate to: 
     1. Creating a sample API-driven UI that also communicates with this API
-4. How much the candidate stays in touch with us during the process of the project
-6. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages
+4. No submissions to be made with compressed/binary files - all source code should be version controlled and visible in plain text in github.
+5. How much the candidate stays in touch with us during the process of the project.
+6. Follow [best practices](https://github.community/t/best-practices-for-pull-requests/10195) for pull requests.
+7. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages.
 
 ### Submission Process
 1. Clone this repository

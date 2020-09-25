@@ -49,8 +49,10 @@ If you do make any trade-offs in favour of saving time, do mention them in comme
 For a Python/Data Engineer dev, this could potentially translate to: 
     1. Ensuring safety of API keys (if any are used)
     2. Creating a query utility that lets a user query the number of free bikes currently available by giving a subset of the 'commonName' string
-5. How much the candidate stays in touch with us during the process of the project
-6. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages
+5. No submissions to be made with compressed/binary files - all source code should be version controlled and visible in plain text in github.
+6. How much the candidate stays in touch with us during the process of the project.
+7. Follow [best practices](https://github.community/t/best-practices-for-pull-requests/10195) for pull requests.
+7. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages.
 
 ### Submission Process
 1. Clone this repository
