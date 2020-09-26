@@ -1,6 +1,0 @@
-csv/
-*sqlite3
-*.idea
-*.code
-*__pycache__
-venv/
