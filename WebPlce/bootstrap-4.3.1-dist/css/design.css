@@ -1,0 +1,44 @@
+#logo-img{
+	
+	margin-top: 0px;
+
+}
+
+
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+
+}
+
+#header-nav{
+	background-color: yellow;
+	border-radius: 0;
+	border:0;
+
+
+}
+
+.navbar-brand h1{
+	text-align: right;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+ 
+
+}
+.navbar-brand p span{
+    vertical-align:middle;
+}
+.navbar-toggler-icon {
+	margin-right: -700px;
+  background-image: url("data:image/svg+xml;..");
+}
