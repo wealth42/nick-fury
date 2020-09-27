@@ -1,0 +1,73 @@
+h1{
+	text-align: center;
+	border-top: 75px solid white;
+	color: blue;
+	
+}
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+section>h2{
+	 float: right;
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-style: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px
+
+}
+
+section.infinity>h2 {
+	color: yellow;
+    background-color: green;
+}
+
+section.one>h2 {
+	color: red;
+    background-color: blue;
+}
+
+section.infinite>h2 {
+    color: #e2e2e2;
+    background-color: #10328a;
+}
+section.infinity>p{
+	background-color: orange;
+}
+section.one>p{
+	background-color: aqua;
+}
+section.infinite>p{
+	background-color: violet;
+}
+section>p {
+    padding: 40px 15px 15px 15px;
+}
+.row {
+    width: 100%;
+}
+@media (min-width: 992px) {
+     .col-lg-4{
+        float:left;
+        width: 33%;
+    }
+    /*tablet view options*/
+    @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+
+/* Mobile view options */
+
+@media (max-width: 767px) {
+     .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
