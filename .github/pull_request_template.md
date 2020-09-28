@@ -3,13 +3,12 @@
 ## Please check if the PR fulfills these requirements
 
 - [ ] The commit message follows [best practices](https://github.community/t/best-practices-for-pull-requests/10195)
-- [ ] Proper `documentation` has been added
-- [ ] `Steps to run the project` have been included in the README
+- [ ] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
 - [ ] No `binaries/compressed` files have been added
-- [ ] Removed pre-existing assignment `README` files
-- [ ] `Screenshots` have been added to the screenshots folder (optional for backend code)
+- [ ] All pre-existing files in the repository have been removed
+- [ ] `Screenshots` have been added to the screenshots folder (optional for backend code).
 
-## Breifly write about the project that you have submitted from the perspective of the user.
+## Briefly write about the project that you have submitted from the perspective of the user.
 
 
 
