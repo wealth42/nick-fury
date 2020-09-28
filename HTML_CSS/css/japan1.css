@@ -1,0 +1,49 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+a{
+    color: black;
+}
+a:hover
+{
+   color: black;
+}
+ul{
+    text-decoration:none;
+    list-style: none
+}
+li:hover{
+   text-decoration:underline;
+}
+.dropdown:hover .dropdown-menu {
+   display: block;
+   margin-top: 0; // remove the gap so it doesn't close
+
+}
+.dropdown-toggle::after {
+   content: none;
+}
+.btn
+{
+   font-size: 90%;
+   font-weight: 600;
+}
+.heading2 #fuji
+{
+  height: 100vh;
+  background-image: url("../images/fuji.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+}
+.heading2 #shrine
+{
+  height: 100vh;
+  background-image: url("../images/itsukushima.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+}

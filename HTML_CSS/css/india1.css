@@ -1,0 +1,92 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+a{
+    color: black;
+}
+a:hover
+{
+   color: black;
+}
+ul{
+    text-decoration:none;
+    list-style: none
+}
+li:hover{
+   text-decoration:underline;
+}
+.dropdown:hover .dropdown-menu {
+   display: block;
+   margin-top: 0; // remove the gap so it doesn't close
+
+}
+.dropdown-toggle::after {
+   content: none;
+}
+.btn
+{
+   font-size: 90%;
+   font-weight: 600;
+}
+.heading2 #nubra
+{
+  height: 100vh;
+  background-image: url("../images/nubra.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
+
+.heading2 #stok
+{
+  height: 100vh;
+  background-image: url("../images/stok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
+.heading2 #chand
+{
+  height: 100vh;
+  background-image: url("../images/chandratal.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
+.heading2 #khaj
+{
+  height: 100vh;
+  background-image: url("../images/khajjiar.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
+.heading2 #kudre
+{
+  height: 100vh;
+  background-image: url("../images/kudre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
+.heading2 #agumbe
+{
+  height: 100vh;
+  background-image: url("../images/agumbe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
+  overflow-y: hidden;
+}
