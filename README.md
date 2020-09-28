@@ -1,4 +1,6 @@
 Website is made using HTML,CSS3 and Bootstrap as Framework.
+
+Go to WebPlce>places.html & visit.css
 Started with the logo of the website and then the navigation bar. I have used container class also.
 Coming to the body part I have included images and also I have created links by clicking on the images. I have given basic animation too to the images by hovering over the images.
 Footer part of the website contains social media icons and details for contact. 
@@ -10,4 +12,4 @@ One can also run code in GitHub-pages:Go to settings> Github-pages(Activate GitH
 This is the direct link: https://vhd12.github.io/nick-fury/WebPlce/places.html .
 Filename: places.html and visit.css .
 Purpose of this website: This website is use to give details of places to visit in india. This website can be used for tourism or best places to visit. 
-
+I am also currently working on making a webcalculator
