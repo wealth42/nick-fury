@@ -47,8 +47,10 @@ If you do make any trade-offs in favour of saving time, do mention them in comme
 For a HTML/CSS dev, this could translate to: 
     1. Making smooth animations between different transitions.
     2. Using flexbox and grid techniques separately to show mastery in both.
-5. How much the candidate stays in touch with us during the process of the project
-6. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages
+5. No submissions to be made with compressed/binary files - all source code should be version controlled and visible in plain text in github.
+6. How much the candidate stays in touch with us during the process of the project.
+7. Follow [best practices](https://github.community/t/best-practices-for-pull-requests/10195) for pull requests.
+7. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages.
 
 ### Submission Process
 1. Clone this repository
@@ -57,7 +59,13 @@ For a HTML/CSS dev, this could translate to:
 4. If you are submitting a project of your choice, follow these steps –
     *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
         >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
-5. Raise a Pull Request
+5. Fill the Pull Request template
+    *   Check all the boxes that your Pull Request fulfills.
+    *   Add the description/assumptions for your project 
+    *   The time you spent on the project
+    *   Your motivation behind choosing the project.
+6. Raise a Pull Request
+
 
 ### Code of Ethics
 *   Please be original, all your submissions are public via GitHub.
