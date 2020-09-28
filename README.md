@@ -13,6 +13,7 @@ It took around 4-6 hrs to create this website as it was my first website .
 To run the code: One can use sublime text using browser sync .
 One can also run code in GitHub-pages:Go to settings> Github-pages(Activate GitHub-pages by selecting branch)>A link will appear click on it(https://vhd12.github.io/nick-fury/ )>>then write ahead, the directory where code is placed and filename.html(https://vhd12.github.io/nick-fury/WebPlce/places.html) .
 This is the direct link: https://vhd12.github.io/nick-fury/WebPlce/places.html .
+I also provided screenshot of the website.
 Filename: places.html and visit.css .
 
 Purpose of this website: This website is use to give details of places to visit in india. This website can be used for tourism or best places to visit. 
