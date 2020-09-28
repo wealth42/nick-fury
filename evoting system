@@ -1,0 +1,94 @@
+.html
+
+<html>
+    <head>
+        <title>voting system</title>
+        <link rel="stylesheet" type="text/css" href="voting.css">
+    </head>
+    <body>
+        <div id="form">
+            <fieldset>
+                <legend><h1>voting system</h1></legend>
+                <label>name !</label>&nbsp &nbsp
+                <input type="text" name="name" placeholder="enter your name" required><br><br>
+                <label>father name</label>&nbsp &nbsp
+                <input type="text" name="fname" placeholder="enter your father name" required><br><br>
+                <label>DOB !</label>&nbsp &nbsp
+                <input type="data" name="name" placeholder="dob" required><br><br>
+               
+               
+                <label>GENDER!</label>&nbsp &nbsp 
+                <input type="RADIO" name="GENDER" CLASS="G" VALUE="MALE">Male
+                <input type="radio" name="name" class="g" value="female" checked>Female
+                
+                
+                <label>CNIC !</label>&nbsp &nbsp
+                <input type="number" name="cnic" placeholder="enter your CNIC number" maxlength="15" required><br><br>
+           
+            <label>Political Parties</label>&nbsp &nbsp
+            <select name="political">
+<option value="Null"> Choose Political Party</option>
+<option value="abc"> abc</option>
+<option value="pqr"> pqr</option>
+<option value="lmn"> lmn</option>
+<option value="uvw"> uvw</option>
+<option value="123"> 123</option>
+            </select><br>
+            </fieldset>
+            <input type="submit" name="submit" value="submit">
+            
+        </div>
+    </body>
+</html>
+
+
+
+.css
+#form{
+    width:45%;
+    margin:auto;
+    display:block;
+    text-align:center;
+    font: size 20px;
+    font-family:lato,sans-serif;
+}
+h1{
+    text-align:center;
+    font-size:24px;
+    padding:20px 1em;
+    font-weight:bold;
+    cursor:pointer;
+}
+fieldset{
+    border-radius:15px 15px 15px 15px;
+    background:url(IMAGE\ 1.JPG) no-repeat center;
+    background-size:90% 95%;
+}
+label{
+    font-weight:bold;
+    display:inline-block;
+    margin:5px;
+}
+input[type-data],[type-number],[type-text],select{
+    background:#000;
+    border:1px solid#fff;
+    border-radius:2px;
+    border-width:1px;
+    color: #364536;
+    font-size:15px;
+    margin:5px;
+    padding:12px 12px;
+    display: incline-block;
+}
+input[type-submit]{
+    background-color:#000;
+    color:#fff;
+    padding:15px 50px;
+    text-align:center;
+    font-size:24px;
+    margin:12px 14px;
+    cursor:pointer;
+    border:1px solid #fff;
+    border-radius:4px;
+}
+
