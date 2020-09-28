@@ -60,7 +60,12 @@ For a React Native dev, this could translate to:
 4. If you are submitting a project of your choice, follow these steps –
     *   Attach the story of your project in a file named stories.md at root location. For reference, do checkout [stories](../stories/)
         >   *Since the project is something we'll need to understand purpose of before evaluating, this file should clearly explain the purpose of the application you are publishing.*
-5. Raise a Pull Request
+5. Fill the Pull Request template
+    *   Check all the boxes that your Pull Request fulfills.
+    *   Add the description/assumptions for your project 
+    *   The time you spent on the project
+    *   Your motivation behind choosing the project.
+6. Raise a Pull Request
 
 ### Code of Ethics
 *   Please be original, all your submissions are public via GitHub.
