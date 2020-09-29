@@ -1,0 +1,2 @@
+This project is a simple web application which I named as list maker in this application you can create various lists and add various elements in the list and also can delete elements , elements added in list as well as various elements created is stored in database and server language used is nodejs , database used is mongodb, front end is designed using html and css I have used some css animations also.
+It took me 3 days to complete the project I simultaneously learnt mongodb and node while completing this project
