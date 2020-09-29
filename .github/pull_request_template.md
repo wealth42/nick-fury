@@ -1,6 +1,6 @@
 # Your Name
 
-## Please check if the PR fulfills these requirements
+## Submission checklist
 *Mark checks as explained on this [link](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-task-lists#creating-task-lists), and remove this instruction*
 
 - [ ] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
@@ -16,7 +16,7 @@
 *Replace this text to brief your project as a user story*
 
 ## Assumptions you have made for this project?
-*Mention ALL assumptions you have made for this project.*
+*Mention ALL assumptions you have made for this project. If none, specify so.*
 
 ## Other information (like testing credentials)
 *If your project has some credentials necessary to explore, add them here, or mention None*
