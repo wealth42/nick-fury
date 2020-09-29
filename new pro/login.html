@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css  ">
+    <link rel="stylesheet" href="login.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log-In Form</title>
+</head>
+<div class="home">
+        <a href="./index.html"><i class="fa fa-home"></i>Home</a>
+</div>
+<body>
+    <div class="login-sec">
+        <h1>Log-In</h1>
+        <div class="text">
+            
+                 <input type="text" placeholder="Username" class="inp" title="Enter Username" id="name" required><i class="fa fa-user"></i>
+                </div>
+                <div id="name_error" class="val_error"></div>
+        <div class="text">
+                <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Password" class="inp" title="Enter Password" id="pass" required>
+        </div>
+        <div id="pass_error" class="val_error"></div>
+            <input type="submit" class="btn" value="Sign-in" onclick=" return validate()">
+    </div>
+    <script>
+    function validate()
+    {
+        var username=document.getElementById('name');
+        var password=document.getElementById('pass');
+        var name_error=document.getElementById('name_error');
+        var pass_error=document.getElementById('pass_error');
+
+        if(username.value=="")
+        {
+    		username.style.borderbottom = "2px solid red";
+            username.style.background = "transparent";
+    		name_error.style.color = "white";
+    	    name_error.innerHTML = "Username is required";
+            username.focus();
+            return false;
+         }
+         if(password.value=="")
+    	{
+    		password.style.borderbottom = "2px solid red";
+            password.style.background = "transparent";
+    		pass_error.style.color = "white";
+    	    pass_error.innerHTML = "Password is required";
+            password.focus();
+            return false;
+        }
+        else if(username.value=="Ilham121" && password.value=="ilham123#")
+        {
+            alert("Ridirecting to cart ...");
+        	open("E:/new%20pro/cart.html");
+        	return true;
+        }
+        else
+        {
+            alert("Wrong Credentials");
+            return false;
+            open("file:///E:/new%20pro/login.html")
+        }
+
+        
+    }
+    </script>
+</body>
+</html>

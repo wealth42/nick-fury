@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shopping Hub</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css  ">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+		.container {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.grid {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.card {
+			margin: 10px 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+
+
+		input[type="button"] {
+			border: none;
+			text-align: center;
+			display: inline-block;
+		}
+        .img {
+            width: 120px;
+            height: 130px;
+        }
+
+        .card {
+            display: block;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            color: black;
+            margin: 10px 0px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        button {
+            background-color: #333333;
+            border: none;
+            color: white;
+            padding: 12px 26px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+        }
+	</style>
+</head>
+
+<body>
+<div class="h1">
+<div class="h2">
+ <div class="h3"><a href="file:///E:/new%20pro/index.html" ><i class="fa fa-globe"></i>&nbsp;Shopping Hub</div>
+	<div class="h4"><a href="" >Contact Us</div>
+ <div class="h4"><a href="" ><i class="fa fa-user"></i>&nbsp; Profile</div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div id="cartBody">
+
+        </div>
+    </div>
+
+    <!-- My Cart Item Theme -->
+    <template>
+        <div class="card">
+            <img src="" alt="" class="img">
+            <span class="item-price">PRICE :4299</span>&nbsp;&nbsp;
+            <span class="item-count">QUANTITY : </span>
+           <button onclick="deleteProduct(this)" class="delete-button">Delete</button>
+        </div>
+    </template>
+    <button class="btn btn-primary" style="margin-left: 1050px; background-color: slateblue;color: white;"><a href="E:/new%20pro/checkout.html">Checkout</a></button>
+
+
+    <script>
+        var items = localStorage.getItem("cart");
+        items = items != null ? JSON.parse(items) : {};
+
+        var cartBody = document.getElementById("cartBody");
+
+        var myTemplate = document.getElementsByTagName("template")[0];
+        node = myTemplate.content.querySelector(".card");
+
+        for (var item in items) {
+            main = document.importNode(node, true);
+
+
+            itemCount = main.querySelector(".item-count")
+            itemCount.textContent += items[item];
+
+
+            iimage = main.querySelector(".img")
+            iimage.src = "./page1/" + item + ".jpg";
+
+            bbuton = main.querySelector(".delete-button");
+
+            var att = document.createAttribute("data-id");
+            att.value = item;
+            bbuton.setAttributeNode(att);
+
+            cartBody.appendChild(main);
+        }
+
+        function deleteProduct(dButton) {
+            if (confirm("Are you  sure ?")) {
+
+                var id = dButton.getAttribute("data-id");
+                var items = JSON.parse(localStorage.getItem("cart"));
+
+                delete items[id];
+
+                localStorage.setItem("cart", JSON.stringify(items));
+                window.location.reload();
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

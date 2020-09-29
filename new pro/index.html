@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Hub</title>
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel = "stylesheet" type = "text/css" href = "index.css">
+   <style>
+     body {font-family: 'Times New Roman', Times, serif;}
+    ul
+    {
+      list-style-type: none;
+    }
+    a
+    {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover
+    {
+      text-decoration: none;
+      color: white;
+    }
+    footer
+    {
+      background-color: rgba(0, 0, 0, 0.795);
+      color: blanchedalmond;
+      font-size: 15px;
+      letter-spacing: 1.2px;
+    }
+    footer:hover
+    {
+      background: linear-gradient(to right,rgba(4,2,4,0.5));
+    }
+    .footer-social
+    {
+      padding-right: 15px;
+    }
+    .fa-facebook,.fa-instagram,.fa-twitter
+    {
+      padding-right: 50px ;
+      font-size: 20px;
+    }
+     .list-inline
+    {
+      display: inline-flex;
+      
+    }
+    .h3
+    {
+      font-size: 22px;
+    }
+    .h5
+    {
+      font-size:18px;
+    }
+   </style>
+  </head>
+<body>
+<div class="h1">
+<div class="h2">
+    <div class="h3" ><a href="#" ><i class="fa fa-globe"></i>&nbsp; Shopping Hub</a></div> 
+    <div class="h5"><a href="./contact/contact.html" >Contact Us</a></div>   
+    <div class="h5"><a href="./cart.html"><i class="fa fa-cart-plus"></i><span class="badge badge-warning" id="badge1">2</span></a></div>
+ <div class="h5" ><a href="./sign-up/register.html" ><i class="fa fa-users"></i>&nbsp; Sign Up</a></div>
+ <div class="h5"><a href="./login.html"><i class="fa fa-user"></i> Log-In</a></div>
+ </div>
+ </div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="5.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="6.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="a1">
+<div class="a2">
+<div class="a3">
+BRANDS IN FOCUS</div></div></br></br></br>
+<table style="width:100%">
+  <tr>
+    <td><a href="./page1/page1.html"><img src="a1.jpg" alt="description here" height="550" width="377" /></td></a>
+    <td><a href="./page1/page2.html"><img src="a2.jpg" alt="description here" height="550" width="377"></td></a>
+    <td><a href="./page1/page3.html"><img src="a3.jpg" alt="description here"height="550" width="377"></td></a>
+	<td><a href="./page1/page4.html"><img src="a4.jpg" alt="description here"height="550" width="377"></td></a>
+  </tr>
+  <tr>
+    <td><a href="./page5/page5.html">	<img src="a5.jpg" alt="description here"height="550" width="377"></td></a>
+    	<td><a href="./page6/page6.html"><img src="a6.jpg" alt="description here"height="550" width="377"></td></a>
+			<td><a href="./page7/page7.html"><img src="a7.jpg" alt="description here"height="550" width="377"></td></a>
+				<td><a href="./page8/page8.html"><img src="a8.jpg" alt="description here"height="550" width="377"></td></a>
+  </tr>
+</table>
+<footer>
+  <br>
+  <div id="footer-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="single-footer">
+         <h2> About Website</h2>
+         <p>This is an E-commerce Website which
+         tends you to give the sheer quality
+         and truthworthy products.
+         <svg style="height: 20px; width: 20px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grin" class="svg-inline--fa fa-grin fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm80 256c-60.6 0-134.5-38.3-143.8-93.3-2-11.8 9.3-21.6 20.7-17.9C155.1 330.5 200 336 248 336s92.9-5.5 123.1-15.2c11.3-3.7 22.6 6.1 20.7 17.9-9.3 55-83.2 93.3-143.8 93.3z"></path></svg></p>
+         <ul class="footer-social list-inline">
+           <li><a href=""><i class="fa fa-facebook"></i> </a></li>
+           <li><a href=""><i class="fa fa-instagram"></i> </a></li>
+           <li><a href=""><i class="fa fa-twitter"></i> </a></li>
+         </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="single-footer">
+          <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Support</h2>
+          <ul class="link-area">
+            <li><a href=""><i class="fa fa-phone"></i> +91 120 1800 2722 </a></li>
+            <li><a href=""><i class="fa fa-book"></i> Privacy Policy </a></li>
+            <li><a href=""><i class="fa fa-envelope-o"></i> customer@shoppinghub.com </a></li>
+            <li><a href=""><i class="fa fa-map"></i> 22/14 Gurugram,Haryana,India </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+         <div class="single-footer">
+           <h2>Subscribe to our Newsletter</h2>
+            <input type="email" placeholder="Enter your Mail">
+            <button class="btn btn-primary" onclick="alert('Subscribed successfully !!')">Subscribe</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="copyright-area text-center">
+          <p><strong><em>&copy; 2019, All Rights Reserved.</em></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- <section >
+  <h1 id="h1">Management Team</h1>
+  <div class="sec">
+    <img src="ilham.jpg" id="img1">
+    <img src="piyush.jpg" id="img2">
+    <img src="ameer.jpg" id="img3">
+    <img src="nitin.jpg" id="img4">
+  </div>
+</section>
+<footer>
+  <a href="#">About</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms & Conditions</a>
+  <p>Follow Us :</p>
+  <a href=""><img src="fb.png"></a>
+  <a href=""><img src="twitter.png"></a>
+</footer> -->
+</body>
+</html>
+
+
+
+
+
+

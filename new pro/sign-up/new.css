@@ -1,0 +1,103 @@
+.home,.home a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.home i
+{
+    font-size: 30px;
+    color: white;
+    margin-left:10px;
+    margin-top:10px;
+    padding-right:5px ;
+}
+#under
+{
+	font-size: 40px;
+	margin-left: 510px;
+	width:220px;
+	padding-bottom: 10px;
+	border-bottom: 6px solid teal;
+}
+.textinput
+{
+	padding:20px;
+	margin:0px;
+	width: 330px;
+	vertical-align: center;
+	border: 1px dashed teal;
+}
+h1
+{
+	margin-top: 20px;
+	text-align: center;
+}
+input:hover
+{
+	color:rgb(10,20,30);
+	background-color: white;
+	border:3px red;
+	transform: scale(1.15);
+	transition: 1s ease-in;
+	border-bottom: white;
+}
+input[type=submit]:hover
+{
+	transform:scale(1.1);
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("shopping.jpg") ;
+    backface-visibility: 0.8;
+    background-size:cover;	
+    background-repeat:no-repeat;
+    color:white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+.btn 
+{
+	margin-top: 20px;
+   height: 50px;
+   width: 340px;  
+   color:white;
+   letter-spacing: 1.2px;
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+   background-color:teal;
+}
+img
+{
+	align-items: center;
+	width:50px;
+	border:solid 2px teal;
+	border-radius: 50%;
+	height:50px;
+}
+#box
+{ 
+  width: 350px;
+  height:auto;
+  overflow: hidden;
+  text-align: center;
+  border:solid 2px teal ; 
+  border-radius: 5px;
+  margin-left: 520px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.val-error
+{
+	color: red;
+}
+#id1
+{
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 1.2px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}

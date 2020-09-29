@@ -1,0 +1,75 @@
+.textinput
+{
+	padding:20px;
+	margin:0px;
+	width: 330px;
+	vertical-align: center;
+	border: 1px dashed #3DB69E;
+}
+h1
+{
+	margin-top: 20px;
+	font-color:#3DB69E;
+	text-align: center;
+}
+input:hover
+{
+	color:rgb(10,20,30);
+	background-color: white;
+	border:3px red;
+	transform: scale(1.15);
+	transition: 1s ease-in;
+	border-bottom: white;
+}
+input[type=submit]:hover
+{
+	transform:scale(1.1);
+}
+
+body
+{
+    background-image:url("ecom.jpg");
+    backface-visibility: 0.8;
+    background-size:cover;	
+    background-repeat:no-repeat;
+    color:white;
+	font-family:segoe script;
+	font-size: 20px;
+}
+.btn 
+{
+	margin-top: 20px;
+   height: 50px;
+   width: 340px;  
+   color:white;
+   letter-spacing: 1.2px;
+   font-size: 20px;
+   font-weight: 500;
+   font-family: Segoe script;
+   background-color: #3DB69E;
+}
+img
+{
+	align-items: center;
+	width:50px;
+	border:solid 2px #3DB69E;
+	border-radius: 50%;
+	height:50px;
+}
+#box
+{ 
+  width: 350px;
+  height:430px;
+  overflow: hidden;
+  text-align: center;
+  border:solid 2px #3DB69E ; 
+  border-radius: 5px;
+  margin-left: 520px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.val-error
+{
+	color: red;
+}
+

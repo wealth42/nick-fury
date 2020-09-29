@@ -1,0 +1,94 @@
+html
+{
+  height:100%;
+  overflow:hidden;
+}
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("shopping.jpg") ;
+	background-size: cover;
+	font-family: courier;
+	color: wheat;
+}
+.home,.home a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.home i
+{
+    font-size: 30px;
+    color: white;
+    margin-left:15px;
+    margin-top:15px;
+    padding-right:5px ;
+}
+
+.header
+{
+	position: absolute;
+	top: 40px;
+	left: 450px;
+}
+.header h1
+{
+	font-size: 54px;
+	color:teal;
+} 
+p
+{
+	top: 35px;
+	left: 600px;
+	margin-bottom:20px;
+	font-size: 16px;
+	color: teal;
+}
+.form
+{
+	top:90%;
+	left:10%;
+	
+}
+input
+{
+	color: white;
+	width: 100%;
+	margin:20px 0;
+	padding-top: 15px;
+	background: rgba(0,0,0,0);
+	opacity: 3;
+	border:none;
+	outline: 0;
+	border-bottom:2px solid white;
+}
+::-webkit-input-placeholder
+{
+	color:white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+::-moz-input-placeholder
+{
+	color:white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+#msg
+{
+	margin-top:50px; 
+}
+button
+{
+	border-radius: 5%;
+	border: 2px dotted white;
+	padding:20px 25px;
+	font-size: 16px;
+	background: teal;
+	margin: 40px 180px;
+	color: white;
+}
+.error
+{
+	color: red;
+}

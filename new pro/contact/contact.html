@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Contact Form
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css  ">
+	<link rel="stylesheet" type="text/css" href="ss.css">
+</head>
+<div class="home">
+        <a href="E:/project/index.html#"><i class="fa fa-home"></i>Home</a>
+</div>
+<body>
+<div class="header">
+<center>
+<h1><b>Contact Form</b></h1>
+<p>
+We are always ready to help you.
+</p>
+<div class="form">
+<form>
+<input type="text" placeholder="Enter your name" id="name" required>
+<span class="error" id="name_error"></span>
+<input type="email" placeholder="E-mail" id="email" required>
+<span class="error" id="email_error"></span>
+<input type="text" id="msg" placeholder="Message" required>
+<span class="error" id="msg_error"></span>
+</form>
+<button onclick="valid()">Send It </button>
+</center>
+</div>
+<script>
+function valid()
+{
+	if(document.getElementById('name') || document.getElementById('email') || document.getElementById('msg')=="")
+	{
+		alert("Enter details");
+	}
+	else if(document.getElementById('name').value=="piyush")
+	{
+		alert("Message successfully sent !!");
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>THIS IS MY PROJECT</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+	<font>
+	<h1><u>Registration</h1></u> </h1>
+	<form id="box" name="vform" method="POST" onsubmit ="return validate()">
+	Name <br>
+	 <input type="text" name="username" class="textinput" placeholder="Enter your name"></input><br>
+	 <div id="name_error" class="val_error"></div>
+	E-mail 
+	<br><input type="email" name="email" class="textinput" placeholder="Enter E-mail(Ex-abc@gmail.com)"></input><br>
+	<div id="email_error" class="val_error"></div>
+	Password <br>
+	<input type="password" class="textinput" name="password" placeholder="Create a password"></input><br>
+	<div id="password_error" class="val_error"></div>
+	Confirm password
+	<input type="password" class="textinput" name="confirm_password" placeholder="Confirm password"></input><br>
+	<div id="c_password_error" class="val_error"></div>
+	<input type="submit" class="btn" name="register" value="Register"></input>
+    </form>
+    <script type="text/javascript">
+	var username=document.forms["vform"]["username"];
+	var email=document.forms["vform"]["email"];
+	var password=document.forms["vform"]["password"];
+	var confirm_password=document.forms["vform"]["confirm_password"];
+	//getting error id
+	var name_error=document.getElementById("name_error");
+	var email_error=document.getElementById("email_error");
+	var password_error=document.getElementById("password_error");
+	var c_password_error=document.getElementById("c_password_error");
+     //listener
+    username.addEventlistener("blur",nameVerify,true);
+    email.addEventlistener("blur",emailVerify,true);
+    password.addEventlistener("blur",passwordVerify,true);
+    //function starts
+    function validate()
+    {
+    	//username validation
+    	if(username.value=="")
+    	{
+    		username.style.border = "2px solid red";
+    		name_error.style.color = "red";
+    	    name_error.innerHTML = "Username is required";
+            username.focus();
+            return false;
+         } 
+         //email validation
+    	if(email.value=="")
+    	{
+    		email.style.border = "2px solid red";
+    		email_error.style.color = "red";
+    	    email_error.textContent = "E-mail is required";
+            email.focus();
+            return false;
+        }     
+         //password validation
+    	if(password.value=="")
+    	{
+    		password.style.border = "2px solid red";
+    		password_error.style.color = "red";
+    	    password_error.textContent = "Password is required";
+            password.focus();
+            return false;
+        }   
+
+         if(password.value!=confirm_password.value)
+        {
+         	password.style.border = "2px solid red";
+         	confirm_password.border = "2px solid red";
+         	password_error.style.color = "red";
+         	password_error.innerHTML = "Passwords do not match ";
+         	return false;
+        }
+        else
+        {
+        	alert("Registered successfully !!!");
+        	open("file:///E:/Project/Home%20page.html");
+        	return true;
+        }
+    }
+    //event handler functions
+
+    function nameVerify()
+    {
+    	if(username.value!="")
+    	{
+    		username.style.border = "1px dashed orange";
+    		name_error.innerHTML = "";
+    	}
+    }
+    function emailVerify()
+    {
+    	if(email.value!="")
+    	{
+    		email.style.border = "1px dashed orange";
+    		email_error.innerHTML = "";
+    	}
+    }
+    function passwordVerify()
+    {
+    	if(password.value!="")
+    	{
+    		password.style.border = "1px dashed orange";
+    		password_error.innerHTML = "";
+    	}
+    }
+</script>
+<hr>
+<p align="center">Follow us :<br>
+<a href="https://www.facebook.com/"><img src="fb.png"></a>
+<a href="https://twitter.com/login?lang=en"><img src="twitter.png"></a>
+</p>
+</font>
+</body>
+</html>
