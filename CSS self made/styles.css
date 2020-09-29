@@ -1,0 +1,446 @@
+/*CSS Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Navigation  Bar */
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #635b5b;
+    position:absolute;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.55; */
+}
+
+/* Navigation  Bar: Logo  */
+#logo{
+    margin: 10px  20px;
+    display: flex;
+    /* font-family: 'Baloo Bhai', cursive; */
+    font-size:1.2rem;
+}
+
+#logo img{
+    height: 50px;   /*gives height and width of 50px*/
+    /* width: 50px; */
+    margin: 3px 5px;
+}
+#logo p{
+    margin: 13px 0px;
+    padding: 0px 10px;
+    color: darkorange;
+}
+
+/* Navigation  Bar: Listing  */
+#navbar ul{
+    display: flex;
+    /* font-family: 'Baloo Bhai', cursive; */
+}
+#navbar ul button{
+    display: flex;
+    /* font-family: 'Baloo Bhai', cursive; */
+}
+
+#navbar ul li{
+    padding: 0px 10px;
+    list-style: none;
+    font-size:1.2rem;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;  /*We want to give padding so use display block*/
+    border-radius: 17px;
+    padding: 5px 20px;
+}
+
+#navbar a:hover{
+    cursor: pointer;
+    color: brown;
+    background-color: #f1f1f1
+}
+/*Dropdown menu*/
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    /* text-align: center; */
+    display: none;
+    position: absolute;
+    background-color: #635b5b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+  /* home sectiom */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    /* width: 1326px; */
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    background: url('img/home1.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+#home h1{
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#first, #second, #third{
+    /* background-color: rgb(255, 255, 255); */
+    background-color:rgb(236, 236, 236);
+    margin: 10px 0px;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#content-container{
+    background-color: rgb(211, 203, 203);
+}
+
+.box{
+    border: 2px solid rgb(230, 226, 226);
+    background-color: rgb(241, 227, 227);
+    cursor: pointer;
+}
+.box p{
+    padding-top: 5px;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#service{
+    margin: 20px;
+    display: flex;
+}
+
+#service .box{
+    background: white;
+    border: 2px solid rgb(245, 242, 242);
+    padding: 0px 60px;
+    padding-bottom: 34px;
+    margin: 15px 25px;
+    border-radius: 20px;
+}
+
+#service .box img{
+    height: 220px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+#service2{
+    margin: 20px;
+    display: flex;
+}
+
+#service2 .box{
+    background: white;
+    border: 2px solid rgb(245, 242, 242);
+    padding: 0px 60px;
+    padding-bottom: 34px;
+    margin: 15px 25px;
+    border-radius: 20px;
+}
+
+
+#service2 .box img{
+    height: 220px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+#service3{
+    margin: 20px;
+    display: flex;
+    border-bottom: 1px solid  rgb(211, 203, 203);
+}
+
+#service3 .box{
+    background: white;
+    border: 2px solid rgb(245, 242, 242);
+    padding: 0px 60px;
+    padding-bottom: 34px;
+    margin: 15px 25px;
+    border-radius: 20px;
+}
+
+#service3 .box img{
+    height: 220px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+#review{
+    background-color: rgb(211, 203, 203);
+}
+
+#cards{
+    background-color:rgb(236, 236, 236);
+    margin: 10px 0px;
+}
+
+#rev{
+    margin: 20px;
+    display: flex;
+}
+
+#rev .card{
+    background: white;
+    border: 2px solid rgb(245, 242, 242);
+    padding: 5px 25px;
+    margin: 6px 25px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+#rev .card img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 8px 20px;
+}
+
+.primary-h1{
+    color: chocolate;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.secondary-h{
+    font-size: 2.1rem;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.ternary-h{
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+/* About Page */
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    align-items: center;
+    justify-content: center;
+}
+
+#about::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    background: url('img/home.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+#about h1{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(239 245 251 / .4);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}    
+#about p{
+    color: black;
+    /* background-color: rgb(239 245 251 / .4); */
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+/* services */
+
+#hd{
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    align-items: center;
+    justify-content: center;
+}
+#painting{
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    align-items: center;
+    justify-content: center;
+}
+#hd::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 418px;
+    left: 0;
+    opacity: 0.7;
+    background: url('img/decor.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+#painting::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    left: 0;
+    opacity: 0.7;
+    background: url('img/paint.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+#hd h1{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(239 245 251 / .4);
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}    
+#hd p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+#painting, h1{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(239 245 251 / .4);
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}    
+
+#painting p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+#contact-us::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    background: url('img/contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+#contact-us{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Bree Serif', serif;
+}
+/* #contact-us, h1{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(239 245 251 / .4);
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+}     */
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 6px;
+    /* border-radius: 10px; */
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box  form{
+    width:47% ;
+}
+
+#contact-box  label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn1{
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #4a240c;
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    margin: 10px 0px;/*same on all sides*/
+    cursor: pointer;
+}
