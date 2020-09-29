@@ -1,0 +1,140 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+	
+	.inner{
+		margin-left: 28px;
+	}
+	.socialicons{
+		float: left;
+		margin-left: 28%;
+		display: inline-grid;
+	}
+
+	.menu{
+		display: none;
+	}
+	.logo{
+		text-align: center;
+	}
+
+	.header-bottom{
+		padding-bottom: 15px;
+	}
+	.slicknav_btn{
+		margin-top: 165px;
+	}
+	.slicknav_nav a{
+		border-bottom: 1px solid #ddd;
+		margin: 0;
+		color: #333;
+		background: #FFB607;
+	}
+	.slicknav_nav .slicknav_row{
+		margin: 0;
+	}
+	
+	.register{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.btn-group-lg > .btn, .btn-lg{
+		padding: 12px 8px;
+		font-size: 16px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px){ 
+	
+	.inner{
+		float: left;
+		
+	}
+	.socialicons{
+		float: right;
+		margin-top: -32px;
+		
+	}
+	.socialicons ul{
+		
+	}
+	.menu{
+		display: none;
+	}
+	.logo{
+		position: relative;
+	}
+	.register{
+		position: absolute;
+		left: 40%;
+	}
+	
+	.header-bottom{
+		padding-bottom: 20px;
+		position: relative;
+	}
+	.slicknav_btn {
+		position: absolute;
+		top: 60px;
+		right: 0;
+	}
+	
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+
+	.socialicons{
+		
+		float: right;
+	}
+	.menu{
+		display: none;
+	}
+	.logo{
+		position: relative;
+	}
+	.register{
+		position: absolute;
+		left: 40%;
+	}
+	.header-bottom{
+		padding-bottom: 20px;
+		position: relative;
+	}
+	.slicknav_btn {
+		position: absolute;
+		top: 60px;
+		right: 0;
+	}
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ 
+
+
+	.socialicons{
+		float: right;
+	}
+	.menu ul li a{
+		padding: 22px 18px;
+	}
+	.btn-group-lg > .btn, .btn-lg{
+		padding: 12px 6px;
+		font-size: 16px;
+	}
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	.socialicons{
+		float: right;
+	}
+ }

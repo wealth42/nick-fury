@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.gap-30{
+    margin-bottom: 30px;
+}
+.gap-40{
+    margin-bottom: 40px;
+}
+.border{
+    width: 60px;
+    height: 5px;
+    background: #fff;
+}
+.borderc{
+    width: 85px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: 140px;
+    left: 47%;
+   
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+
+}
+.main-content .left-sidebar{
+    width: 20%;
+    height: auto;
+    background: #434F56;
+    float: left;
+}
+.main-content .left-sidebar .p-title{
+    width: 100%;
+    padding: 13px;
+    padding-left: 20px;
+    background: #434F56;
+    border-bottom: 1px solid #ddd;
+}
+.main-content .p-title a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.main-content .p-title a i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.main-content .p-title a span{
+    margin-left: 10px;
+}
+.main-content .left-sidebar .profile{
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+.main-content .left-sidebar .profile .profile-pic{
+    width: 40%;
+    float: left;
+    
+}
+.main-content .left-sidebar .profile img{
+    width: 85px;
+    height: 85px;  
+    border: 5px solid #ddd;
+}
+.main-content .left-sidebar .profile .profile-info{
+    width: 60%;
+    float: left;
+    color: #fff;
+    
+}
+.main-content .left-sidebar .profile .profile-info h2{
+    font-size: 23px;
+}
+
+.sidebar-menu{
+    color: #fff;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 0;
+}
+.sidebar-menu h3{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.sidebar-menu .border{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sidebar-menu ul li a{
+    text-decoration: none;
+    color: #eee;
+    width: 270px;
+    padding: 15px 20px;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+    transition: all .5s ease;
+}
+.sidebar-menu ul li a:hover{
+    background: #1E282C;
+    color: #fff;
+
+}
+.sidebar-menu ul{
+    padding-left: 0;
+    
+   
+}
+.sidebar-menu ul li{
+   
+     
+       
+}
+.sidebar-menu  ul li a i{
+    margin-right: 10px;
+    font-size: smaller;
+}
+.sidebar-menu ul li a span{
+    float: right;
+    
+}
+.sidebar-menu .menus1,
+.sidebar-menu .menus2,
+.sidebar-menu .menus3,
+.sidebar-menu .menus4,
+.sidebar-menu .menu5{
+    display: none;
+}
+.sidebar-menu .menus1 li,
+.sidebar-menu .menus2 li,
+.sidebar-menu .menus3 li,
+.sidebar-menu .menus4 li{
+    margin-left: 60px;
+
+    
+
+}
+.sidebar-menu .menus1 li a,
+.sidebar-menu .menus2 li a,
+.sidebar-menu .menus3 li a,
+.sidebar-menu .menus4 li a{
+    padding: 0;
+    padding: 10px;
+    padding-left: 0;
+}
+.sidebar-menu .menus1 li a:hover,
+.sidebar-menu .menus2 li a:hover,
+.sidebar-menu .menus3 li a:hover,
+.sidebar-menu .menus4 li a:hover{
+    background: 0;
+    color: #fff;
+}
+.nav-pills .nav-link.active, .nav-pills .active>.nav-link{
+    
+   
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    border-right: 5px solid #1ABB9C;
+    border-radius: 0;
+    
+}
+
+
+.nav-pills li {
+    background: 0;
+}
+
+
+.content{
+    width: 80%;
+    height: auto;
+    float: right;
+   
+}
+.content .inner{
+    width: 100%;
+    height: 70px;
+    background: #434F56;
+    padding: 12px;
+
+
+    
+    
+}
+
+.content .inner .heading{
+   width: 60%;
+   float: left;
+   color: #fff;
+}
+.content .inner .header-profile{
+   width: calc(40%-20px); 
+   float: right;
+   margin-right: 20px;
+
+  
+   
+   
+
+    
+}
+.content .inner .header-profile .icon i{
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.header-profile span{
+    color: #fff;
+    margin-left: 10px;
+}
+.header-profile ul li{
+
+       list-style: none;
+       float: left;
+    
+}
+.header-profile ul li i{
+    color: #fff;
+
+}
+.header-profile .header-info{
+   
+}
+.header-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.dropdown img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+.dropdown-menu{
+    background: #434F56;
+   
+    min-width: 240px;
+    padding: 0;
+     margin-left: -40px; 
+     top: 56px;
+     border-radius: 0;
+     border-top: 1px solid #ddd;
+
+}
+.dropdown-menu .user-body{
+
+}
+.dropdown-menu li{
+    list-style: none;
+    float: none;
+    
+   
+    
+}
+.dropdown-menu li:hover{
+    background: #333;
+}
+.dropdown-menu li a{
+    text-transform: capitalize;
+    color: #ddd;
+    width: 240px;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    
+
+}
+.dropdown-menu li:first-child a{
+    
+}
+/*dashboard-header*/
+.dashboard-header .left{
+    padding: 20px;
+}
+
+.dashboard-header .left p span{
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.dashboard-header .right{
+    padding: 20px;
+    margin-right: 20px;
+}
+.dashboard-header .right a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #222;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+.dashboard-header .right a i{
+    margin-right: 5px;
+}
+.dashboard-header .right span{
+    text-transform: capitalize;
+}
+.counterup .box{
+    width: 100%;
+    height: 100px;
+    background: #00C0EF;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+.counterup .box2{
+    background: #00A65A;
+}
+.counterup .box3{
+    background: #DD4B39;
+}
+.counterup .box4{
+    background: #F39C12;
+}
+.counterup .box:hover{
+    transform: scale(1.1);
+     -webkit-transition: ease .5s all;
+    -moz-transition: ease .5s all;
+    -ms-transition: ease .5s all;
+    -o-transition: ease .5s all;
+    transition: ease .5s all;
+}
+.counterup .box .icon{
+    width: 15%;
+    float: right;
+}
+.counterup .box .text{
+    width: 85%;
+    float: left;
+}
+.counterup .box i{
+    font-size: 30px;
+    color: #ddd;
+    margin-top: 20px;
+}
+.counterup .box span{
+    margin-right: 5px;
+}
+.counterup .box h2{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+}
+.counterup .box h4 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    margin-top: 0;
+    color: #fff;
+}
+
+/*=======
+    st-registraion
+========*/
+
+.registration{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reg-header h4{
+    margin-top: 20px;
+}
+.reg-body.user-content{
+   margin: 0;
+
+}
+.reg-body{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.reg-body .form-group{
+    margin-bottom: 16px;
+    
+}
+.reg-body label{
+    width: 200px;
+   margin-right: 20px;
+   
+}
+.reg-body .custom{
+    width: 350px;
+}
+.reg-body .custom textarea{
+  
+}
+.form-inline label{
+    text-align: right;
+    display: block;
+    font-weight: bold;
+}
+.reg-body .submit{
+    margin-top: 25px;
+    margin-left: 300px;
+    
+}
+.login{
+    position: relative;
+}
+.login-body{
+    
+    width: 320px;
+    
+}
+.login-body a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 50px;
+    
+}
+.login-content{
+
+    width: 400px;
+    margin: 0 auto;
+    background: #000;
+    padding: 40px;
+}
+/*student info*/
+.std-info table tbody{
+    font-size: 14px;
+}
+.bstore{
+    width: 600px;
+    margin-left: 30px;
+}
+.dbooks table thead{
+    font-size: 16px;
+}
+.dbooks table tbody{
+    font-size: 14px;
+    background: #2C3034;
+    color: #fff;
+}
+.dbooks table tbody img{
+    width: 100px;
+    height: 120px;
+}
+.dbooks table tbody a{
+    text-decoration: none;
+    color: #C82333;
+    font-size: 25px;
+}
+
+/*pagination*/
+
+.pagination{
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+.pagination ul li{
+    
+
+}
+.pagination ul li a{
+     color: #333;
+     border: 1px solid #ffb607;
+     margin-right: 8px;
+}
+.pagination ul li:hover a{
+    background: #ffb607;
+    color: #fff;
+}
+.profile-content{
+    width: 100%;
+}
+.profile-content .photo{
+    width: 250px;
+    height: 350px;
+}
+.photo img{
+    width: 250px;
+    height: 350px;
+
+}
+.details{
+    padding: 35px 25px;
+    width: 100%;
+    
+    box-shadow: 0px 0px 8px;
+}
+.rbook-info tbody{
+    font-size: 14px;
+}
+.rbook-info a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link.active{
+    background: red;
+}
