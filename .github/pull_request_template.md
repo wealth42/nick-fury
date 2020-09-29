@@ -1,8 +1,3 @@
----
-labels: django,html/css,python,reactjs,reactnative
-assignees: 'pradnyalgandhi'
-
----
 # Your Name
 
 ## Please check if the PR fulfills these requirements
@@ -15,8 +10,7 @@ assignees: 'pradnyalgandhi'
 - [ ] `Screenshots` have been added to the screenshots folder (optional for backend code).
 - [ ] All italicesed instructions under each submission heading inline, have been removed.
 - [ ] You understand that a submission here is publicly visible. 
-- [ ] You have not plagialised, or blatently copied work; and this submission is your original work. 
-- [ ] You have marked the correct applicable label with your PR, and removed any that do not apply. Use [this reference](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/applying-labels-to-issues-and-pull-requests)
+- [ ] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
 
 ## Briefly write about the project that you have submitted from the perspective of the user.
 *Replace this text to brief your project as a user story*
