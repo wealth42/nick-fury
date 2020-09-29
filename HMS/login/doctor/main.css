@@ -1,0 +1,196 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Numans;
+}
+
+a {
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+} 
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2 {margin: 0px;}
+
+/* p {margin: 0px;} */
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/* ------------------------------------ 
+  display: block;
+	outline: none;
+	border: none !important;
+}
+
+textarea {
+  display: block;
+  outline: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+------------------------------------ */
+button {
+	outline: none;
+	
+	font-family: Numans;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.container{
+  padding: 16px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+table {
+  width: 100%;
+  background-color: ##bceabe;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.column100 {
+  width: 130px;
+  padding-left: 25px;
+}
+
+.column100.column1 {
+  width: 265px;
+  padding-left: 42px;
+}
+
+
+.row100.head th {
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.row100 td {
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+
+/*==================================================================
+[ Ver4 ]*/
+
+.table100.ver4 td {
+  font-family: Numans;
+  font-size: 14px;
+  color:#000000;
+  line-height: 1.4;
+}
+
+.table100.ver4 th {
+  font-family: Numans;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+  background-color:blue;
+}
+
+.table100.ver4 .row100:hover td {
+  color:blue;
+}
+/*
+.table100.ver4 .hov-column-ver4 {
+  background-color: #4CAF50;
+}
+
+.table100.ver4 .hov-column-head-ver4 {
+  background-color: #4CAF50 !important;
+}
+*/
+.table100.ver4 .row100 td:hover {
+  background-color: #c1c1f0;
+  color:black;
+}
+
+.button5{
+	
+  border-radius:2px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration:none
+}
+
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+text-decoration:none
+}
+
+.button5 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button5:hover span {
+  padding-right: 25px;
+}
+
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
