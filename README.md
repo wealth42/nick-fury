@@ -1,22 +1,7 @@
-Please check if the PR fulfills these requirements
- The commit message follows best practices
- Proper documentation has been added
- Steps to run the project have been included in the README
- No binaries/compressed files have been added
- Removed pre-existing assignment README files
- Screenshots have been added to the screenshots folder (optional for backend code)
- 
-Briefly write about the project that you have submitted from the perspective of the user.
-This project is designed for online shopping.
-The customer can see the pucrhase acessories they like by adding them to their cart in by going through the details of the product.
-In the cart customer can remove or purchase the product by proceeding to the checkout.
-
-Assumptions you have made for this project?
-Validation of information while singing up for a new customer and log-in of existing customer.
-
-Did you learn anything new while doing this assignment? Please explain.
-How much time did it take for you complete the project?
-Yes,I honed my skills in bootstrap and javascript.I completed it in 3-4 days.
-
-What was your motivation behind choosing this evaluation mode and project?
-I had put in a lot of hardwork in this project and thus wanted to proceed with this mode.
+The project is just a frontend demo of an E-commerce web site.
+The index.html is the home page and a user can log-in or register by clicking on the links in the navigation bar.
+All other pages are linked with the home page.
+You can add an item by clicking on "Add to cart" button below every accessory which will the item in cart. Now u can click on the "cart-icon" visible in the navigation bar on the top right corner.
+It wil show you the materials added to cart.
+You can remove them or proceed to checkout by clicking on either of the buttons.
+The log-in and Registration page have validations which I implemented using javascript and the cart functionality.
