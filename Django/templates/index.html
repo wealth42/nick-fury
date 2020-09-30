@@ -1,0 +1,24 @@
+<!--Extension of base.html page-->
+{% extends "base.html" %} {% block body %}
+<!--Loading CSS-->
+{% load static %}
+<!--News articles-->
+<div class="container">
+    <div class="row">
+        {% for x in api.articles %}
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{{x.urlToImage}}" class="card-img-top" alt="{{x.source.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{x.title}}</h5>
+                    <span class="card-text">{{x.description|truncatechars:150}}</span>
+                    <br>
+                    <a href="{{x.url}}" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+<!--Extention of homepage.html-->
+{% extends "homepage.html" %} {% block corona %}
+<!--COVID Data display-->
+<div id="wrapper">
+    <div class="box-area">
+        <div id="box-front" class="box">
+            <h3 style="text-align: center;">COVID-19</h3>
+            <span><b><u>State:</u></b> {{DATA1.0}} <br><br>
+                <b><u>Active Cases:</u></b> {{DATA1.1}} <br><br>
+                <b><u>Deaths:</u></b> {{DATA1.2}}
+            </span>
+        </div>
+        <div id="box-right" class="box">
+            <h3 style="text-align: center;">COVID-19</h3>
+            <span><b><u>State:</u></b> {{DATA4.0}} <br><br>
+            <b><u>Active Cases:</u></b> {{DATA4.1}} <br><br>
+            <b><u>Deaths:</u></b> {{DATA4.2}}
+        </span>
+        </div>
+        <div id="box-back" class="box">
+            <p style="text-align: center; font-size:18px;"><b>COVID-19</b></p>
+            <p>
+                <b><u>State:</u></b> {{DATA3.0}} <br><br>
+                <b><u>Active Cases:</u></b> {{DATA3.1}} <br><br>
+                <b><u>Deaths:</u></b> {{DATA3.2}}
+            </p>
+        </div>
+        <div id="box-left" class="box">
+            <p style="text-align: center; font-size:18px;"><b>COVID-19</b></p>
+            <p>
+                <b><u>State:</u></b> {{DATA2.0}} <br><br>
+                <b><u>Active Cases:</u></b> {{DATA2.1}} <br><br>
+                <b><u>Deaths:</u></b> {{DATA2.2}}
+            </p>
+        </div>
+        <div id="box-top" class="box"></div>
+        <div id="box-bottom" class="box"></div>
+    </div>
+</div>
+{% endblock %}
