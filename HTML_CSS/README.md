@@ -12,6 +12,3 @@ redirects to a resume page of mine(My first website created from scratch) which 
 The index page also has some cards that redirects users to the respective links like buying a book, read about species thorugh wikipedia etc and there is 
 a suggestions tab where you can help us to give some ideas on how to make website more user-friendly and complaints can be posted. At the footer we have 
 different places with links provided about them.
-
-In this project as I have mentioned above I have developed only asia tab which has two sub categories India and japan. In india page you can see different 
-places and a link provided about them below  the pictures and same has been done in japan page only cards are provided as an extra feature.
