@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Furniture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobilenarrow.css" media="screen and (max-width: 1000px)">
+    <link rel="stylesheet" href="mobilemed.css" media="screen and (min-width: 1001px) and (max-width: 1275px)">
+</head>
+<body>
+      <!-- Navigation Bar -->
+      <nav id="navbar">
+        <div id="logo">
+          <img src="img/logo.png" alt="FortuneDecor.com">
+          <p>Fortune Decor'</p>
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
+            <li><div class="dropdown">
+              <a href="">Dropdown</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div></li>
+        </ul>
+      </nav>
+      <section id="contact-us">
+        <h1 class="center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="#">
+                <div class="form-grp">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-grp">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="name" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-grp">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-grp">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your Message here"></textarea>
+                </div>
+                <div class="form-grp">
+                    <button class="btn1">Submit</button>
+                    <button type="reset" class="btn1">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+      <footer>
+        <div class="center">
+            Copyright &copy; www.fortunedecor.com  | All rights reserved
+        </div>
+     </footer>
+</body>
+</html>

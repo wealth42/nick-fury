@@ -1,0 +1,123 @@
+#navbar  .dropdown{
+    display: none;
+}
+#logo{
+    margin: 5px  10px;
+    font-size: 0.9rem;
+}
+#logo img{
+    height: 32px;
+    margin: 3px 5px;
+}
+#logo p{
+    margin: 8px 0px;
+    padding: 0px 7px;
+}
+#navbar ul li{
+    padding: 0px 7px;
+    font-size: 0.9rem;
+}
+
+#navbar ul li a{
+    border-radius: 17px;
+    padding: 3px 10px;
+}
+
+#service{
+    flex-direction: column;
+}
+#service2{
+    flex-direction: column;
+}
+#service3{
+    flex-direction: column;
+}
+#service .box{
+    padding: 0px 24px;
+    padding-bottom: 24px;
+    margin: 15px 150px;
+    border-radius: 18px;
+}
+#service2 .box{
+    padding: 0px 24px;
+    padding-bottom: 24px;
+    margin: 15px 150px;
+    border-radius: 18px;
+}
+#service3 .box{
+    padding: 0px 24px;
+    padding-bottom: 24px;
+    margin: 15px 150px;
+    border-radius: 18px;
+}
+
+#service .box img{
+    width: 250px;
+    height: 200px;
+}
+#service2 .box img{
+    width: 250px;
+    height: 200px;
+}
+#service2 .box img{
+    width: 250px;
+    height: 200px;
+}
+
+.primary-h1{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.secondary-h{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.ternary-h{
+    font-size: 1.0rem;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+#about h1{
+    font-size: 1.8rem;
+    padding: 10px;
+}    
+#about p{
+    font-size: 0.9rem;
+}
+#hd h1{
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(239 245 251 / .4);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}    
+#hd p{
+    font-size: 0.9rem;
+}
+#painting, h1{
+    font-size: 1.8rem;
+    padding: 10px;
+}    
+#painting p{
+    font-size: 0.9rem;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 6px;
+    font-size: 0.8rem;
+}
+#contact-box  form{
+    widows: 37% ;
+}
+
+#contact-box  label{
+    font-size: 0.9rem;
+}
+footer{
+    padding: 8px 15px;
+}
