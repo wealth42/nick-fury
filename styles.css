@@ -1,0 +1,211 @@
+body{
+  font-family: Montserrat-thin;
+  background-color: #ffe2e2;
+    /* padding-left: 150px; */
+}
+
+.navigation{
+  max-width: 1300px;
+  padding: 50px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+.btn-circle.btn-xl {
+            width: 120px;
+            height: 120px;
+           /* padding: 10px 16px; */
+
+            border-radius: 65px;
+            font-size: 12px;
+            text-align: center;
+        }
+.roundhref{
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#quote {
+    height: 100px;
+    width: 100%;
+    margin: 0 0.125rem;
+    position: relative;
+}
+
+.quote-text,
+.quote-icon {
+    opacity: 50%;
+}
+
+.quote-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -166px;
+}
+.quote-text {
+    position: relative;
+    right: 30px;
+}
+
+
+.icon-left {
+    position: absolute;
+    left: 62px;
+}
+
+.icon-right {
+    margin: 0;
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+}
+.fa-envelope-o{
+  text-align: center;
+  color:gray;
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+}
+.footer1{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Montserrat;
+}
+.footer2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;font-family: Montserrat;
+}
+.mailfooter{
+  padding-top: 25px;
+  color: gray;
+}
+.footerh5{
+  font-family: Montserrat;
+}
+.footer3{
+  padding-top: 20px;
+  text-align: center;font-family: Montserrat;
+}
+.introtextfa1{
+  /* padding-left: 8px; */
+  padding-right: 50px;
+  /* padding-top:10px; */
+  color:gray;
+}
+.introtextfa2{
+  /* padding-left: 8px; */
+  padding-right: 55px;
+  /* padding-top:10px; */
+  color:gray;
+}
+.introtextfa3{
+  padding-left: 8px;
+  /* padding-top:10px; */
+  color:gray;
+}
+
+footer{
+  background-color: #393e46;
+  width: 100%;
+  color: gray;
+  /* padding: 0; */
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+  padding-left: 50px;
+  font-weight: 700px;
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+.navbar-brand{
+  padding-top: 50px;
+  /* padding-left: 150px; */
+}
+#profile{
+  margin-left: 25px;
+}
+@media screen and (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
+    .body-container {
+        margin-top: 2rem;
+    }
+    #intro,
+    #directs,
+
+    #profile {
+        margin: 2rem 0;
+    }
+    #profile{
+      text-align: center;
+
+    }
+    .circle {
+        opacity: 100%;
+        width: 6.75rem;
+        height: 6.75rem;
+        margin: 0.3rem
+    }
+    .quote-icon {
+        font-size: 1rem;
+    }
+    .follow-me {
+        margin: 1rem 0;
+    }
+    .copyright {
+        margin-top: 1rem;
+    }
+    .icon-left {
+        position: absolute;
+        left: 0;
+    }
+
+    .icon-right {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+    .quote-text {
+      /* text-align: center; */
+        font-size: 1rem;
+        margin-top: 0.125rem;
+        position: relative;
+        left: 10px;
+    }
+    img{
+      position: relative;
+      right: 5px;
+    }
+}
+
+@media screen and (max-width: 1699px){
+    body{
+    zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        zoom: 1.225;;
+    }

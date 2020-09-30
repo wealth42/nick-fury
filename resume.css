@@ -1,0 +1,135 @@
+body {
+  font-family: Montserrat-thin;
+  background-color: #ffe2e2;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  padding-left: 50px;
+  font-weight: 700px;
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+}
+.progdiv{
+
+  padding-bottom: 30px;
+
+}
+/*.progress-bar{
+  height: 35px;
+  text-align: center;
+} */
+.subtopichr{
+
+    border-style: double none none;
+    border-color: #00adb5;
+    border-width: 5px;
+    padding-bottom: 20px;
+    /* width: 50%; */
+  }
+.div1{
+  padding-bottom: 30px;
+}
+/* .active{
+  color: red;
+} */
+/* footer css commom */
+.footer1{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Montserrat;
+}
+.fa-envelope-o{
+  text-align: center;
+  color:gray;
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+}
+.footer2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;font-family: Montserrat;
+}
+a{
+  color: black;
+  text-decoration:none;
+
+}
+.mailfooter{
+  padding-top: 25px;
+  color: gray;
+}
+.footerh5{
+  font-family: Montserrat;
+}
+.footer3{
+  padding-top: 20px;
+  text-align: center;font-family: Montserrat;
+}
+.introtextfa1{
+  /* padding-left: 8px; */
+  padding-right: 50px;
+  /* padding-top:10px; */
+  color:gray;
+}
+.introtextfa2{
+  /* padding-left: 8px; */
+  padding-right: 55px;
+  /* padding-top:10px; */
+  color:gray;
+}
+.introtextfa3{
+  padding-left: 8px;
+  /* padding-top:10px; */
+  color:gray;
+}
+
+footer{
+  background-color: #393e46;
+  width: 100%;
+  color: gray;
+  /* padding: 0; */
+}
+@media screen and (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
+    .body-container {
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1699px){
+    body{
+    zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        zoom: 1.225;;
+    }
+}
