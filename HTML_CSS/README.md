@@ -10,5 +10,5 @@ i.e., Continents which are sub divided into countries and places they situated.T
 redirects to a resume page of mine(My first website created from scratch) which describes all about me briefly.
 
 The index page also has some cards that redirects users to the respective links like buying a book, read about species thorugh wikipedia etc and there is 
-a suggestions tab where you can help us to give some ideas on how to make website more user-friendly and complaints can be posted. At the footer we have 
+a suggestions tab where you can help us to give some  ideas on how to make website more user-friendly and complaints can be posted. At the footer we have 
 different places with links provided about them.
