@@ -1,0 +1,157 @@
+#logo-default {
+    /* Center vertically and horizontally */
+    font-size: xx-large;
+    font-weight: 500;
+    word-spacing: 5px;
+    height: 80px;
+    width: auto;
+    position: fixed;
+    left: 26%;
+    bottom: 230px;
+    /* apply negative top and left margins to truly center the element */
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
+.tagline {
+    position: fixed;
+    left: 22%;
+    bottom: 210px;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
+a.button {
+    float: left;
+    margin: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 50px 50px 50px 50px;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+img {
+    height: 40px;
+    width: 40x;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    bottom: -50px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+#wrapper {
+    position: fixed;
+    right: 11%;
+    top: 80%;
+    perspective: 1500px;
+}
+
+.box-area {
+    position: relative;
+    transform-style: preserve-3d;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate3d(0, 0, 0, 0);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+        ;
+    }
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #262626;
+}
+
+#box-front {
+    transform: translateX(-100px) translateY(-100px) translateZ(100px);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#box-back {
+    transform: translateX(-100px) translateY(-100px) translateZ(-100px);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#box-right {
+    transform: translateY(-100px) rotateY(90deg);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#box-left {
+    transform: translateY(-100px) translateX(-200px) rotateY(90deg);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#box-top {
+    transform: translateX(-100px) translateY(-200px) rotateX(90deg);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#box-bottom {
+    transform: translateX(-100px) rotateX(90deg);
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+p {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+}

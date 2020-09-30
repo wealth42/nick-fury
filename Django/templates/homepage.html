@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<!--Loading CSS-->
+{% load static %}
+
+<head>
+    <title>Daylight News</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Font -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <!--Title and tag line-->
+    <div class="container">
+        <div id="logo-default" class="show-logo">DAYLIGHT NEWS</div>
+        <h5 class="tagline">Welcome to news website created with Django</h5>
+        <br><br>
+        <div class="btn">
+            <a href="{% url 'NewsApp:india'%}" type="button" class="button"><img src="/media/india.png"><br><br><br>INDIA</a>
+            <div class="dropdown">
+                <a href="#" type="button" class="button"><img src="/media/world.png"><br><br><br>WORLD</a>
+                <div class="dropdown-content">
+                    <a href="{% url 'NewsApp:australia'%}">Australia</a>
+                    <a href="{% url 'NewsApp:canada'%}">Canada</a>
+                    <a href="{% url 'NewsApp:new_zealand'%}">New Zealand</a>
+                    <a href="{% url 'NewsApp:singapore'%}">Singapore</a>
+                    <a href="{% url 'NewsApp:us'%}">United States</a>
+                </div>
+            </div>
+            <a href="{% url 'NewsApp:entertainment'%}" type="button" class="button"><img src="/media/entertainment1.png"><br><br><br>ENTERTAINMENT</a>
+            <a href="{% url 'NewsApp:health'%}" type="button" class="button"><img src="/media/health.png"><br><br><br>HEALTH</a>
+            <br><br><br>
+            <a href="{% url 'NewsApp:science'%}" type="button" class="button"><img src="/media/science1.png"><br><br><br>SCIENCE</a>
+            <a href="{% url 'NewsApp:sports'%}" type="button" class="button"><img src="/media/sports.png"><br><br><br>SPORTS</a>
+            <a href="{% url 'NewsApp:tech'%}" type="button" class="button"><img src="/media/tech.png"><br><br><br>TECHNOLOGY</a>
+            <a href="https://www.worldometers.info/coronavirus/" target="_blank" type="button" class="button"><img src="/media/cs.png"><br><br><br>CORONA STATISTICS</a>
+        </div>
+    </div>
+    <br><br>
+    <!--Corona Count Block-->
+    {% block corona %} {% endblock %}
+</body>
+
+</html>
