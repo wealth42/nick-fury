@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Therapist home page</title>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #B7CEEC;
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color: #337ab7;; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #337ab7;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #337ab7;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+h2{
+	text-align: center;
+	color: white;
+	background: #337ab7;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+th{
+	background-color: #337ab7;
+	border: 2px solid black;
+	color:white;
+	text-align: center;
+
+}
+
+td {
+  border: 1px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;  
+}
+
+table.c {
+  table-layout: auto;
+  width: 100%;  
+}
+
+table.d {
+  table-layout: fixed;
+  width: 100%;  
+}
+.response{
+	background-color: #4863A0;
+	text-align: center;
+	padding: 10px;
+	margin-top:  20px;
+	margin-bottom: 30px;
+	margin-left: 45%;
+}
+.submit{
+	background: #337ab7;
+}
+#user tr:hover {background-color: #ddd;}
+#user tr:nth-child(even){background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div> <a href="#"> Welcome<em> therapist_name</em></a></div> 
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#callus">Call us</a>
+      <a href="#writetous">Write to us</a>
+      
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Clients <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1" > Client 1</a>
+      <a href="#link2"> Client 2</a>
+      <a href="#link3" > Client 3</a>
+      <a href="#link4" > Client 4</a>
+    </div>
+
+  </div>
+<div class="subnav">
+    <button class="subnavbtn" >Your Notes</em><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link-notes1"class="fa fa-file-text"> Client 1 </a>
+      <a href="#link-notes2" class="fa fa-file-text"> Client 2</a>
+      <a href="#link-notes3" class="fa fa-file-text"> Client 3</a>
+      <a href="#link-notes4" class="fa fa-file-text"> Client 4</a>
+     </div>
+    </div>
+
+
+  <a href="#newsession" class="fa fa-plus-square-o"> New Session</em></a>
+  
+  <a href="#changetherapist">Report</em></a>
+</div>
+
+
+<body>
+ <h2>List of your Clients</h2>
+	<table class="c" id="user"style="margin-top:5%">
+		<tr>
+			<th>Fileds</th>
+		<th for="client1"> Client 1</th>
+		<th for="client2"> Client 2</th>
+		<th for="client3"> Client 3</th>
+		<th for="client5"> Client 4</th>
+		
+	</tr>
+	<tr >
+		<td class="far fa-edit"> Client Private note</td>
+		<td for="client1" > <input type="text"></td>
+		<td for="client2" > <input type="text"> </td>
+		<td for="client3"> <input type="text"></td>
+		<td for="client4"> <input type="text"> </td>
+	</tr>
+	<tr >
+		<td class="far fa-file-alt"> Client Shared note</td>
+		<td for="client1" > <input type="text"></td>
+		<td for="client2" > <input type="text"> </td>
+		<td for="client3"> <input type="text"></td>
+		<td for="client4"> <input type="text"> </td>
+	</tr>
+	<tr >
+		<td class="far fa-comment-dots"> No.of sessions taken</td>
+		<td for="client1" > <input type="number"><button for="client1_session">Submit</button></td>
+		<td for="client2" > <input type="number"><button for="client1_session">Submit</button> </td>
+		<td for="client3"> <input type="number"><button for="client1_session">Submit</button></td>
+		<td for="client4"> <input type="number"><button for="client1_session">Submit</button> </td>
+	</tr>
+	<tr >
+		<td class="far fa-user-circle"> Present Client</td>
+		<td for="client1" > <input type="text"></td>
+		<td for="client2" > <input type="text"> </td>
+		<td for="client3"> <input type="text"></td>
+		<td for="client4"> <input type="text"> </td>
+	</tr>
+	<tr >
+		<td class="far fa-address-card"> Feedback</td>
+		<td for="client1" > <input type="text"></td>
+		<td for="client2" > <input type="text"> </td>
+		<td for="client3"> <input type="text"></td>
+		<td for="client4"> <input type="text"> </td>
+	</tr>
+	</table>
+ <div>
+ <button type="button" class="response">Submit your response</button>
+</div>
+</body>
+</html>

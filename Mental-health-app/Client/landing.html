@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+	<title>client home page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #B7CEEC;
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color: #337ab7;; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #337ab7;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #337ab7;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+h2{
+	text-align: center;
+	color: white;
+	background: #337ab7;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+th{
+	background-color: #337ab7;
+	border: 2px solid black;
+
+}
+
+td {
+  border: 1px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;  
+}
+
+table.c {
+  table-layout: auto;
+  width: 100%;  
+}
+
+table.d {
+  table-layout: fixed;
+  width: 100%;  
+}
+.response{
+	background-color: #4863A0;
+	text-align: center;
+	padding: 10px;
+	margin-top:  20px;
+	margin-bottom: 30px;
+	margin-left: 45%;
+}
+.submit{
+	background: #337ab7;
+}
+#user tr:hover {background-color: #ddd;}
+#user tr:nth-child(even){background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div> <a href="#"> Logged in as<em>username</em></a></div> 
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#callus">Call us</a>
+      <a href="#writetous">Write to us</a>
+      <a href="#freesession">Free session</a>
+      
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Therapists <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Therapist 1</a>
+      <a href="#link2">Therapist 2</a>
+      <a href="#link3">Therapist 3</a>
+      <a href="#link4">Therapist 4</a>
+      <a href="#link5">Therapist 5</a>
+      <a href="#link6">Therapist 6</a>
+      <a href="#link7">Therapist 7</a>
+       <a href="#link8">Therapist 8</a>
+    </div>
+
+  </div>
+<div class="subnav">
+    <button class="subnavbtn">Your therapist <em>Therapist_name </em><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#callus">Book a session</a>
+      <a href="#notes">Therapist notes</a>
+      <a href="#private">Therapist private notes</a>
+     </div>
+    </div>
+
+
+  <a href="#complaints">complaints</em></a>
+  
+  <a href="#changetherapist">Change therapist</em></a>
+</div>
+
+
+<div style="padding:0 20px">
+  <h2 >Create Your Own Emotional Journal</h2>
+  <h3 style="text-align:center">Please update your emotion journal</h3>
+  <p style="padding:20 20 20 20px "> To	help	you	recognise your	emotions,	it’s	often	helpful	to	say	how	you’re	feeling	out	loud.	The	
+act	of	saying	how	you	feel	out	loud	will	highlight	your	emotions	for	you	and	help	you	pay	extra	attention	to	what	you’re	experiencing.	Describing	
+your	emotions	aloud,	especially	your	overwhelming	emotions,	can	also	help	deflate	your	distressing	feelings.	So	the	more	you	can	talk	about	an	
+emotion,	the	less	urge	you	might	have	to	do	something	about	it.	You	do	not	have	to	scream	how you	feel;	it	might	be	enough	to	say	your	emotion	
+quietly	to	yourself.	Just	find	what	works	best	for	you.	Say	to	yourself:	“Right	now	I	feel…”. And	remember	to	pay	attention	to	your	pleasant	and	
+joyful	emotions	too. The	more	you’re	able	to	recognise them	and	say	them	out	loud,	the	more	fully	you’ll	be	able	to	enjoy	those	feelings.
+Then, in	order	to	further	reinforce	the	experience,	record	your	emotions	in	your	Emotional	Record.	Recording	your	feelings	throughout	the	week	
+will	help	you	recognise,	label	and	describe	your	emotions. Use	the	example	of	the	Emotional	Record	to	help	you	make	a	note	of	how	you	felt,	
+whether	or	not	you	describe	your	emotion	out	loud,	and	what	you	did	in	response	to	your	emotion.</p>
+</div>
+
+<div>
+	
+<table class="c" id="user">
+  <tr>
+    <th >Emotions</th>
+    <th>Intensity</th>
+    <th>Time</th>
+  <tr>
+    <td>
+    	<label for="emotions"></i> Emotion 1: </label>
+  <select id="emotion1" name="emotion1"> 
+    <option value="angry">Angry</option>
+    <option value="Grumpy">Grumpy</option>
+    <option value="Frustrated">Frustrated</option>
+    <option value="Annoyed">Annoyed</option>
+    <option value="Disgusted">Disgusted</option>
+    <option value="irritated">Irritated</option>
+    <option value="offended">Offended</option>
+    <option value="spitefull">Spitefull</option>
+
+  </select>
+  <input type="submit">
+</td>
+<td> <label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">  </td>
+<td> <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">    </td>
+
+</tr>
+  <tr>
+    <td><label for="emotions"> Emotion 2: </label>
+  <select id="emotion2" name="emotion2">  
+    <option value="sad">Sad</option>
+    <option value="dissapointed">Disappointed</option>
+    <option value="mournfull">Mournfull</option>
+    <option value="regretfull">Regretfull</option>
+    <option value="paralysed">Paralysed</option>
+    <option value="pessimistic">Pessimistic</option>
+    <option value="tearfull">Tearfull</option>
+    <option value="disillusioned">Disillusioned</option>
+
+  </select>
+  <input type="submit"></td>
+    <td><label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">  </td>
+    <td> <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">    </td>
+    
+  </tr>
+  <tr>
+    <td><label for="emotions"> Emotion 3: </label>
+  <select id="emotion3" name="emotion3">
+    <option value="anxious">Anxious</option>
+    <option value="afraid">Afraid</option>
+    <option value="stressed">Stressed</option>
+    <option value="vulnerable">Vulnerable</option>
+    <option value="confused">Confused</option>
+    <option value="bewildered">Bewildered</option>
+    <option value="worried">Worried</option>
+    <option value="nervous">Nervous</option>
+
+  </select>
+  <input type="submit"></td>
+    <td><label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">  </td>
+    <td> <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">    </td>
+    
+  </tr>
+  <tr>
+  	<td><label for="emotions"> Emotion 4: </label>
+  <select id="emotion4" name="emotion4">
+    <option value="hurt">Hurt</option>
+    <option value="jealouss">Jealous</option>
+    <option value="betrayed">Betrayed</option>
+    <option value="skeptical">Skeptical</option>
+    <option value="isolated">Isolated</option>
+    <option value="victimised">Victimised</option>
+    <option value="tormented">Tormented</option>
+    <option value="abandoned">Abandoned</option>
+
+  </select>
+  <input type="submit"> </td>
+     <td><label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">    </td>
+     <td>  <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">     </td>
+ </tr>
+  
+  <tr>
+  	<td> <label for="emotions"> Emotion 5: </label>
+  <select id="emotion5" name="emotion5">
+    <option value="embarrased">Embarrased</option>
+    <option value="self-conscious">Self-conscious</option>
+    <option value="ashamed">Ashamed</option>
+    <option value="repugnant">Repugnant</option>
+
+  </select>
+  <input type="submit"> </td>
+     <td> <label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">   </td>
+     <td>  <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">     </td>
+ </tr>
+
+  <tr>
+  	<td> <label for="emotions"> Emotion 6: </label>
+  <select id="emotion6" name="emotion6">
+    <option value="happy">Happy</option>
+    <option value="thankfull">Thankfull</option>
+    <option value="trusting">Trusting</option>
+    <option value="comfortable">Comfortable</option>
+     <option value="content">Content</option>
+      <option value="exited">Exited</option>
+       <option value="relaxed">Relaxed</option>
+       <option value="relieved">Relieved</option>
+        <option value="elated">Elated</option>
+      <option value="confident">Confident</option>
+  </select>
+  <input type="submit"> </td>
+     <td> <label for="intensity"></label>
+  <select id="intensity1" name="intensity1">
+    <option value="mild">Mild</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="extreme">Extreme</option>
+   </select>
+  <input type="submit">   </td>
+     <td>  <label for="time"></label>
+  <select id="time1" name="time1">
+    <option value="now">Now</option>
+    <option value="2">2 hours ago</option>
+    <option value="5">5 hours ago</option>
+   </select>
+  <input type="submit">     </td>
+ </tr>
+  
+</table>
+</div>
+<div>
+ <button type="button" class="response">Submit your response</button>
+</div>
+</body>
+</html>
