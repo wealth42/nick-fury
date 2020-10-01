@@ -3,7 +3,7 @@
 ## Submission checklist
 *Mark checks as explained on this [link](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-task-lists#creating-task-lists), and remove this instruction*
 
-- [ ] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
+- [x] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
 - [ ] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
 - [ ] No `binaries/compressed` files have been added
 - [ ] All pre-existing files in the repository have been removed
