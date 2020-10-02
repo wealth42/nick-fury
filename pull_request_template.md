@@ -24,7 +24,7 @@ Basic testing scenarios- Bug test, compatibility test, accessibility test.
 Testing can be done on any of testing softwares and have been tried on some- Jira, Chrome developer's tool
 
 ## Did you learn anything new while doing this assignment? Please explain.
-Yes, a lot. I learned teamwork, team leadership, web content updating along with JSON, jQuery practices, bootstrap classes use and compression teachniques.
+Yes, a lot. I learned teamwork, team leadership, web content updating along with JSON, jQuery practices, bootstrap classes use and compression techniques.
 
 ## How much time did it take for you complete the project?
 It took me  20, 30 days to complete the frontend details of this project. Further work of backend and database work was done by other members of team.
@@ -33,5 +33,5 @@ It took me  20, 30 days to complete the frontend details of this project. Furthe
 There's still a lot to be added to this project like separate aboutus and contactus page, further specs of food items could be added further along with separate app design for similar idea.
 
 # What was your motivation behind choosing this evaluation mode and the project?
-Being a huge foodyand being unable to go to restaurants during this pandemic, this idea struck me that what if restaurant just cooks food and dellivers instead of actually having the customer there at the outlet. Thus, I got my friends together and we statrted this project.
+Being a huge foody and being unable to go to restaurants during this pandemic, this idea struck me that what if restaurant just cooks food and dellivers instead of actually having the customer there at the outlet. Thus, I got my friends together and we statrted this project.
 
