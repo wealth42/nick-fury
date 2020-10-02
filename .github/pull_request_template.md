@@ -20,7 +20,7 @@ No
 ## Did you learn anything new while doing this assignment? Please explain.
 Refreshed bootstrap grid system and JQuery.
 ## How much time did it take for you complete the project?
-24hrs => If we take accout of sleeping time.
+24hrs => If we take account of sleeping time.
 ## If you had more time, what enhancements will you make?
 More visual effects could be added, if time is given.
 ## What was your motivation behind choosing this evaluation mode and the project?
