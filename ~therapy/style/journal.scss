@@ -1,0 +1,136 @@
+body {
+    padding: auto;
+    margin: auto;
+}
+
+#canvas {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/journal.jpg);
+    #info {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 54%;
+        left: 37%;
+        transform: translate(-55%, -50%);
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+    }
+}
+
+nav {
+    img {
+        width: 55px;
+        height: auto;
+    }
+    li {
+        a {
+            color: white !important;
+            font-size: large;
+            font-weight: bold;
+            font-family: "Josefin Sans", sans-serif;
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}
+
+h4 {
+    font-family: "Josefin Sans", sans-serif !important;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: "Josefin Sans", sans-serif !important;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif !important;
+    text-decoration: wavy;
+    font-style: italic;
+    text-align: center;
+}
+
+#current {
+    .container {
+        border: 1px solid;
+        padding: 20px;
+        box-shadow: 5px 10px #888888;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        .class {
+            margin: 0 auto;
+        }
+        img {
+            position: relative;
+            width: 40%;
+            height: auto;
+            right: -50%;
+        }
+        p {
+            margin: 0 auto;
+        }
+        #remove {
+            background-color: palevioletred;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
+}
+
+#emotional {
+    button {
+        background-color: lightgreen;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 8px 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+    .button-style {
+        color: white;
+        background-color: lightsalmon;
+    }
+}
+
+footer {
+    background-color: black;
+    h5 {
+        color: white;
+    }
+    span {
+        margin: 0 auto;
+        a {
+            text-decoration: none;
+        }
+    }
+    p {
+        color: white;
+    }
+}

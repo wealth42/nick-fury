@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+#canvas {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/canvas.jpg);
+    #info {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 54%;
+        left: 37%;
+        transform: translate(-55%, -50%);
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+    }
+}
+
+nav {
+    img {
+        width: 55px;
+        height: auto;
+    }
+    li {
+        a {
+            color: white !important;
+            font-size: large;
+            font-weight: bold;
+            font-family: "Josefin Sans", sans-serif;
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Josefin Sans", sans-serif !important;
+}
+
+.card {
+    margin-top: 10%;
+    img {
+        height: 400px;
+        width: auto;
+    }
+}
+
+.col-lg-6 {
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    h5 {
+        color: white;
+    }
+    span {
+        margin: 0 auto;
+        a {
+            text-decoration: none;
+        }
+    }
+    p {
+        color: white;
+    }
+}
