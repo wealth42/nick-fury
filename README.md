@@ -1,1 +1,1 @@
-Refer to respective folders for assignments
+In this project, i have made a website using HTML and CSS for styling and designing. Icons are used to give the site better presentation. The website has been created with the thought in mind to give the user , better user experience. The aim of the website is to help people recover from the ill mental health due to the covid-19.  
