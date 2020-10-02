@@ -1,23 +1,23 @@
-# Your Name
+# Shashwat Shukla
 
 ## Submission checklist
-*Mark checks as explained on this [link](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-task-lists#creating-task-lists), and remove this instruction*
 
-- [ ] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
-- [ ] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
-- [ ] No `binaries/compressed` files have been added
-- [ ] All pre-existing files in the repository have been removed
-- [ ] `Screenshots` have been added to the screenshots folder (optional for backend code).
-- [ ] All italicesed instructions under each submission heading inline, have been removed.
-- [ ] You understand that a submission here is publicly visible. 
-- [ ] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
+- [x] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
+- [x] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
+- [x] No `binaries/compressed` files have been added
+- [x] All pre-existing files in the repository have been removed
+- [x] `Screenshots` have been added to the screenshots folder (optional for backend code).
+- [x] All italicesed instructions under each submission heading inline, have been removed.
+- [x] You understand that a submission here is publicly visible. 
+- [x] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
 
 ## Briefly write about the project that you have submitted from the perspective of the user.
-*Replace this text to brief your project as a user story*
+It's a simple food ordering site that can be used by any restaurant owner to use it for their use who just wants to cook food but not have the proper place or outlet for sit-and-eat service.
 
 ## Assumptions you have made for this project?
-*Mention ALL assumptions you have made for this project. If none, specify so.*
-
+• The restaurant owner using this site doesn't has any prior space or dining area for customers.
+• The user doesn't has any prior knowledge of website handling thus its user interface is made very easy and understandable.
+• The user has a variety of food items to serve and 
 ## Other information (like testing credentials)
 *If your project has some credentials necessary to explore, add them here, or mention None*
 
