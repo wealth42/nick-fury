@@ -1,0 +1,66 @@
+body {
+    margin: auto;
+    padding: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/login_.jpg);
+}
+
+nav {
+    img {
+        width: 55px;
+        height: auto;
+    }
+    li {
+        a {
+            color: white !important;
+            font-size: large;
+            font-weight: bold;
+            font-family: "Josefin Sans", sans-serif;
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}
+
+#form {
+    position: relative;
+    top: 240px;
+    width: auto;
+    #login {
+        padding: 3%;
+        border: white 1px solid;
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 2%;
+        text-align: center;
+        label {
+            color: white;
+        }
+        input {
+            border: none;
+            border-radius: 1px;
+        }
+        #save {
+            background: rgba(255, 105, 2, 0.8);
+            box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover {
+                background: lightblue;
+            }
+        }
+        p {
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: underline;
+            &:hover {
+                color: lightblue;
+            }
+        }
+    }
+}

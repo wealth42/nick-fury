@@ -1,0 +1,170 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+
+#canvas {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/consult.jpg);
+}
+
+#canvas #info {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 54%;
+  left: 37%;
+  -webkit-transform: translate(-55%, -50%);
+          transform: translate(-55%, -50%);
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+nav img {
+  width: 55px;
+  height: auto;
+}
+
+nav li a {
+  color: white !important;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav li a:hover {
+  text-decoration: underline !important;
+}
+
+h4 {
+  font-family: "Josefin Sans", sans-serif !important;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#wow .container {
+  border: 1px solid;
+  padding: 20px;
+  -webkit-box-shadow: 5px 10px #888888;
+          box-shadow: 5px 10px #888888;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#wow .container .class {
+  margin: 0 auto;
+}
+
+#wow .container img {
+  position: relative;
+  width: 40%;
+  height: auto;
+  right: -50%;
+}
+
+#wow .container button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#wow .container button:hover {
+  background-color: lightseagreen;
+}
+
+#wow .container p {
+  margin: 0 auto;
+}
+
+#current .container {
+  border: 1px solid;
+  padding: 20px;
+  -webkit-box-shadow: 5px 10px #888888;
+          box-shadow: 5px 10px #888888;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#current .container .class {
+  margin: 0 auto;
+}
+
+#current .container img {
+  position: relative;
+  width: 40%;
+  height: auto;
+  right: -50%;
+}
+
+#current .container button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#current .container button:hover {
+  background-color: lightseagreen;
+}
+
+#current .container p {
+  margin: 0 auto;
+}
+
+#current .container #remove {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#current .container #remove:hover {
+  background-color: red;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer span {
+  margin: 0 auto;
+}
+
+footer span a {
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+}
+/*# sourceMappingURL=therapist.css.map */
