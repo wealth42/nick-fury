@@ -17,19 +17,21 @@ It's a simple food ordering site that can be used by any restaurant owner to use
 ## Assumptions you have made for this project?
 • The restaurant owner using this site doesn't has any prior space or dining area for customers.
 • The user doesn't has any prior knowledge of website handling thus its user interface is made very easy and understandable.
-• The user has a variety of food items to serve and 
+• The user has a variety of food items to serve and has their variations available.
+• The user wants to run an online enterprise of food serving business.
 ## Other information (like testing credentials)
-*If your project has some credentials necessary to explore, add them here, or mention None*
+Basic testing scenarios- Bug test, compatibility test, accessibility test.
+Testing can be done on any of testing softwares and have been tried on some- Jira, Chrome developer's tool
 
 ## Did you learn anything new while doing this assignment? Please explain.
-*Response to this is part of evaluating a submission*
+Yes, a lot. I learned teamwork, team leadership, web content updating along with JSON, jQuery practices, bootstrap classes use and compression teachniques.
 
 ## How much time did it take for you complete the project?
-*Response to this is part of evaluating a submission*
+It took me  20, 30 days to complete the frontend details of this project. Further work of backend and database work was done by other members of team.
 
 ## If you had more time, what enhancements will you make?
-*Response to this is part of evaluating a submission*
+There's still a lot to be added to this project like separate aboutus and contactus page, further specs of food items could be added further along with separate app design for similar idea.
 
-## What was your motivation behind choosing this evaluation mode and the project?
-*Response to this is part of evaluating a submission*
+# What was your motivation behind choosing this evaluation mode and the project?
+Being a huge foodyand being unable to go to restaurants during this pandemic, this idea struck me that what if restaurant just cooks food and dellivers instead of actually having the customer there at the outlet. Thus, I got my friends together and we statrted this project.
 
