@@ -1,35 +1,27 @@
-# Your Name
+# Dheeraj Dayakaran
 
 ## Submission checklist
-*Mark checks as explained on this [link](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-task-lists#creating-task-lists), and remove this instruction*
 
-- [ ] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
-- [ ] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
-- [ ] No `binaries/compressed` files have been added
-- [ ] All pre-existing files in the repository have been removed
+- [x] Your submission follows best practices for [commit messages](https://chris.beams.io/posts/git-commit/) AND for [pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
+- [x] `Steps to run the project` AND a `documentation` have been included in a README.md file at root of your project.
+- [x] No `binaries/compressed` files have been added
+- [x] All pre-existing files in the repository have been removed
 - [ ] `Screenshots` have been added to the screenshots folder (optional for backend code).
-- [ ] All italicesed instructions under each submission heading inline, have been removed.
-- [ ] You understand that a submission here is publicly visible. 
-- [ ] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
+- [x] All italicesed instructions under each submission heading inline, have been removed.
+- [x] You understand that a submission here is publicly visible. 
+- [x] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
 
 ## Briefly write about the project that you have submitted from the perspective of the user.
-*Replace this text to brief your project as a user story*
-
+The project is taken as an initiative to tackle the stress which is developed during the covid19 pandemic. The entire website is divided into four pages. User can select there therapist based on the info given and can even add their emotional status. User can also see the notes given by the therapist for them.
 ## Assumptions you have made for this project?
-*Mention ALL assumptions you have made for this project. If none, specify so.*
-
+Assumptions like user experince and users point of view was taken. 
 ## Other information (like testing credentials)
-*If your project has some credentials necessary to explore, add them here, or mention None*
-
+No
 ## Did you learn anything new while doing this assignment? Please explain.
-*Response to this is part of evaluating a submission*
-
+Refreshed bootstrap grid system and JQuery.
 ## How much time did it take for you complete the project?
-*Response to this is part of evaluating a submission*
-
+24hrs => If we take accout of sleeping time.
 ## If you had more time, what enhancements will you make?
-*Response to this is part of evaluating a submission*
-
+More visual effects could be added, if time is given.
 ## What was your motivation behind choosing this evaluation mode and the project?
-*Response to this is part of evaluating a submission*
-
+The major motivation is to fight the stress caused by covid19 pandemic.
