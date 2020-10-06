@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* ############# html element styling ########### */
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.7;
+}
+ul li{
+    list-style:none;
+}
+a{
+    font-size:1.6rem;
+    text-decoration:none;
+}
+p,li{
+    font-size:1.6rem;
+    margin-bottom:0.5em;
+    letter-spacing:0.15em;
+}
+h1,h2,h3{
+    margin-bottom:0.5em;
+    letter-spacing:0.15em;
+    font-weight:500;
+}
+/* #### utility classes - to choose a particular font size for any element### */
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:0 auto; 
+     
+}
+.lg-heading{
+    font-size:3.5rem;
+}
+.md-heading{
+    font-size:2.2rem;
+}
+.text-red{
+    color:#e63946;
+}
+.text-light{
+    color:#f4f4f4;
+}
+.text-black{
+    color:#333;
+}
+.text-grey{
+    color:#5555;
+}
+.btn{
+    display:inline-block;
+    padding:0.5em 1.5em;
+    text-transform:uppercase;
+    font-weight:500;
+    margin:0.5em;
+}
+.btn-primer{
+    background-color:white;
+    border-radius:10em;
+}
+.bg-dark{
+    background-color:#26323a;
+}
+/* ################ header styling ############ */
+.header{
+    position:relative;
+    height:95vh;
+    background:url('./img1.jpg');
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.header .logo,
+.header .nav a{
+    color:white;
+}
+.nav .logo{
+    float:left;
+}
+.nav .nav-items{
+    float:right;
+    margin-top:1rem;
+}
+.nav .nav-item{
+    display:inline-block;
+    padding:1rem;
+    text-transform:uppercase;
+}
+.nav a:link,
+.nav a:visited{
+    color:#f4f4f4;
+}
+.nav a{
+    padding-bottom:0.3rem;
+}
+.nav a:hover{
+    border-bottom:1px solid white;
+}
+.nav::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.nav{
+    border:2px solid white;
+    padding:1rem;
+}
+/* ################################# header content styling ######## */
+.header-content{
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    /* to make the background a little dark in header content */
+}
+.header-content h1{
+    text-transform:uppercase;
+    font-weight:700;
+}
+/* ########################### showcase ######### */
+.showcase{
+    background:#dddd;
+    padding:10rem 0;
+}
+.row{
+    width:90%;
+    height:350px;
+    background:white;
+    box-shadow:5px 5px 20px 0px #aaa;
+}
+.row1{
+    margin-bottom:10rem;
+}
+.row1 .img-box, .row2 .text-box{
+    float:left;
+    width:50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float:right;
+    width:50%;
+}
+.row .img-box{
+    height:100%;
+}
+.row .text-box{
+    padding:3rem;
+}
+.row .img-box img{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}   
+.btn-second{
+    border:2px solid #e63946;
+    border-radius:1.5em;
+    color:#e63946;
+    background-color:white;
+}
+/* ################ how to change background color when we hover on explore and more btn ############### */
+.btn-primer:hover{
+    background:lightgrey;
+}
+.btn-second:hover{
+    background:rgba(231, 226, 231, 0.924);
+}
+/* ######################## feature section styling ######################## */
+.feature{
+    padding: 10rem 0;
+}
+.box-wrapper{
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.301); 
+}
+.box{
+    width:33.3333%;
+    float:left;
+    padding:2rem;
+    text-align:center;
+}
+.box1 ,.box3{
+    background:#263238;
+    color:white;
+}
+.box2{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color:white;
+}
+.box-wrapper::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/* ################################ footer ################## */
+.footer{
+    
+    background:#263238;
+    color:#f4f4f4;
+    padding:2rem;
+    text-align:center;
+}
+.social-links i{
+    margin:2rem;
+}
+/* ################################### about styling ######################## */
+.about{
+    padding:5rem 0;
+}
+.about h2::after{
+    content:'';
+    display:block;
+    border:3px solid #e63946;
+    width:100%;
+}
+/* ################################# about wrapper class ################# */
+.about-wrapper .left{
+    float:left;
+    width:50%;
+}
+.about-wrapper .right{
+    float:right;
+    width:50%;
+}
+.clear-fix{
+    clear:both;
+}
+
+.about-wrapper::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.about-wrapper{
+    text-align:center;
+    margin-top:2rem;
+}
+.about-wrapper li::before{
+    content:'\2713';
+    color:green;
+    font-weight:bold;
+    padding-right:1rem;
+
+}
+
+/* ######################## count styling ################### */
+.count{
+    border:2px solid red;
+    margin-top:3rem;
+}
+.count-item{
+    
+    float:left;
+    width:25%;
+    text-align:center;
+}
+.count::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.count-item span{
+    font-size:3rem;
+    font-weight:700;
+    color:#e63946;
+}
+.count-item p{
+    font-weight:700;
+    color:#555;
+    font-size:1.8rem;
+}
+.banner{
+    background:linear-gradient(25deg,#d64c7f,#ee4758);
+    color:#f4f4f4;
+    padding:1rem;
+    box-shadow:5px 5px 10px #000057;
+    margin-top:3rem;
+}
+.banner1{
+    width:60%;
+    float:left;
+}
+.banner2{
+    width:40%;
+    float:right;
+    text-align:right;
+}
+.line{
+    font-weight:700;
+    font-size:2rem;
+    margin-top:1.5rem;
+}
+.btn1{
+    text-align:center;
+    display:inline-block;
+    font-weight:700;
+    font-size:3rem;
+    text-transform:uppercase;
+    border:3px solid white;
+    padding:0.3rem 2.5em;
+    letter-spacing:0.5rem;
+    color:#f4f4f4;
+    
+}
+.banner::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+/* ##################################### contact page ###################### */
+.contact-form{
+    padding:5rem 0;
+    background:#f7f7f7;
+}
+.form-wrapper::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.form-wrapper .company-add{
+    height:760px;
+    
+    width:49%;
+    float:left;
+}
+.form-wrapper .company-add i{
+    display:inline-block;
+    margin-right:1rem;
+    padding:1rem;
+}
+.form-wrapper .company-add h2{
+    display:inline-block;
+    text-transform:uppercase;
+}
+.form-wrapper .address-group{
+    margin-bottom:3rem;
+}
+.form-wrapper .company-add img{
+    max-width: 40%;
+    min-height:20rem;
+    object-fit:cover;
+    object-position:right;
+}
+/* ############################## form styling ############################## */
+
+
+.form-wrapper .form{
+    height:760px;
+    font-size:1.6rem;
+    
+    width:49%;
+    float:right;
+    padding:1rem;
+}
+.form h1::after{
+    content:'';
+    display:block;
+    border:3px solid red;
+    width:100%;
+}
+.form-wrapper label{
+    display:block;
+}
+.form-wrapper .form input{
+    padding:0.5rem;
+    width:100%;
+}
+.form-wrapper .form .form-group{
+    margin-bottom:1.2rem;
+}
+.form-wrapper .form label::after{
+    content:'*';
+    color:red;
+}
+.form-wrapper .form textarea{
+    width:100%;
+    height:100px;
+    padding:1rem;
+}
+.form-btn{
+    display:block;
+    margin:0 auto;
+    padding:0.5em 3em;
+    font-size:1.8rem;
+    text-transform:uppercase;
+    background:red;
+    color:white;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+/* ############################ media queuies ############################ */
+@media (max-width:500px){
+    html{
+        font-size:8px;
+    }
+    .nav .nav-items, .nav .logo{
+        float:none;
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+    .showcase .row{
+        height:auto;
+        width:100%;
+    }
+    .row .img-box,
+    .row .text-box{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .feature .box{
+        float:none;
+        width:100%;
+        text-align:center;
+        box-shadow:5px 5px 10px 0px rgba(0,0,0,0.301)
+    }
+    .feature .box2,
+    .feature .box3{
+        margin-top:7rem;    
+    }
+    .box-wrapper{
+        box-shadow:none;
+    }
+    .banner1,
+    .banner2{
+        float:none;
+        width:100%;
+        text-align:center;
+    }     
+    .form-wrapper .company-add{
+        float:none;
+        width:100%;
+        height:auto;
+        margin-bottom:5rem;
+    }
+    .form-wrapper .form{
+        float:none;
+        width:100%;
+        height:auto;
+    }
+}
+/* # for landscape mode in mobile */
+@media(orientation:landscape) and (max-height:500px){
+    .header{
+        height:90vmax;
+    }
+}
+
