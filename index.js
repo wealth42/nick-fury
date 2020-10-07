@@ -27,3 +27,7 @@ tl_about
 $("#footer i").click(function(){
   gsap.to(window, {duration: 2, scrollTo: {y: "#intro", offsetY: 50}, ease: "power3.inOut"});
 })
+
+$(".menu-toggle").click(function(){
+  $("#main-nav").toggleClass("active");
+})

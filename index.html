@@ -5,65 +5,52 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fbc114e883.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="styles.css">
   <title></title>
 </head>
 
 <body class="">
 
-  <header class="container-fluid">
+  <header class="container-fluid" id="intro">
     <div class="quick-links">
       <p><small><strong>Contact: 9999999999</strong></small></p>
-      <a href="mailto:abcd@gmail.com" target="_blank" rel="noopener noreferrer"><p><small><strong>email: abcd@gmail.com</strong></small></p></a>
+      <a href="mailto:abcd@gmail.com" target="_blank" rel="noopener noreferrer">
+        <p><small><strong>email: abcd@gmail.com</strong></small></p>
+      </a>
+    </div>
+
+    <div class="menu-toggle">
+      <i class="fa fa-bars"></i>
     </div>
     <!-- NAVBAR -->
 
-    <div class="row">
-      <div class="col-md-4">
+    <div class="grid-nav">
+
+      <div id="logo">
         <img class="logo" src="images/logo.svg" alt="">
       </div>
 
-      <div class="col-md-8">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <div id="main-nav">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="location.html">Location</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Covid</a>
-              </li>
-            </ul>
-          </div>
+        <nav id="nav1">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#">Covid</a></li>
+          </ul>
         </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.pmcares.gov.in/en/">Donation for COVID-19</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.mohfw.gov.in/">Covid-19 Cases</a>
-              </li>
-
-            </ul>
-          </div>
+        <nav id="nav2">
+          <ul>
+            <li><a href="https://www.pmcares.gov.in/en/">Donation for COVID-19</a></li>
+            <li><a href="https://www.mohfw.gov.in/">Covid-19 Cases</a></li>
+          </ul>
         </nav>
+
 
       </div>
 
@@ -81,29 +68,35 @@
   <!-- INTRO IMG -->
 
 
-  <div class="container-fluid intro-img row" id="intro">
-    <div class="col-md-8">
-      <img src="https://img.theweek.in/content/dam/week/news/india/2020/March/test-kit-for-viral-disease-COVID-19-2019-nCoV-tested--novel-coronavirus-sars-cov-2-shut.jpg" class="d-block w-100" alt="...">
-    </div>
+  <div class="container-fluid intro-img">
+    <img src="https://img.theweek.in/content/dam/week/news/india/2020/March/test-kit-for-viral-disease-COVID-19-2019-nCoV-tested--novel-coronavirus-sars-cov-2-shut.jpg" class="d-block w-100" alt="...">
   </div>
 
   <br>
 
-  <div class="container-fluid row content">
-    <div class="col-md-8">
+  <div class="container-fluid intro-text">
 
-      <h2 class="">COVID Therapy</h2>
+    <h2 class="">COVID Therapy</h2>
 
-      <p class="intro-p">A therapy or medical treatment (often abbreviated tx, Tx, or Tx) is the attempted remediation of a health problem, usually following a diagnosis.
-
-        As a rule, each therapy has indications and contraindications. There are many different types of therapy. Not all therapies are effective. Many therapies can produce unwanted adverse effects.
-
-        Treatment and therapy are generally considered synonyms. However, in the context of mental health, the term therapy may refer specifically to psychotherapy.</p>
-    </div>
+    <p class="intro-p">A therapy or medical treatment (often abbreviated tx, Tx, or Tx) is the attempted remediation of a health problem, usually following a diagnosis.
+      As a rule, each therapy has indications and contraindications. There are many different types of therapy. Not all therapies are effective. Many therapies can produce unwanted adverse effects.
+      Treatment and therapy are generally considered synonyms. However, in the context of mental health, the term therapy may refer specifically to psychotherapy.</p>
   </div>
 
-  <div class="parallax">
+  <div class="parallax"></div>
 
+  <div class="container-fluid">
+    <h3>Lorem ipsum</h3>
+    <p class="intro-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper tincidunt. Integer quis fringilla erat. Aliquam eu sodales dui. Nullam eros enim, accumsan non urna nec, tincidunt tincidunt velit. Nam
+      scelerisque justo vel
+      scelerisque mollis. Integer ac vehicula lorem. Nunc eleifend arcu sed risus dignissim egestas. Vivamus aliquet et dui ut commodo. Nam mi tellus, laoreet a velit id, lobortis ultrices nunc. Class aptent taciti sociosqu ad litora torquent per
+      conubia nostra, per inceptos himenaeos. Vivamus sagittis ultrices tortor ut eleifend. Morbi consequat vel dolor non viverra. Etiam et imperdiet augue. Maecenas ullamcorper quam accumsan est vehicula dictum. Maecenas vehicula ligula accumsan
+      nibh gravida, sed varius tortor fermentum. Sed rhoncus ligula ante, quis luctus est feugiat vitae.<br><br>
+      Ut non ante laoreet, consectetur felis ut, fringilla erat. Morbi dictum ultricies tempus. Nulla sit amet iaculis eros, sed mollis erat. Maecenas sodales nunc volutpat pharetra ultricies. Quisque nec dignissim sem, nec varius arcu. Suspendisse
+      potenti. Donec non condimentum quam. Vestibulum sed sapien eget nibh pretium dictum. Integer dapibus, lorem id lobortis fermentum, nisi dui laoreet ex, sed vestibulum dolor tellus tristique nibh. Cras id libero ac quam cursus lacinia.<br><br>
+      Suspendisse vestibulum neque quis elementum blandit. Donec semper enim quam, in fringilla elit suscipit sed. Curabitur et enim nec sapien vulputate iaculis in ac turpis. Aenean sed elementum eros. Quisque maximus eros sed tellus tincidunt, quis
+      faucibus ante fringilla. Nulla consectetur, augue ut eleifend vestibulum, tortor mi interdum felis, ut ullamcorper arcu quam sit amet massa. Phasellus quis est euismod leo interdum faucibus. Vivamus fringilla metus sit amet massa tristique, a
+      pellentesque leo elementum. Aenean vel tellus laoreet, interdum justo eget, iaculis dolor.</p>
   </div>
 
   <div class="icon-div container-fluid">
@@ -117,7 +110,7 @@
     </div>
   </div>
 
-  <footer id="footer">
+  <footer class="container-fluid" id="footer">
     <i class="fas fa-arrow-circle-up fa-2x"></i>
     <p><small><strong>Design & Built by Suraj</strong></small></p>
   </footer>
@@ -128,9 +121,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollToPlugin.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
 
   <script src="index.js" charset="utf-8"></script>
 

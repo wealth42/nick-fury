@@ -4,11 +4,6 @@ html{
   margin: 0px auto !important;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-}
-
 a{
   text-decoration: none;
   color: #000;
@@ -16,7 +11,7 @@ a{
 
 .container-fluid{
   max-width: 1440px;
-  padding: 0 7% 3% !important;
+  padding: 0 7% 3%;
 }
 
 .quick-links p{
@@ -25,8 +20,41 @@ a{
   text-align: right;
 }
 
-a.nav-link{
-  padding: 10px 0 10px 40px !important;
+.grid-nav{
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-areas: "logo main-nav"
+}
+
+#logo{
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  grid-area: main-nav;
+}
+
+nav ul{
+  display: flex;
+  float: right;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+
+nav ul li a:hover, nav ul li a.active{
+  background: #2A816E;
+  color: #fff;
 }
 
 .logo{
@@ -34,13 +62,19 @@ a.nav-link{
   padding: 0;
 }
 
+.menu-toggle{
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
 .action-btn{
   width: 100%;
   text-align: right;
 }
 .action-btn button{
-  padding: 10px 30px !important;
-  margin: 10px 0 10px 20px !important;
+  padding: 10px 30px;
+  margin: 10px 0 10px 20px;
   border-radius: 5px;
   border: none;
   background: #2A816E;
@@ -48,7 +82,10 @@ a.nav-link{
 }
 
 .intro-img img{
-  min-width: 100%;
+  width: 50%;
+}
+.intro-text{
+  width: 60%;
 }
 .intro-p, .about-p{
   text-align: justify;
@@ -62,13 +99,13 @@ a.nav-link{
 }
 
 .icon-div{
-  padding-top: 3% !important;
+  padding-top: 3%;
 }
 
 .social-media i{
   padding: 10px !important;
-  color: #000;
-  border: 2px solid #000;
+  color: #2A816E;
+  border: 2px solid #2A816E;
   border-radius: 50%;
   margin-right: 20px !important;
   transition: all 0.5s;
@@ -80,8 +117,10 @@ a.nav-link{
 /* CARDS */
 
 .card-row{
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0px ;
+  display: grid;
+  grid-template-columns: 0.33fr 0.33fr 0.33fr;
 }
 
 .card-container {
@@ -89,7 +128,7 @@ a.nav-link{
   border-radius: 10px;
   transition: 0.5s;
   text-align: center;
-  padding: 3% 2%;
+  padding: 3% 15%;
   margin: 3% 2%;
 }
 
@@ -131,9 +170,40 @@ a.nav-link{
   .container-fluid{
     padding: 0 5% 1% !important;
   }
-  .logo{
-    max-width: 30%;
+
+  .grid-nav{
+    grid-template-columns: 1fr;
+    grid-template-areas: "logo"
+    "nav1"
+    "nav2"
   }
+
+  .logo{
+    max-height: 50px;
+  }
+  #main-nav{
+    position: absolute;
+     width: 100%;
+     background: #fff;
+     top: 100px;
+     left: -100%;
+     transition: 0.5s;
+     z-index: 1;
+   }
+   #main-nav.active{
+     left: 0;
+   }
+
+   nav ul{
+     display: block;
+     padding: 0;
+     float: none;
+   }
+
+   .menu-toggle{
+     display: block;
+     padding: 20px 10px;
+   }
 
   .action-btn button{
     padding: 5px 10px !important;
@@ -141,4 +211,23 @@ a.nav-link{
     font-size: 10px;
   }
 
+  .intro-text{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .parallax{
+    height: 200px;
+  }
+
+  .card-row{
+    grid-template-columns: 0.5fr 0.5fr;
+  }
+
+}
+
+@media only screen and (max-width: 427px) {
+  .card-row{
+    grid-template-columns: 1fr;
+  }
 }
