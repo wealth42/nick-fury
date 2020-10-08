@@ -70,12 +70,12 @@ var curent = recent.map(function(j) {
     return `
     <div class="container">
     <div class="row">
-    <div  class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1000">
+    <div  class="col-lg-6 col-md-6 col-sm-12" id="text">
     <p class="p-name"> Name: ${j.name}</p>
     <p class="p-desc"> Gender: ${j.gender}</p>
     <p class="p-created"> Phone Number: ${j.phone}</p>
     <p class="p-created"> Rating: ${j.rating}/5</p><br>
-    <button id="remove">Remove</button><br><br>
+    <button id="remove" data-aos="zoom-in" data-aos-duration="1000">Remove</button><br><br>
     <h5>Journal Details:</h5>
     <ul>
     <li> Doctor points: ${j.comments[1]}</li>
@@ -85,7 +85,7 @@ var curent = recent.map(function(j) {
     <li> Doctor points: ${j.comments[5]}</li>
     </ul>
     </div>
-    <div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="col-lg-6 col-md-12 col-sm-12" id="image">
     <img src="${j.image}">
     </div>
     </div>
@@ -99,19 +99,19 @@ var emotion = emotion.map(function(j) {
     <div class="container">
     <div class="row">
     <div  class="col-lg-12 col-md-12 col-sm-12" data-aos="zoom-in" data-aos-duration="1000">
-    <button class="buo">${j.Happiness[1]}</button>
-    <button class="buo">${j.Happiness[2]}</button>
-    <button class="buo">${j.caring[1]}</button>
-    <button class="buo">${j.caring[2]}</button>
-    <button class="buo">${j.caring[3]}</button>
-    <button class="buo">${j.caring[5]}</button>
-    <button class="buo">${j.caring[4]}</button>
-    <button class="buo">${j.Depression[1]}</button>
-    <button class="buo">${j.Depression[2]}</button>
-    <button class="buo">${j.Fear[1]}</button>
-    <button class="buo">${j.Fear[2]}</button>
-    <button class="buo">${j.Fear[3]}</button>
-    <button class="buo">${j.Fear[4]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1000">${j.Happiness[1]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1100">${j.Happiness[2]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1200">${j.caring[1]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1300">${j.caring[2]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1400">${j.caring[3]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1500">${j.caring[5]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1600">${j.caring[4]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1700">${j.Depression[1]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1800">${j.Depression[2]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="1900">${j.Fear[1]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="2000">${j.Fear[2]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="2100">${j.Fear[3]}</button>
+    <button class="buo" data-aos="zoom-in" data-aos-duration="2200">${j.Fear[4]}</button>
     </div>
  
     </div>
