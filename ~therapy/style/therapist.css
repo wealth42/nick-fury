@@ -47,12 +47,22 @@ h4 {
 }
 
 #wow .container {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   border: 1px solid;
-  padding: 20px;
+  margin-bottom: 50px;
   -webkit-box-shadow: 5px 10px #888888;
           box-shadow: 5px 10px #888888;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#wow .container:hover {
+  -webkit-box-shadow: 10px 20px #888888;
+          box-shadow: 10px 20px #888888;
 }
 
 #wow .container .class {
@@ -63,14 +73,15 @@ h4 {
   position: relative;
   width: 40%;
   height: auto;
-  right: -50%;
+  float: right;
+  padding: 10px;
 }
 
 #wow .container button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -81,20 +92,49 @@ h4 {
 }
 
 #wow .container button:hover {
-  background-color: lightseagreen;
+  background-color: darkgreen;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#wow .container #text {
+  padding: 15px;
 }
 
 #wow .container p {
   margin: 0 auto;
+  color: white;
+}
+
+#current a {
+  color: white;
+  text-decoration: none;
+}
+
+#current a:hover {
+  color: brown;
 }
 
 #current .container {
+  border-radius: 5px;
+  background-color: #FFDEE9;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#FFDEE9), to(#B5FFFC));
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
   border: 1px solid;
   padding: 20px;
-  -webkit-box-shadow: 5px 10px #888888;
-          box-shadow: 5px 10px #888888;
   margin: 0 auto;
   margin-bottom: 50px;
+  -webkit-box-shadow: 5px 10px #888888;
+          box-shadow: 5px 10px #888888;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+#current .container:hover {
+  -webkit-box-shadow: 10px 20px #888888;
+          box-shadow: 10px 20px #888888;
 }
 
 #current .container .class {
@@ -105,14 +145,15 @@ h4 {
   position: relative;
   width: 40%;
   height: auto;
-  right: -50%;
+  float: right;
+  padding: 10px;
 }
 
 #current .container button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -123,7 +164,9 @@ h4 {
 }
 
 #current .container button:hover {
-  background-color: lightseagreen;
+  background-color: darkgreen;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #current .container p {
@@ -134,7 +177,7 @@ h4 {
   background-color: palevioletred;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -166,5 +209,23 @@ footer span a {
 
 footer p {
   color: white;
+}
+
+@media (max-width: 1000px) {
+  #image {
+    display: block;
+    position: relative;
+    right: 30%;
+  }
+  #text {
+    margin: 0 auto;
+  }
+  #text p {
+    text-align: center;
+  }
+  #text button {
+    position: relative;
+    left: 17%;
+  }
 }
 /*# sourceMappingURL=therapist.css.map */
