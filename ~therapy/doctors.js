@@ -230,16 +230,16 @@ var curent = recent.map(function(j) {
     return `
     <div class="container">
     <div class="row">
-    <div  class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1000">
+    <div  class="col-lg-6 col-md-6 col-sm-12" id="text">
     <p class="p-name"> Name: ${j.name}</p>
     <p class="p-desc"> Gender: ${j.gender}</p>
     <p class="p-created"> Phone Number: ${j.phone}</p>
     <p class="p-created"> Rating: ${j.rating}/5</p>
-    <button id="remove">Remove</button>
-    <button>Journal</button>
+    <button id="remove" data-aos="zoom-in" data-aos-duration="1000">Remove</button>
+    <button data-aos="zoom-in" data-aos-duration="1000"><a href="journal.html">Journal</a></button>
 
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12" >
+    <div class="col-lg-6 col-md-6 col-sm-12" id="image" >
     <img src="${j.image}">
     </div>
     </div>
@@ -254,16 +254,16 @@ var htmlText = data.map(function(o) {
     return `
         <div class="container">
         <div class="row">
-        <div  class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1000">
+        <div  class="col-lg-6 col-md-12 col-sm-12"  id="text">
         <p class="p-name"> Name: ${o.name}</p>
         <p class="p-desc"> Gender: ${o.gender}</p>
         <p class="p-created"> Phone Number: ${o.phone}</p>
         <p class="p-created"> Address: ${o.address.city,o.address.street}</p>
-        <button>Consult</button>        <button>More Info</button>
+        <button data-aos="zoom-in" data-aos-duration="1000">Consult</button>        <button data-aos="zoom-in" data-aos-duration="1000">More Info</button>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12">
-        <img src="${o.image}">
+        <div class="col-lg-6 col-md-12 col-sm-12" >
+        <img src="${o.image}" id="image">
         </div>
        </div>
        </div>
