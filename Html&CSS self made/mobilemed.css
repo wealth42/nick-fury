@@ -1,6 +1,6 @@
-#navbar  .dropdown{
+/* #navbar  .dropdown{
     display: none;
-}
+} */
 #logo{
     margin: 5px  10px;
     font-size: 1.05rem;
@@ -19,36 +19,19 @@
     display: flex;
     flex-direction: column;
 }
-#service .box{
-    border-radius: 20px;
-    padding: 20px 30px;
-    padding-bottom: 34px;
-    margin: 15px 30px;
+
+#service .box, #service2 .box, #service3 .box{
+    padding: 0px 35px;
+    padding-bottom: 24px;
+    margin: 15px 15px;
 }
-#service2 .box{
-    border-radius: 20px;
-    padding: 0px 30px;
-    padding-bottom: 34px;
-    margin: 15px 30px;
+
+#service .box img, #service2 .box img, #service3 .box img{
+    height: 220px;
+    margin: auto;
+    display: block;
 }
-#service3 .box{
-    border-radius: 20px;
-    padding: 0px 30px;
-    padding-bottom: 34px;
-    margin: 15px 30px;
-}
-#service .box img{
-    height: 250px;
-    width: 220px;
-}
-#service2 .box img{
-    height: 250px;
-    width: 220px;
-}
-#service3 .box img{
-    height: 250px;
-    width: 220px;
-}
+
 
 .primary-h1{
     font-size: 2.0rem;

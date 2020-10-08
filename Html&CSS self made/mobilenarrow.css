@@ -23,64 +23,49 @@
     padding: 3px 10px;
 }
 
-#service{
+#service2, #service, #service3{
+    margin: 0px 20px;
+    display: flex;
     flex-direction: column;
-}
-#service2{
-    flex-direction: column;
-}
-#service3{
-    flex-direction: column;
-}
-#service .box{
-    padding: 0px 24px;
-    padding-bottom: 24px;
-    margin: 15px 150px;
-    border-radius: 18px;
-}
-#service2 .box{
-    padding: 0px 24px;
-    padding-bottom: 24px;
-    margin: 15px 150px;
-    border-radius: 18px;
-}
-#service3 .box{
-    padding: 0px 24px;
-    padding-bottom: 24px;
-    margin: 15px 150px;
-    border-radius: 18px;
 }
 
-#service .box img{
-    width: 250px;
-    height: 200px;
+#service .box, #service2 .box, #service3 .box{
+    margin: 15px auto;
 }
-#service2 .box img{
-    width: 250px;
-    height: 200px;
+
+#service .box img, #service2 .box img, #service3 .box img{
+    height: 220px;
+    margin: auto;
+    display: block;
 }
-#service2 .box img{
-    width: 250px;
-    height: 200px;
+
+#rev .card {
+    padding: 5px 15px;
+    margin: 6px 10px;
+    margin-bottom: 30px;
+}
+
+#rev .card img{
+    height: 80px;
 }
 
 .primary-h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 10px;
 }
 
 .secondary-h{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 10px;
 }
 
 .ternary-h{
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     font-family: 'Bree Serif', serif;
     padding: 10px;
 }
 #about h1{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 10px;
 }    
 #about p{
@@ -91,7 +76,7 @@
     border-radius: 10px;
     background-color: rgb(239 245 251 / .4);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 10px;
     font-family: 'Bree Serif', serif;
 }    

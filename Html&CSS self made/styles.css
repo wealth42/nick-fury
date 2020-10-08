@@ -154,67 +154,22 @@
     transition: all .5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#service{
+#service2, #service, #service3{
     margin: 20px;
     display: flex;
 }
 
-#service .box{
+#service .box, #service2 .box, #service3 .box{
     background: white;
     border: 2px solid rgb(245, 242, 242);
-    padding: 0px 60px;
-    padding-bottom: 34px;
-    margin: 15px 25px;
+    padding: 0px 50px;
+    padding-bottom: 24px;
+    margin: 15px 35px;
     border-radius: 20px;
 }
 
-#service .box img{
+#service .box img, #service2 .box img, #service3 .box img{
     height: 220px;
-    width: 250px;
-    margin: auto;
-    display: block;
-}
-
-#service2{
-    margin: 20px;
-    display: flex;
-}
-
-#service2 .box{
-    background: white;
-    border: 2px solid rgb(245, 242, 242);
-    padding: 0px 60px;
-    padding-bottom: 34px;
-    margin: 15px 25px;
-    border-radius: 20px;
-}
-
-
-#service2 .box img{
-    height: 220px;
-    width: 250px;
-    margin: auto;
-    display: block;
-}
-
-#service3{
-    margin: 20px;
-    display: flex;
-    border-bottom: 1px solid  rgb(211, 203, 203);
-}
-
-#service3 .box{
-    background: white;
-    border: 2px solid rgb(245, 242, 242);
-    padding: 0px 60px;
-    padding-bottom: 34px;
-    margin: 15px 25px;
-    border-radius: 20px;
-}
-
-#service3 .box img{
-    height: 220px;
-    width: 250px;
     margin: auto;
     display: block;
 }
@@ -318,14 +273,7 @@ footer{
 }
 /* services */
 
-#hd{
-    display: flex;
-    flex-direction: column;
-    height: 416px;
-    align-items: center;
-    justify-content: center;
-}
-#painting{
+#hd, #painting{
     display: flex;
     flex-direction: column;
     height: 416px;
@@ -347,13 +295,13 @@ footer{
     content: "";
     position: absolute;
     width: 100%;
-    height: 435px;
+    height: 415px;
     left: 0;
     opacity: 0.7;
     background: url('img/paint.jpg') no-repeat center center/cover;
     z-index: -1;
 }
-#hd h1{
+#hd h1, #painting h1{
     color: black;
     border-radius: 10px;
     background-color: rgb(239 245 251 / .4);
@@ -362,13 +310,13 @@ footer{
     padding: 10px;
     font-family: 'Bree Serif', serif;
 }    
-#hd p{
+#hd p, #painting p{
     color: black;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Bree Serif', serif;
 }
-#painting, h1{
+/* #painting h1{
     color: black;
     border-radius: 10px;
     background-color: rgb(239 245 251 / .4);
@@ -376,14 +324,14 @@ footer{
     font-size: 2.5rem;
     padding: 10px;
     font-family: 'Bree Serif', serif;
-}    
+}     */
 
-#painting p{
+/* #painting p{
     color: black;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Bree Serif', serif;
-}
+} */
 #contact-us::before{
     content: "";
     position: absolute;
