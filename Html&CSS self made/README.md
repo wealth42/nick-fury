@@ -7,4 +7,4 @@
 ### Instructions 
 * download the files on your device
 * open/run the index.html file 
-* vola, see the magic
+* voila, see the magic
