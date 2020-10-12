@@ -1,0 +1,32 @@
+/*
+under construction page
+*/
+:root{
+  --yellowOne:rgb(253, 201, 59);
+  --blueOne:rgb(117, 204, 255);
+  --blackOne:#101110;
+}
+body{
+  background:linear-gradient(to right, var(--blueOne), var(--yellowOne) ) ;
+background-color: var(--blueOne );
+background-blend-mode: screen;
+}
+
+.wrapper{
+  width:100vw;
+  height:100vh;
+  
+}
+.content{
+  transition: transform  0.5s ease-in;
+}
+
+.btn-main{
+background-color: #666;
+color: var(--yellowOne);
+
+}
+.content, .btn-main:hover{
+  transform: scaleX(1.1);
+  color:#fff;
+}

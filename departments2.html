@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Departments </title>
+  <link rel="stylesheet" href="dept2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+<!--navigation starts here-->
+
+<nav>
+  
+  <div class="brand">
+    <a href="#" ></a>
+    <h5> <span class="brand-logo">New Life</span> <i class="fas fa-smile logo"></i></h5> 
+  </div>
+
+<ul class="navbar">
+<li><a href="#" > Home</a> </li>
+<li><a href="#" > About</a> </li>
+<li class="active"><a href="#" >Departments</a> </li>
+<li ><a href="#" >Contact</a> </li>
+</ul>
+ 
+<div class="nav-btn">
+  <button><i class="fa fa-bars icon" aria-hidden="true"></i></button>
+</div>
+
+
+
+</nav>
+  <!--dept starts -->
+  <section class="dept">
+    <img src="img/dept-bg.jpg" alt="">
+  </section>
+<section class="dept-head">
+  <h3> OUR DEPARTMENTS </h3>
+</section>
+  <section class="dept-main" >
+    
+    <div class="dept-1">
+      <div class="flip-card">
+        <img src="./img/consultation.jpg" alt="" class="dept-img" >
+          </div>
+        <div class="flip-card-back">
+          <h5 > Consultation</h5> 
+       </div>
+       </div><!--end of dept1-->
+
+       <div class="dept-1">
+        <div class="flip-card">
+          <img src="./img/surgery.jpg" alt="" class="dept-img" >
+            </div>
+          <div class="flip-card-back">
+            <h5 > Surgery</h5> 
+         </div>
+         </div><!--end of dept1-->       
+
+         <div class="dept-1">
+          <div class="flip-card">
+            <img src="./img/cardiology.jpg" alt="" class="dept-img" >
+              </div>
+            <div class="flip-card-back">
+              <h5 > Cardiology</h5> 
+           </div>
+           </div><!--end of dept1-->
+
+           <div class="dept-1">
+            <div class="flip-card">
+              <img src="./img/vaccination.jpg" alt="" class="dept-img" >
+                </div>
+              <div class="flip-card-back">
+                <h5 >Vaccination</h5> 
+             </div>
+             </div><!--end of dept1-->
+
+             <div class="dept-1">
+              <div class="flip-card">
+                <img src="./img/cancer.jpg" alt="" class="dept-img" >
+                  </div>
+                <div class="flip-card-back">
+                  <h5 > Cancer</h5> 
+               </div>
+               </div><!--end of dept1-->
+
+             <div class="dept-1">
+              <div class="flip-card">
+                <img src="./img/emergency.jpg" alt="" class="dept-img" >
+                  </div>
+                <div class="flip-card-back">
+                  <h5 > Emergency</h5> 
+               </div>
+               </div><!--end of dept1-->
+
+</section>
+<!--footer starts here-->
+
+<footer class="footer">
+  <div class="col-1" >
+    <address ><i class="fas fa-envelope fa-2x"></i><br/>
+ New Life Paediatric Hospital<br>
+      ABC Road,  Near landmark,</br>
+      Kothrud, Pune
+         </address>
+  </div>
+  <div class="col-2">
+    <i class="fas fa-clock fa-2x"></i><br/>
+    <p >Morning:<br/>
+    Mon-Fri:9.30am to 1pm<br/>
+  </p>
+  <p>Evening:<br/>
+    Mon-Fri:7pm to 10pm<br/>
+  </p>
+  </div>
+  <div class="col-3">
+    <i class="fas fa-phone-volume fa-2x"></i>
+    <p> 123-456-789</p>
+    <p>987-456-321</p>
+  </div>
+  <div class="col-4">
+    
+    <p> <a href="#"> New Life </a> &copy 2020. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!--javascript for mobile navigation-->
+
+<script>
+const navbar= document.querySelector('.navbar');
+const btn= document.querySelector('.nav-btn');
+btn.addEventListener('click', function(){
+navbar.classList.toggle('nav-toggle');
+});
+
+</script>
+
+
+</body>
+</html>
