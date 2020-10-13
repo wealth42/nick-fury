@@ -12,8 +12,7 @@ Kirti Parag Mahadane
 - [x] You have not plagialised, or blatently copied work; and this submission is your original work. (Code of ethics)
 
 ## Briefly write about the project that you have submitted from the perspective of the user.
-This website is for paediatric hospital.The site is under construction.It has 4 pages namely 
-home, about, departemnts and contact. The website looks good on all devices i.e. desktop, tablet and mobile as well.
+This website is for paediatric hospital.The site is under construction.The deepartemnts web page is done with CSS grid and flexbox. The website looks good on all devices i.e. desktop, tablet and mobile as well.
 
 ## Assumptions you have made for this project?
 No assumptions.
@@ -23,13 +22,13 @@ No assumptions.
 
 ## Did you learn anything new while doing this assignment? Please explain.
 I have used css blend-mode property for the first time. 
-I am using github for such activity first time. 
+I am using github for such activity first time and I hope to learn more.
 
 ## How much time did it take for you complete the project?
 It took 2 days time to complete the project. I had images and content ready. Normally, form concept to design ,
  this project will take atleast 5 days to complete.
 ## If you had more time, what enhancements will you make?
-I would have worked on mobile navigation, footer layout and color scheme.
+I would have worked on mobile navigation and color scheme.
 
 ## What was your motivation behind choosing this evaluation mode and the project?
 To showcase my front end design ability to create responsive , clean and functional code.
