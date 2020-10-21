@@ -38,7 +38,6 @@ Refer to respective folders for assignments
 
 #### 2. Creating the Environment
 
-> PLEASE NOTE that Expo has already been installed in this project, no need to execute the given instructions.
 
 - Open command prompt and navigate to the desired folder where you want to save the project.
   Use `cd ` for navigation in Windows or access your desired folder
