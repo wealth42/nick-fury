@@ -14,7 +14,7 @@ The goal of this challenge is to test your familiarity with concepts in *Python 
 
 
 ### Instructions
-* Explore the [API documentation](https://api-portal.tfl.gov.uk/docs)
+* Explore the [API documentation](https://api-portal.tfl.gov.uk/api-details)
 * Use the bikepoint API to extract information on bike availability on various bike stands
 * Design DDLs for - 
     * storing the real-time bike availability data across London
