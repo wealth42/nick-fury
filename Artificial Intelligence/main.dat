@@ -1,0 +1,33 @@
+param:  T:  :=
+  "teacher1"
+  "teacher2"
+  "teacher3"
+  "teacher4"
+  "teacher5" ;
+
+param:  B: :=
+  "Batch1"
+  "Batch2"
+  "Batch3" ;
+
+param:  D: :=
+  Monday
+  Tuesday
+  Wednesday
+  Thursday
+  Friday ;
+
+param:  L: :=
+  "lecture1"
+  "lecture2"
+  "lecture3"
+  "lecture4"
+  "lecture5" ;
+
+param P:
+                Monday  Tuesday  Wednesday  Thursday  Friday :=
+"teacher1"         5        8        1       10        0
+"teacher2"         2        3        6        7        4
+"teacher3"         9        8        2        0        3
+"teacher4"         1        3        4        7       10
+"teacher5"         5        3       10        1        1 ;

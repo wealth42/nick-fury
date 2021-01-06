@@ -1,0 +1,191 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: 495.0
+  Upper bound: 495.0
+  Number of objectives: 1
+  Number of constraints: 291
+  Number of variables: 376
+  Number of nonzeros: 1501
+  Sense: maximize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 1
+      Number of created subproblems: 1
+  Error rc: 0
+  Time: 0.03609180450439453
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: optimal
+  Message: None
+  Objective:
+    score:
+      Value: 495
+  Variable:
+    x[Batch1,Friday,lecture1,teacher2]:
+      Value: 1
+    x[Batch1,Friday,lecture2,teacher3]:
+      Value: 1
+    x[Batch1,Friday,lecture3,teacher3]:
+      Value: 1
+    x[Batch1,Friday,lecture4,teacher2]:
+      Value: 1
+    x[Batch1,Friday,lecture5,teacher4]:
+      Value: 1
+    x[Batch1,Monday,lecture1,teacher3]:
+      Value: 1
+    x[Batch1,Monday,lecture2,teacher1]:
+      Value: 1
+    x[Batch1,Monday,lecture3,teacher1]:
+      Value: 1
+    x[Batch1,Monday,lecture4,teacher3]:
+      Value: 1
+    x[Batch1,Monday,lecture5,teacher5]:
+      Value: 1
+    x[Batch1,Thursday,lecture1,teacher2]:
+      Value: 1
+    x[Batch1,Thursday,lecture2,teacher4]:
+      Value: 1
+    x[Batch1,Thursday,lecture3,teacher1]:
+      Value: 1
+    x[Batch1,Thursday,lecture4,teacher4]:
+      Value: 1
+    x[Batch1,Thursday,lecture5,teacher2]:
+      Value: 1
+    x[Batch1,Tuesday,lecture1,teacher3]:
+      Value: 1
+    x[Batch1,Tuesday,lecture2,teacher1]:
+      Value: 1
+    x[Batch1,Tuesday,lecture3,teacher1]:
+      Value: 1
+    x[Batch1,Tuesday,lecture4,teacher5]:
+      Value: 1
+    x[Batch1,Tuesday,lecture5,teacher5]:
+      Value: 1
+    x[Batch1,Wednesday,lecture1,teacher2]:
+      Value: 1
+    x[Batch1,Wednesday,lecture2,teacher5]:
+      Value: 1
+    x[Batch1,Wednesday,lecture3,teacher4]:
+      Value: 1
+    x[Batch1,Wednesday,lecture4,teacher5]:
+      Value: 1
+    x[Batch1,Wednesday,lecture5,teacher4]:
+      Value: 1
+    x[Batch2,Friday,lecture1,teacher4]:
+      Value: 1
+    x[Batch2,Friday,lecture2,teacher2]:
+      Value: 1
+    x[Batch2,Friday,lecture3,teacher2]:
+      Value: 1
+    x[Batch2,Friday,lecture4,teacher4]:
+      Value: 1
+    x[Batch2,Friday,lecture5,teacher3]:
+      Value: 1
+    x[Batch2,Monday,lecture1,teacher1]:
+      Value: 1
+    x[Batch2,Monday,lecture2,teacher5]:
+      Value: 1
+    x[Batch2,Monday,lecture3,teacher3]:
+      Value: 1
+    x[Batch2,Monday,lecture4,teacher5]:
+      Value: 1
+    x[Batch2,Monday,lecture5,teacher3]:
+      Value: 1
+    x[Batch2,Thursday,lecture1,teacher1]:
+      Value: 1
+    x[Batch2,Thursday,lecture2,teacher2]:
+      Value: 1
+    x[Batch2,Thursday,lecture3,teacher4]:
+      Value: 1
+    x[Batch2,Thursday,lecture4,teacher1]:
+      Value: 1
+    x[Batch2,Thursday,lecture5,teacher4]:
+      Value: 1
+    x[Batch2,Tuesday,lecture1,teacher1]:
+      Value: 1
+    x[Batch2,Tuesday,lecture2,teacher3]:
+      Value: 1
+    x[Batch2,Tuesday,lecture3,teacher5]:
+      Value: 1
+    x[Batch2,Tuesday,lecture4,teacher3]:
+      Value: 1
+    x[Batch2,Tuesday,lecture5,teacher1]:
+      Value: 1
+    x[Batch2,Wednesday,lecture1,teacher5]:
+      Value: 1
+    x[Batch2,Wednesday,lecture2,teacher2]:
+      Value: 1
+    x[Batch2,Wednesday,lecture3,teacher2]:
+      Value: 1
+    x[Batch2,Wednesday,lecture4,teacher4]:
+      Value: 1
+    x[Batch2,Wednesday,lecture5,teacher5]:
+      Value: 1
+    x[Batch3,Friday,lecture1,teacher3]:
+      Value: 1
+    x[Batch3,Friday,lecture2,teacher4]:
+      Value: 1
+    x[Batch3,Friday,lecture3,teacher4]:
+      Value: 1
+    x[Batch3,Friday,lecture4,teacher3]:
+      Value: 1
+    x[Batch3,Friday,lecture5,teacher2]:
+      Value: 1
+    x[Batch3,Monday,lecture1,teacher5]:
+      Value: 1
+    x[Batch3,Monday,lecture2,teacher3]:
+      Value: 1
+    x[Batch3,Monday,lecture3,teacher5]:
+      Value: 1
+    x[Batch3,Monday,lecture4,teacher1]:
+      Value: 1
+    x[Batch3,Monday,lecture5,teacher1]:
+      Value: 1
+    x[Batch3,Thursday,lecture1,teacher4]:
+      Value: 1
+    x[Batch3,Thursday,lecture2,teacher1]:
+      Value: 1
+    x[Batch3,Thursday,lecture3,teacher2]:
+      Value: 1
+    x[Batch3,Thursday,lecture4,teacher2]:
+      Value: 1
+    x[Batch3,Thursday,lecture5,teacher1]:
+      Value: 1
+    x[Batch3,Tuesday,lecture1,teacher5]:
+      Value: 1
+    x[Batch3,Tuesday,lecture2,teacher5]:
+      Value: 1
+    x[Batch3,Tuesday,lecture3,teacher3]:
+      Value: 1
+    x[Batch3,Tuesday,lecture4,teacher1]:
+      Value: 1
+    x[Batch3,Tuesday,lecture5,teacher3]:
+      Value: 1
+    x[Batch3,Wednesday,lecture1,teacher4]:
+      Value: 1
+    x[Batch3,Wednesday,lecture2,teacher4]:
+      Value: 1
+    x[Batch3,Wednesday,lecture3,teacher5]:
+      Value: 1
+    x[Batch3,Wednesday,lecture4,teacher2]:
+      Value: 1
+    x[Batch3,Wednesday,lecture5,teacher2]:
+      Value: 1
+  Constraint: No values
