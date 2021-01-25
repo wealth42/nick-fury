@@ -4,7 +4,7 @@
 The goal of this challenge is to test your familiarity with either Adobe XD or Sketch to build concepts. To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-hiring)
 
 *   You can select any one of the stories mentioned in the [stories](../stories/) folder, and build a few screens that showcase your skills as a UI developer. 
-*   Follow [Instructions](#instructions) and [Submission Process](#submission-process) to complete the assignment.
+*   Follow [Submission Process](#submission-process) to complete the assignment.
 *   For success, ensure you get as many checks as in our [Assessment Criteria](#assessment-criteria)
 *   We typically take 5 days to evaluate this submission.
 
