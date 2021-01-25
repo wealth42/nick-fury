@@ -41,6 +41,7 @@ The goal of this challenge is to test your familiarity with concepts in ReactJS.
 8. Follow [best practices](https://github.community/t/best-practices-for-pull-requests/10195) for pull requests.
 9. [Guidelines](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17) for clean commit messages.
 10. Ability to learn and use version control via Git
+11. Bonus points for a hosted solution (Eg. [Netlify](https://www.netlify.com/), [AWS Amplify](https://aws.amazon.com/amplify/))
 
 ### Submission Process
 1. Fork this repository to your personal Github profile
