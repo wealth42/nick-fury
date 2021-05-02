@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
-}
+.test {
+	/* Welcome to muzo */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+	position: absolute;
+	width: 177px;
+	height: 31px;
+	left: 119px;
+	top: 360px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	letter-spacing: -0.07em;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	color: #ffffff;
 }
+body {
+	position: relative;
+	width: 414px;
+	height: 896px;
 
-.App-link {
-  color: #61dafb;
+	background: #151b24;
+	border-radius: 40px;
 }
+.Group7 {
+	position: absolute;
+	width: 502.38px;
+	height: 248.42px;
+	left: -44px;
+	top: 78px;
+}
+.Continue {
+	/* Continue with */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	position: absolute;
+	width: 69px;
+	height: 16px;
+	left: 172px;
+	top: 400px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.04em;
+
+	color: #ffffff;
+}
+.Group24 {
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 486px;
+
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.Group24::placeholder {
+	/* position: absolute; */
+	color: #969696;
+}
+.Group23 {
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 551px;
+
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.Group23::placeholder {
+	color: #969696;
+}
+.SignUp {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 13px 50px;
+
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 626px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 132.5%;
+
+	/* Primary/Default */
+
+	background: #2bfeba;
+	border-radius: 15px;
+}
+.OrUsing {
+	position: absolute;
+	width: 40px;
+	height: 16px;
+	left: 187px;
+	top: 719.14px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: -0.05em;
+
+	color: #ffffff;
+}
+.ButtonGroup {
+	/* position: absolute;
+	width: 239px;
+	height: 55.68px;
+	left: 88px;
+	top: 756px; */
+}
+.Facebook {
+	/* position: absolute; */
+	position: absolute;
+	width: 104px;
+	height: 54.68px;
+	left: 223px;
+	top: 756px;
+
+	background: #4e6297;
+	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25);
+	border-radius: 49px;
+	border: none;
+}
+.Google {
+	position: absolute;
+	width: 104px;
+	height: 54.68px;
+	left: 88px;
+	top: 757px;
+
+	background: #c5331e;
+	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25);
+	border-radius: 49px;
+	border: none;
 }
