@@ -58,13 +58,7 @@ const UserDetails = () => {
             width: "100%",
             height: "100%",
             position: "absolute",
-<<<<<<< HEAD
             border:"none"
-=======
-            border:"none",
-            borderRadius:"50%"
-            
->>>>>>> 1ff8d89 (UserDetails UI Done)
           }}
           alt=""
         />
