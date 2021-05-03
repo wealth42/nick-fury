@@ -158,3 +158,129 @@ body {
 	border-radius: 49px;
 	border: none;
 }
+.ConfirmDetails {
+	position: absolute;
+	width: 254px;
+	height: 31px;
+	left: 80px;
+	top: 100px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	letter-spacing: -0.07em;
+
+	color: #ffffff;
+}
+.FetechImage {
+	position: absolute;
+	width: 165px;
+	height: 16px;
+	left: 124px;
+	top: 136px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: -0.04em;
+
+	color: #ffffff;
+}
+.FirstName {
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 348px;
+
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.LastName {
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 418px;
+
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.City {
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 488px;
+
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.ImageContainer {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 147px;
+	top: 182px;
+	border-radius: 50%;
+
+	background: #c4c4c4;
+}
+.Terms {
+	position: absolute;
+	width: 265px;
+	height: 36px;
+	left: 75px;
+	top: 730px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.04em;
+
+	color: #ffffff;
+}
+.Next {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 13px 50px;
+
+	position: absolute;
+	width: 348px;
+	height: 50px;
+	left: 33px;
+	top: 786px;
+
+	/* Primary/Default */
+
+	background: #2bfeba;
+	border-radius: 15px;
+}
+.upload {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 190px;
+	top: 282px;
+
+	border-radius: 50%;
+}

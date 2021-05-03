@@ -26,12 +26,16 @@ const Login = () => {
             <h1 className="Continue">Continue with</h1>
             <Input className="Group24" type="email" placeholder="       Enter Email"/>
             <Input className="Group23" type="password"placeholder="       Enter Password"/>
-            <Button className="SignUp">
+            <Link to="/UserDetails">
+                <Button className="SignUp">
                     Sign up
-            </Button>
+                </Button>
+            </Link>
             <h1 className="OrUsing">Or using</h1>
-                <Button  className="Google"><img src={Google}/></Button>
+            <Link to="/UserDetails">
+                <Button className="Google"><img src={Google}/></Button>
                 <Button className="Facebook"><img src={Facebook}/></Button>
+            </Link>
         </Fragment>
     )
 }
