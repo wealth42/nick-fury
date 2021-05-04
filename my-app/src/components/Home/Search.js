@@ -4,14 +4,22 @@ import {Button} from 'react-bootstrap'
 import search from '../../img/Search Glyph   Light.svg'
 import heart from '../../img/Heart.png'
 import Nheart from '../../img/nonheart.svg'
+import Footer from '../Layout/Footer'
+import Header from '../Layout/Header'
 // import button from "bootstrap"
 //  const { Meta } = Card;
 const Search = () => {
     return(
         <Fragment>
+            <Header>
+                <div>
+                    <h1 className="HeaderText">Search</h1>
+                </div>
+                
+            </Header>
             <Button className="SearchTherapist" style={{border:"none"}}>
                 <img className="SearchIcon" alt="" src={search}></img>
-                <span className="searchtextTherapist">Search in Therapist</span>
+                <span className="searchtextTherapist">Search in therapist</span>
             </Button>
             <div className="SearchCardOne">
                 <div>
@@ -249,6 +257,9 @@ const Search = () => {
                 </div>
 
             </div>
+            <Footer>
+               
+            </Footer>
         </Fragment>
     )
 }

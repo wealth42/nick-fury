@@ -1,9 +1,9 @@
 import React, {Fragment, useState} from 'react'
 import { Button, Tooltip, Card,Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import Footer from '../Layout/Footer';
 import search from '../../img/Search Glyph   Light.svg'
 import filter from '../../img/filtrr.svg'
+import Footer from '../Layout/Footer'
 const { Meta } = Card;
 const HomeNotes = () => {
     return(
@@ -149,7 +149,7 @@ const HomeNotes = () => {
                 
 
             </Card>
-            
+            <Footer/>
     </Fragment>
     )
     
