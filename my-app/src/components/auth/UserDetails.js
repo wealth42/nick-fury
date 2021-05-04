@@ -1,6 +1,5 @@
 import React, {Fragment, useState} from 'react'
 import { Link } from 'react-router-dom'
-import Camera from '../../img/Group 443.png'
 
 import { Input, Button } from 'antd';
 
@@ -58,7 +57,9 @@ const UserDetails = () => {
             width: "100%",
             height: "100%",
             position: "absolute",
-            border:"none"
+            border:"none",
+            borderRadius:"50%"
+
           }}
           alt=""
         />
@@ -73,15 +74,16 @@ const UserDetails = () => {
 
             <h1 className="Terms">By signing up I agree to Terms and Conditions 
             & Privacy Policies</h1>
-
-            <Button className="Next">
+          <Link to="/HomeNotes"> <Button className="Next">
                     Next
-            </Button>
+            </Button></Link>
+           
             {/* <Button className="SignUp">
                     Sign up
             </Button>
             <h1 className="OrUsing">Or using</h1>
                 <Button  className="Google"><img src={Google}/></Button>
+
                 <Button className="Facebook"><img src={Facebook}/></Button> */}
         </Fragment>
     )

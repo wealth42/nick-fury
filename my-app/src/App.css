@@ -284,3 +284,256 @@ body {
 
 	border-radius: 50%;
 }
+.BodyHome {
+	position: relative;
+	width: 414px;
+	height: 896px;
+
+	background: #151b24;
+	border-radius: 40px;
+}
+.SearchTherapist {
+	height: 36px;
+	width: 366px;
+	left: 24px;
+	top: 142px;
+	border-radius: 10px;
+
+	position: absolute;
+	height: 36px;
+	left: 24px;
+	right: 24px;
+	top: calc(50% - 36px / 2 - 288px);
+
+	background: #767680;
+	border-radius: 10px;
+}
+.Search {
+	position: absolute;
+	width: 230px;
+	height: 36px;
+	left: 33px;
+	top: 142px;
+	background: #767680;
+	border-radius: 10px;
+	border: none;
+}
+
+.searchtext {
+	position: absolute;
+	left: 2.33%;
+	right: 15.33%;
+	top: 24.55%;
+	bottom: 4.55%;
+
+	font-family: SF Pro Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+
+	color: #d5d5d6;
+}
+.searchtextTherapist {
+	position: absolute;
+	left: 2.33%;
+	right: 39.33%;
+	top: 18.55%;
+	bottom: 4.55%;
+
+	font-family: SF Pro Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+
+	color: #d5d5d6;
+}
+
+.SearchIcon {
+	position: absolute;
+	left: 2.33%;
+	right: 16.33%;
+	top: 18.55%;
+	bottom: 4.55%;
+	font-family: SF Pro Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+
+	color: #d5d5d6;
+}
+.SearchCardOne {
+	position: absolute;
+	width: 348px;
+	height: 114px;
+	left: 33px;
+	top: 198px;
+	background: #090c10;
+}
+.SearchCardTwo {
+	position: absolute;
+	width: 348px;
+	height: 114px;
+	left: 33px;
+	top: 332px;
+	background: #090c10;
+}
+.SearchCardThree {
+	position: absolute;
+	width: 348px;
+	height: 114px;
+	left: 33px;
+	top: 466px;
+	background: #090c10;
+}
+.SearchCardFour {
+	position: absolute;
+	width: 348px;
+	height: 114px;
+	left: 33px;
+	top: 600px;
+	background: #090c10;
+}
+.cardone {
+	position: absolute;
+	width: 348px;
+	height: 297px;
+	left: 33px;
+	top: 198px;
+	background: #090c10;
+
+	/* Tertiary/Dark */
+}
+.cardtwo {
+	position: absolute;
+	width: 348px;
+	height: 297px;
+	left: 33px;
+	top: 515px;
+	background: #090c10;
+}
+.filter {
+	position: absolute;
+	left: 74.5%;
+	right: 7.97%;
+	top: 16.52%;
+	bottom: 80.8%;
+
+	/* background: #ffffff; */
+}
+.cardImage {
+	border-radius: 0px;
+
+	position: absolute;
+	left: 13.72px;
+	right: 14.59px;
+	top: 15.33px;
+	bottom: 132.25px;
+
+	background: #c4c4c4;
+}
+
+.profile {
+	width: 57px;
+	height: 57px;
+	left: 17px;
+	top: 17px;
+
+	background: #c4c4c4;
+}
+
+.card-body {
+}
+
+.card-title {
+	width: 109px;
+	height: 21px;
+
+	top: 11.76px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height, or 131% */
+
+	letter-spacing: -0.33px;
+
+	color: #ffffff;
+}
+
+.card-text {
+	position: absolute;
+	width: 151px;
+	height: 40px;
+	left: 92.44px;
+	top: 33.76px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.2%;
+	/* or 20px */
+
+	color: #ffffff;
+}
+
+.card-text1 {
+	position: absolute;
+	width: 67px;
+	height: 17px;
+	left: 92.44px;
+	bottom: -4.24px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 140.2%;
+	/* identical to box height, or 17px */
+
+	/* Grey/600 */
+
+	color: #797980;
+}
+
+.heart {
+	position: absolute;
+	left: 85.47%;
+	right: 14.37%;
+	top: 10.44%;
+	bottom: 73.55%;
+}
+
+.greenbutton {
+	position: absolute;
+	width: 28px;
+	height: 16px;
+	left: 250.47%;
+
+	top: 2px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 132.5%;
+	/* identical to box height, or 16px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #2bfeba;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
