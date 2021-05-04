@@ -4,6 +4,7 @@ import Login from './components/auth/Login'
 import UserDetails from './components/auth/UserDetails'
 import HomeNotes from './components/Home/HomeNotes'
 import Search from './components/Home/Search'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import logo from './logo.svg';
 import './App.css';

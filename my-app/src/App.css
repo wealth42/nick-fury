@@ -1,539 +1,539 @@
 .test {
 	/* Welcome to muzo */
 
-	position: absolute;
-	width: 177px;
-	height: 31px;
-	left: 119px;
-	top: 360px;
+	position: absolute !important;
+	width: 177px !important;
+	height: 31px !important;
+	left: 119px !important;
+	top: 360px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 31px;
-	text-align: center;
-	letter-spacing: -0.07em;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 24px !important;
+	line-height: 31px !important;
+	text-align: center !important;
+	letter-spacing: -0.07em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 body {
-	position: relative;
-	width: 414px;
-	height: 896px;
+	position: relative !important;
+	width: 414px !important;
+	height: 896px !important;
 
-	background: #151b24;
-	border-radius: 40px;
+	background: #151b24 !important;
+	border-radius: 40px !important;
 }
 .Group7 {
-	position: absolute;
-	width: 502.38px;
-	height: 248.42px;
-	left: -44px;
-	top: 78px;
+	position: absolute !important;
+	width: 502.38px !important;
+	height: 248.42px !important;
+	left: -44px !important;
+	top: 78px !important;
 }
 .Continue {
 	/* Continue with */
 
-	position: absolute;
-	width: 69px;
-	height: 16px;
-	left: 172px;
-	top: 400px;
+	position: absolute !important;
+	width: 69px !important;
+	height: 16px !important;
+	left: 172px !important;
+	top: 400px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 16px;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
 	/* identical to box height */
-	text-align: center;
-	letter-spacing: -0.04em;
+	text-align: center !important;
+	letter-spacing: -0.04em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .Group24 {
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 486px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 486px !important;
 
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	box-sizing: border-box;
-	border-radius: 15px;
+	background: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
 }
 .Group24::placeholder {
-	/* position: absolute; */
-	color: #969696;
+	/* position: absolute!important; */
+	color: #969696 !important;
 }
 .Group23 {
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 551px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 551px !important;
 
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	box-sizing: border-box;
-	border-radius: 15px;
+	background: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
 }
 .Group23::placeholder {
-	color: #969696;
+	color: #969696 !important;
 }
 .SignUp {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 13px 50px;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: center !important;
+	padding: 13px 50px !important;
 
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 626px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 626px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 132.5%;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+	line-height: 132.5% !important;
 
 	/* Primary/Default */
 
-	background: #2bfeba;
-	border-radius: 15px;
+	background: #2bfeba !important;
+	border-radius: 15px !important;
 }
 .OrUsing {
-	position: absolute;
-	width: 40px;
-	height: 16px;
-	left: 187px;
-	top: 719.14px;
+	position: absolute !important;
+	width: 40px !important;
+	height: 16px !important;
+	left: 187px !important;
+	top: 719.14px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 12px;
-	line-height: 16px;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: 300 !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
 	/* identical to box height */
 
-	text-align: center;
-	letter-spacing: -0.05em;
+	text-align: center !important;
+	letter-spacing: -0.05em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .ButtonGroup {
-	/* position: absolute;
-	width: 239px;
-	height: 55.68px;
-	left: 88px;
-	top: 756px; */
+	/* position: absolute!important;
+	width: 239px!important;
+	height: 55.68px!important;
+	left: 88px!important;
+	top: 756px!important; */
 }
 .Facebook {
-	/* position: absolute; */
-	position: absolute;
-	width: 104px;
-	height: 54.68px;
-	left: 223px;
-	top: 756px;
+	/* position: absolute!important; */
+	position: absolute !important;
+	width: 104px !important;
+	height: 54.68px !important;
+	left: 223px !important;
+	top: 756px !important;
 
-	background: #4e6297;
-	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25);
-	border-radius: 49px;
-	border: none;
+	background: #4e6297 !important;
+	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25) !important;
+	border-radius: 49px !important;
+	border: none !important;
 }
 .Google {
-	position: absolute;
-	width: 104px;
-	height: 54.68px;
-	left: 88px;
-	top: 757px;
+	position: absolute !important;
+	width: 104px !important;
+	height: 54.68px !important;
+	left: 88px !important;
+	top: 757px !important;
 
-	background: #c5331e;
-	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25);
-	border-radius: 49px;
-	border: none;
+	background: #c5331e !important;
+	box-shadow: 0px 4px 10px 1px rgba(183, 183, 183, 0.25) !important;
+	border-radius: 49px !important;
+	border: none !important;
 }
 .ConfirmDetails {
-	position: absolute;
-	width: 254px;
-	height: 31px;
-	left: 80px;
-	top: 100px;
+	position: absolute !important;
+	width: 254px !important;
+	height: 31px !important;
+	left: 80px !important;
+	top: 100px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 31px;
-	text-align: center;
-	letter-spacing: -0.07em;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 24px !important;
+	line-height: 31px !important;
+	text-align: center !important;
+	letter-spacing: -0.07em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .FetechImage {
-	position: absolute;
-	width: 165px;
-	height: 16px;
-	left: 124px;
-	top: 136px;
+	position: absolute !important;
+	width: 165px !important;
+	height: 16px !important;
+	left: 124px !important;
+	top: 136px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 16px;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
 	/* identical to box height */
 
-	text-align: center;
-	letter-spacing: -0.04em;
+	text-align: center !important;
+	letter-spacing: -0.04em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .FirstName {
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 348px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 348px !important;
 
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	box-sizing: border-box;
-	border-radius: 15px;
+	background: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
 }
 .LastName {
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 418px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 418px !important;
 
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	box-sizing: border-box;
-	border-radius: 15px;
+	background: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
 }
 .City {
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 488px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 488px !important;
 
-	background: #ffffff;
-	border: 1px solid #cccccc;
-	box-sizing: border-box;
-	border-radius: 15px;
+	background: #ffffff !important;
+	border: 1px solid #cccccc !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
 }
 .ImageContainer {
-	position: absolute;
-	width: 120px;
-	height: 120px;
-	left: 147px;
-	top: 182px;
-	border-radius: 50%;
+	position: absolute !important;
+	width: 120px !important;
+	height: 120px !important;
+	left: 147px !important;
+	top: 182px !important;
+	border-radius: 50% !important;
 
-	background: #c4c4c4;
+	background: #c4c4c4 !important;
 }
 .Terms {
-	position: absolute;
-	width: 265px;
-	height: 36px;
-	left: 75px;
-	top: 730px;
+	position: absolute !important;
+	width: 265px !important;
+	height: 36px !important;
+	left: 75px !important;
+	top: 730px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 18px;
-	text-align: center;
-	letter-spacing: -0.04em;
+	font-family: IBM Plex Sans !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	letter-spacing: -0.04em !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 .Next {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 13px 50px;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: center !important;
+	padding: 13px 50px !important;
 
-	position: absolute;
-	width: 348px;
-	height: 50px;
-	left: 33px;
-	top: 786px;
+	position: absolute !important;
+	width: 348px !important;
+	height: 50px !important;
+	left: 33px !important;
+	top: 786px !important;
 
 	/* Primary/Default */
 
-	background: #2bfeba;
-	border-radius: 15px;
+	background: #2bfeba !important;
+	border-radius: 15px !important;
 }
 .upload {
-	position: absolute;
-	width: 36px;
-	height: 36px;
-	left: 190px;
-	top: 282px;
+	position: absolute !important;
+	width: 36px !important;
+	height: 36px !important;
+	left: 190px !important;
+	top: 282px !important;
 
-	border-radius: 50%;
+	border-radius: 50% !important;
 }
 .BodyHome {
-	position: relative;
-	width: 414px;
-	height: 896px;
+	position: relative !important;
+	width: 414px !important;
+	height: 896px !important;
 
-	background: #151b24;
-	border-radius: 40px;
+	background: #151b24 !important;
+	border-radius: 40px !important;
 }
 .SearchTherapist {
-	height: 36px;
-	width: 366px;
-	left: 24px;
-	top: 142px;
-	border-radius: 10px;
+	height: 36px !important;
+	width: 366px !important;
+	left: 24px !important;
+	top: 142px !important;
+	border-radius: 10px !important;
 
-	position: absolute;
-	height: 36px;
-	left: 24px;
-	right: 24px;
-	top: calc(50% - 36px / 2 - 288px);
+	position: absolute !important;
+	height: 36px !important;
+	left: 24px !important;
+	right: 24px !important;
+	top: calc(50% - 36px / 2 - 288px) !important;
 
-	background: #767680;
-	border-radius: 10px;
+	background: #767680 !important;
+	border-radius: 10px !important;
 }
 .Search {
-	position: absolute;
-	width: 230px;
-	height: 36px;
-	left: 33px;
-	top: 142px;
-	background: #767680;
-	border-radius: 10px;
-	border: none;
+	position: absolute !important;
+	width: 230px !important;
+	height: 36px !important;
+	left: 33px !important;
+	top: 142px !important;
+	background: #767680 !important;
+	border-radius: 10px !important;
+	border: none !important;
 }
 
 .searchtext {
-	position: absolute;
-	left: 2.33%;
-	right: 15.33%;
-	top: 24.55%;
-	bottom: 4.55%;
+	position: absolute !important;
+	left: 2.33% !important;
+	right: 15.33% !important;
+	top: 24.55% !important;
+	bottom: 4.55% !important;
 
-	font-family: SF Pro Text;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	line-height: 20px;
+	font-family: SF Pro Text !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 17px !important;
+	line-height: 20px !important;
 
-	color: #d5d5d6;
+	color: #d5d5d6 !important;
 }
 .searchtextTherapist {
-	position: absolute;
-	left: 2.33%;
-	right: 39.33%;
-	top: 18.55%;
-	bottom: 4.55%;
+	position: absolute !important;
+	left: 2.33% !important;
+	right: 39.33% !important;
+	top: 18.55% !important;
+	bottom: 4.55% !important;
 
-	font-family: SF Pro Text;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	line-height: 20px;
+	font-family: SF Pro Text !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 17px !important;
+	line-height: 20px !important;
 
-	color: #d5d5d6;
+	color: #d5d5d6 !important;
 }
 
 .SearchIcon {
-	position: absolute;
-	left: 2.33%;
-	right: 16.33%;
-	top: 18.55%;
-	bottom: 4.55%;
-	font-family: SF Pro Text;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	line-height: 20px;
+	position: absolute !important;
+	left: 2.33% !important;
+	right: 16.33% !important;
+	top: 18.55% !important;
+	bottom: 4.55% !important;
+	font-family: SF Pro Text !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 17px !important;
+	line-height: 20px !important;
 
-	color: #d5d5d6;
+	color: #d5d5d6 !important;
 }
 .SearchCardOne {
-	position: absolute;
-	width: 348px;
-	height: 114px;
-	left: 33px;
-	top: 198px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 114px !important;
+	left: 33px !important;
+	top: 198px !important;
+	background: #090c10 !important;
 }
 .SearchCardTwo {
-	position: absolute;
-	width: 348px;
-	height: 114px;
-	left: 33px;
-	top: 332px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 114px !important;
+	left: 33px !important;
+	top: 332px !important;
+	background: #090c10 !important;
 }
 .SearchCardThree {
-	position: absolute;
-	width: 348px;
-	height: 114px;
-	left: 33px;
-	top: 466px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 114px !important;
+	left: 33px !important;
+	top: 466px !important;
+	background: #090c10 !important;
 }
 .SearchCardFour {
-	position: absolute;
-	width: 348px;
-	height: 114px;
-	left: 33px;
-	top: 600px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 114px !important;
+	left: 33px !important;
+	top: 600px !important;
+	background: #090c10 !important;
 }
 .cardone {
-	position: absolute;
-	width: 348px;
-	height: 297px;
-	left: 33px;
-	top: 198px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 297px !important;
+	left: 33px !important;
+	top: 198px !important;
+	background: #090c10 !important;
 
 	/* Tertiary/Dark */
 }
 .cardtwo {
-	position: absolute;
-	width: 348px;
-	height: 297px;
-	left: 33px;
-	top: 515px;
-	background: #090c10;
+	position: absolute !important;
+	width: 348px !important;
+	height: 297px !important;
+	left: 33px !important;
+	top: 515px !important;
+	background: #090c10 !important;
 }
 .filter {
-	position: absolute;
-	left: 74.5%;
-	right: 7.97%;
-	top: 16.52%;
-	bottom: 80.8%;
+	position: absolute !important;
+	left: 74.5% !important;
+	right: 7.97% !important;
+	top: 16.52% !important;
+	bottom: 80.8% !important;
 
-	/* background: #ffffff; */
+	/* background: #ffffff!important; */
 }
 .cardImage {
-	border-radius: 0px;
+	border-radius: 0px !important;
 
-	position: absolute;
-	left: 13.72px;
-	right: 14.59px;
-	top: 15.33px;
-	bottom: 132.25px;
+	position: absolute !important;
+	left: 13.72px !important;
+	right: 14.59px !important;
+	top: 15.33px !important;
+	bottom: 132.25px !important;
 
-	background: #c4c4c4;
+	background: #c4c4c4 !important;
 }
 
 .profile {
-	width: 57px;
-	height: 57px;
-	left: 17px;
-	top: 17px;
+	width: 57px !important;
+	height: 57px !important;
+	left: 17px !important;
+	top: 17px !important;
 
-	background: #c4c4c4;
+	background: #c4c4c4 !important;
 }
 
 .card-body {
 }
 
-.card-title {
-	width: 109px;
-	height: 21px;
+.Name {
+	position: absolute !important;
+	width: 109px !important;
+	height: 21px !important;
+	left: 92.65px !important;
+	top: 15.76px !important;
 
-	top: 11.76px;
-
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 21px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 16px !important;
+	line-height: 21px !important;
 	/* identical to box height, or 131% */
 
-	letter-spacing: -0.33px;
+	letter-spacing: -0.33px !important;
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .card-text {
-	position: absolute;
-	width: 151px;
-	height: 40px;
-	left: 92.44px;
-	top: 33.76px;
+	position: absolute !important;
+	width: 151px !important;
+	height: 40px !important;
+	left: 92.44px !important;
+	top: 36.76px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 140.2%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+	font-style: normal !important;
+	font-weight: 100 !important;
+	font-size: 14px !important;
+	line-height: 140.2% !important;
 	/* or 20px */
 
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .card-text1 {
-	position: absolute;
-	width: 67px;
-	height: 17px;
-	left: 92.44px;
-	bottom: -4.24px;
+	position: absolute !important;
+	width: 67px !important;
+	height: 17px !important;
+	left: 92.44px !important;
+	bottom: -75.24px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 140.2%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	line-height: 140.2% !important;
 	/* identical to box height, or 17px */
 
 	/* Grey/600 */
 
-	color: #797980;
+	color: #797980 !important;
 }
-
+.Movebutton {
+}
+p {
+	margin-bottom: 10px !important;
+}
 .heart {
-	position: absolute;
-	left: 85.47%;
-	right: 14.37%;
-	top: 10.44%;
-	bottom: 73.55%;
+	position: absolute !important;
+	left: 85.47% !important;
+	right: 14.37% !important;
+	top: 22.44% !important;
+	bottom: 73.55% !important;
 }
 
 .greenbutton {
-	position: absolute;
-	width: 28px;
-	height: 16px;
-	left: 250.47%;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	align-items: center !important;
+	padding: 13px 50px !important;
 
-	top: 2px;
+	/* position: absolute!important; */
+	width: 60.52px !important;
+	height: 20px !important;
+	left: 311px !important;
+	top: 279px !important;
 
-	font-family: IBM Plex Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 132.5%;
-	/* identical to box height, or 16px */
-
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #2bfeba;
-
-	/* Inside Auto Layout */
-
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	margin: 0px 10px;
+	border: 1px solid #2bfeba !important;
+	box-sizing: border-box !important;
+	border-radius: 15px !important;
+}
+.outline-success {
+	border: none !important;
 }
