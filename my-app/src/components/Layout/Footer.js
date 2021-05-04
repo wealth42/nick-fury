@@ -18,7 +18,7 @@ const Footer = () => {
             }}> 
                 <Link to="/HomeNotes"><Button className="HomeB"><img alt="" src={home}/></Button></Link>
                 <Link to="/Search"><Button className="SearchB"><img alt="" src={search}/></Button></Link> 
-                <Link to="/"><Button className="ChatB"><img alt="" src={chat}/></Button></Link> 
+                <Link to="/Chat"><Button className="ChatB"><img alt="" src={chat}/></Button></Link> 
         </div>
     )
 }
