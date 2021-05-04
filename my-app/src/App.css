@@ -606,3 +606,144 @@ p {
 	animation-timing-function: cubic-bezier(Ease In And Out);
 	animation-duration: 300ms;
 }
+.HomeChatHeader {
+	position: absolute;
+	width: 414px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+
+	background: #42474e;
+	backdrop-filter: blur(54.3656px);
+}
+.HeaderText {
+	/* position: absolute; */
+	height: 38px;
+	left: 5.8%;
+	right: 61.4%;
+	top: calc(50% - 38px / 2 + 19px);
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 38px;
+	/* identical to box height, or 158% */
+
+	letter-spacing: 0.4px;
+
+	color: #ffffff;
+}
+.HeaderImage {
+	left: 80.92%;
+	right: 8.45%;
+	top: 47.32%;
+	bottom: 13.39%;
+	position: absolute;
+}
+.Chat1 {
+	position: absolute;
+	left: 4.27%;
+	right: 81.87%;
+	top: 14.86%;
+	bottom: 14.86%;
+}
+.Chat2 {
+	position: absolute;
+	left: 4.27%;
+	right: 81.87%;
+	top: 14.86%;
+	bottom: 14.86%;
+}
+.Chat3 {
+	position: absolute;
+	left: 4.27%;
+	right: 81.87%;
+	top: 14.86%;
+	bottom: 14.86%;
+}
+.chatbox1 {
+	position: absolute;
+	width: 413px;
+	height: 82px;
+	left: 0px;
+	top: 142px;
+}
+.chatbox2 {
+	position: absolute;
+	width: 413px;
+	height: 81px;
+	left: 0px;
+	top: 224px;
+}
+.chatbox3 {
+	position: absolute;
+	width: 413px;
+	height: 81px;
+	left: 0px;
+	top: 305px;
+}
+.chatname {
+	position: absolute;
+	height: 21px;
+	left: 21.33%;
+	right: 52.27%;
+	top: calc(50% - 21px / 2 - 18.5px);
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height, or 131% */
+
+	letter-spacing: -0.33px;
+
+	color: #ffffff;
+}
+.chatDes {
+	position: absolute;
+	height: 18px;
+	left: 21.31%;
+	right: 14.69%;
+	top: calc(50% - 18px / 2 + 8px);
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.15px;
+
+	color: #8e8e93;
+}
+.LastSeen {
+	position: absolute;
+	height: 18px;
+	left: 75.47%;
+	right: 9.33%;
+	top: calc(50% - 18px / 2 - 17.5px);
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: right;
+	letter-spacing: -0.15px;
+
+	color: #8e8e93;
+}
+.SeeChat {
+	position: absolute;
+	left: 93.33%;
+	right: 4.8%;
+	top: 41.89%;
+	bottom: 41.89%;
+
+	/* background: rgba(255, 255, 255, 0.3); */
+}

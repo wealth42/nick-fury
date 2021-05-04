@@ -4,6 +4,7 @@ import Login from './components/auth/Login'
 import UserDetails from './components/auth/UserDetails'
 import HomeNotes from './components/Home/HomeNotes'
 import Search from './components/Home/Search'
+import HomeChat from './components/Home/HomeChat'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import logo from './logo.svg';
@@ -16,6 +17,7 @@ const App = () => (
       <Route exact path='/UserDetails'component={UserDetails}/>
       <Route exact path='/HomeNotes'component={HomeNotes}/>
       <Route exact path='/Search'component={Search}/>
+      <Route exact path='/Chat'component={HomeChat}/>
 
     </Fragment>
   </Router>
