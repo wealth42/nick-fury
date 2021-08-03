@@ -1,4 +1,3 @@
-
 import 'package:financial_plan/models/chart_details.dart';
 
 import 'package:flutter/material.dart';

@@ -19,13 +19,17 @@ class NetWorthAnalysis extends StatelessWidget {
     return Container(
       child: SfCartesianChart(
         // plotAreaBorderColor: Colors.transparent,
-        primaryXAxis: CategoryAxis( labelRotation: 90,isVisible: enableAnimation, labelPlacement: LabelPlacement.onTicks, majorGridLines: MajorGridLines(width: 0), crossesAt: 0),
+        primaryXAxis: CategoryAxis(
+            labelRotation: 90,
+            isVisible: enableAnimation,
+            labelPlacement: LabelPlacement.onTicks,
+            majorGridLines: MajorGridLines(width: 0),
+            crossesAt: 0),
         primaryYAxis: NumericAxis(
-           title: AxisTitle(text: 'Amount in INR'),
+            title: AxisTitle(text: 'Amount in INR'),
             isVisible: enableAnimation,
             axisLine: AxisLine(width: 0),
-            minimum: -15000000
-            ),
+            minimum: -15000000),
         legend: Legend(
             isVisible: enableAnimation,
             overflowMode: LegendItemOverflowMode.wrap),
@@ -34,16 +38,16 @@ class NetWorthAnalysis extends StatelessWidget {
         //   if (!args.text.contains('%')) args.text += '%';
         // },
         series: [
-                    AreaSeries<Data, String>(
-            name: 'Asset Class Balance',
-            opacity: 0.8,
+          AreaSeries<Data, String>(
+              name: 'Asset Class Balance',
+              opacity: 0.8,
               animationDuration: enableAnimation ? 1000 : 0,
               dataSource: chartDetails.data,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y),
-              AreaSeries<Data, String>(
-                name: 'Loan Principal',
-                opacity: 0.8,
+          AreaSeries<Data, String>(
+              name: 'Loan Principal',
+              opacity: 0.8,
               animationDuration: enableAnimation ? 1000 : 0,
               dataSource: chartDetails.data2!,
               xValueMapper: (Data data, int i) => data.x!,

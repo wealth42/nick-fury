@@ -19,10 +19,13 @@ class IncomeAndSpend extends StatelessWidget {
     return Container(
       child: SfCartesianChart(
         // plotAreaBorderColor: Colors.transparent,
-        primaryXAxis: CategoryAxis(isVisible: enableAnimation, labelPlacement: LabelPlacement.onTicks, majorGridLines: MajorGridLines(width: 0)),
+        primaryXAxis: CategoryAxis(
+            isVisible: enableAnimation,
+            labelPlacement: LabelPlacement.onTicks,
+            majorGridLines: MajorGridLines(width: 0)),
         primaryYAxis: NumericAxis(
             isVisible: enableAnimation,
-             title: AxisTitle(text: 'Amount in INR'),
+            title: AxisTitle(text: 'Amount in INR'),
             axisLine: AxisLine(width: 0),
             maximum: 40000000,
             interval: 5000000,

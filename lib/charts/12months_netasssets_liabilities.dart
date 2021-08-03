@@ -17,9 +17,15 @@ class NetAssetsAndLiabilities extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: SfCartesianChart(
-
-        primaryXAxis: CategoryAxis(isVisible: enableAnimation, crossesAt: 0, labelPlacement: LabelPlacement.onTicks, ),
-        primaryYAxis: NumericAxis(isVisible: enableAnimation, axisLine: AxisLine(width: 0), title: AxisTitle(text: 'Amount in INR')),
+        primaryXAxis: CategoryAxis(
+          isVisible: enableAnimation,
+          crossesAt: 0,
+          labelPlacement: LabelPlacement.onTicks,
+        ),
+        primaryYAxis: NumericAxis(
+            isVisible: enableAnimation,
+            axisLine: AxisLine(width: 0),
+            title: AxisTitle(text: 'Amount in INR')),
         legend: Legend(
             isVisible: enableAnimation,
             overflowMode: LegendItemOverflowMode.wrap),
@@ -29,15 +35,15 @@ class NetAssetsAndLiabilities extends StatelessWidget {
         // },
         series: [
           AreaSeries<Data, String>(
-            name: 'Asset Class Balance',
-            opacity: 0.8,
+              name: 'Asset Class Balance',
+              opacity: 0.8,
               animationDuration: enableAnimation ? 1000 : 0,
               dataSource: chartDetails.data,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y),
-              AreaSeries<Data, String>(
-                name: 'Loan Principal',
-                opacity: 0.8,
+          AreaSeries<Data, String>(
+              name: 'Loan Principal',
+              opacity: 0.8,
               animationDuration: enableAnimation ? 1000 : 0,
               dataSource: chartDetails.data2!,
               xValueMapper: (Data data, int i) => data.x!,

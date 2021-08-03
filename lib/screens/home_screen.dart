@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import '../helper.dart';
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({required this.refreshCallback,Key? key}) : super(key: key);
+  HomeScreen({required this.refreshCallback, Key? key}) : super(key: key);
 
   final Function refreshCallback;
 
