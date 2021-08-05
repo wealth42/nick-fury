@@ -6,10 +6,10 @@ import 'package:syncfusion_flutter_charts/charts.dart';
 
 class NetAssetsAndLiabilities extends StatelessWidget {
   const NetAssetsAndLiabilities(
-      {this.enableAnimation = true, required this.chartDetails, Key? key})
+      {this.isFullView = true, required this.chartDetails, Key? key})
       : super(key: key);
 
-  final bool enableAnimation;
+  final bool isFullView;
 
   final ChartDetails chartDetails;
 
@@ -18,18 +18,17 @@ class NetAssetsAndLiabilities extends StatelessWidget {
     return Container(
       child: SfCartesianChart(
         primaryXAxis: CategoryAxis(
-          isVisible: enableAnimation,
+          isVisible: isFullView,
           crossesAt: 0,
           labelPlacement: LabelPlacement.onTicks,
         ),
         primaryYAxis: NumericAxis(
-            isVisible: enableAnimation,
+            isVisible: isFullView,
             axisLine: AxisLine(width: 0),
             title: AxisTitle(text: 'Amount in INR')),
         legend: Legend(
-            isVisible: enableAnimation,
-            overflowMode: LegendItemOverflowMode.wrap),
-        title: enableAnimation ? ChartTitle(text: chartDetails.title) : null,
+            isVisible: isFullView, overflowMode: LegendItemOverflowMode.wrap),
+        title: isFullView ? ChartTitle(text: chartDetails.title) : null,
         // onDataLabelRender: (args) {
         //   if (!args.text.contains('%')) args.text += '%';
         // },
@@ -37,14 +36,14 @@ class NetAssetsAndLiabilities extends StatelessWidget {
           AreaSeries<Data, String>(
               name: 'Asset Class Balance',
               opacity: 0.8,
-              animationDuration: enableAnimation ? 1000 : 0,
+              animationDuration: isFullView ? 1000 : 0,
               dataSource: chartDetails.data,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y),
           AreaSeries<Data, String>(
               name: 'Loan Principal',
               opacity: 0.8,
-              animationDuration: enableAnimation ? 1000 : 0,
+              animationDuration: isFullView ? 1000 : 0,
               dataSource: chartDetails.data2!,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y)

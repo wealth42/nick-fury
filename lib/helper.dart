@@ -26,36 +26,36 @@ class Helper {
   }
 
   static Widget getChart(
-      String key, ChartDetails chartDetails, bool enableAnimation) {
+      String key, ChartDetails chartDetails, bool isFullView) {
     switch (key) {
       case 'current_portfolio':
         return CurrentPortfolio(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       case 'recommended_portfolio':
         return RecommendedPortfolio(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       case '10years_income_&_spends':
         return IncomeAndSpend(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       case '10years_investment_&_loan':
         return InvestmentAndLoan(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       case '12months_netassets_&_liabilities':
         return NetAssetsAndLiabilities(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       case 'net_worth_analysis':
         return NetWorthAnalysis(
-          enableAnimation: enableAnimation,
+          isFullView: isFullView,
           chartDetails: chartDetails,
         );
       default:

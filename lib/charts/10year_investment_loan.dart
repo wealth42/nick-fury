@@ -6,10 +6,10 @@ import 'package:syncfusion_flutter_charts/charts.dart';
 
 class InvestmentAndLoan extends StatelessWidget {
   const InvestmentAndLoan(
-      {this.enableAnimation = true, required this.chartDetails, Key? key})
+      {this.isFullView = true, required this.chartDetails, Key? key})
       : super(key: key);
 
-  final bool enableAnimation;
+  final bool isFullView;
 
   final ChartDetails chartDetails;
 
@@ -18,33 +18,32 @@ class InvestmentAndLoan extends StatelessWidget {
     return Container(
       child: SfCartesianChart(
         primaryXAxis: CategoryAxis(
-            isVisible: enableAnimation,
+            isVisible: isFullView,
             majorGridLines: MajorGridLines(width: 0),
             labelPlacement: LabelPlacement.onTicks),
         primaryYAxis: NumericAxis(
-            isVisible: enableAnimation,
+            isVisible: isFullView,
             axisLine: AxisLine(width: 0),
             interval: 10000000,
             maximum: 70000000),
         legend: Legend(
-            isVisible: enableAnimation,
-            overflowMode: LegendItemOverflowMode.wrap),
-        title: enableAnimation ? ChartTitle(text: chartDetails.title) : null,
+            isVisible: isFullView, overflowMode: LegendItemOverflowMode.wrap),
+        title: isFullView ? ChartTitle(text: chartDetails.title) : null,
         // onDataLabelRender: (args) {
         //   if (!args.text.contains('%')) args.text += '%';
         // },
         series: [
           SplineSeries<Data, String>(
               name: 'Investment',
-              markerSettings: MarkerSettings(isVisible: enableAnimation),
-              animationDuration: enableAnimation ? 1000 : 0,
+              markerSettings: MarkerSettings(isVisible: isFullView),
+              animationDuration: isFullView ? 1000 : 0,
               dataSource: chartDetails.data,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y),
           SplineSeries<Data, String>(
-              markerSettings: MarkerSettings(isVisible: enableAnimation),
+              markerSettings: MarkerSettings(isVisible: isFullView),
               name: 'Loan',
-              animationDuration: enableAnimation ? 1000 : 0,
+              animationDuration: isFullView ? 1000 : 0,
               dataSource: chartDetails.data2!,
               xValueMapper: (Data data, int i) => data.x!,
               yValueMapper: (Data data, int i) => data.y)
