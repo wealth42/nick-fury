@@ -1,0 +1,28 @@
+{
+    "Maximum number of textures inside an argument buffer": {
+      "MTLGPUFamilyApple1": 31,
+      "MTLGPUFamilyApple2": 31,
+      "MTLGPUFamilyApple3": 31,
+      "MTLGPUFamilyApple4": 96,
+      "MTLGPUFamilyApple5": 96,
+      "MTLGPUFamilyApple6": 500000,
+      "MTLGPUFamilyApple7": 500000,
+      "MTLGPUFamilyMac1": "Varies by tier",
+      "MTLGPUFamilyMac2": "Varies by tier",
+      "MTLGPUFamilyMacCatalyst1": "Varies by tier",
+      "MTLGPUFamilyMacCatalyst2": "Varies by tier"
+    },
+    "Maximum 2D texture width and height": {
+      "MTLGPUFamilyApple1": "8192 px",
+      "MTLGPUFamilyApple2": "8192 px",
+      "MTLGPUFamilyApple3": "16384 px",
+      "MTLGPUFamilyApple4": "16384 px",
+      "MTLGPUFamilyApple5": "16384 px",
+      "MTLGPUFamilyApple6": "16384 px",
+      "MTLGPUFamilyApple7": "16384 px",
+      "MTLGPUFamilyMac1": "16384 px",
+      "MTLGPUFamilyMac2": "16384 px",
+      "MTLGPUFamilyMacCatalyst1": "16384 px",
+      "MTLGPUFamilyMacCatalyst2": "16384 px"
+    }
+  }

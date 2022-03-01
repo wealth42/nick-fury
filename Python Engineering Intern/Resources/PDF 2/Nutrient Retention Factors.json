@@ -1,0 +1,33 @@
+[
+    {
+        "Retention Code": "0001",
+        "Food Group Code": "01",
+        "Retention Description": "CHEESE,BAKED",
+        "Calcium, Ca": 100,
+        "Iron, Fe": 100,
+        "Magnesium, Mg": 100,
+        "Phosphorus, P": 100,
+        "Potassium, K": 100,
+        "Sodium, Na": 100,
+        "Zinc, Zn": 100,
+        "Copper, Cu": 100,
+        "Vitamin C, total ascorbic acid": 65,
+        "Thiamin": 75,
+        "Riboflavin": 100,
+        "Niacin": 100,
+        "Vitamin B-6": 75,
+        "Folate, food": 80,
+        "Folic acid": 80,
+        "Folate, total": 80,
+        "Choline, total": 75,
+        "Vitamin B-12": 55,
+        "Vitamin A, IU": 100,
+        "Vitamin A, RE": 100,
+        "Alcohol, ethyl": 100,
+        "Carotene, beta": 100,
+        "Carotene, alpha": 100,
+        "Cryptoxanthin, beta": 100,
+        "Lycopene": 100,
+        "Lutein + zeaxanthin": 100
+    }
+]
