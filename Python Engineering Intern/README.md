@@ -1,7 +1,7 @@
 # Python Engineering Intern challenge assignments for Wealth42
 
 ## Introduction
-The goal of this challenge is to test your familiarity with concepts in *Python and Data Extraction*. To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-hiring)
+The goal of this challenge is to test your familiarity with concepts in *Python and Data Extraction*. To read more about the recruitment process and open opportunities at Wealth42, click [here](https://bit.ly/w42-careers)
 
 *Note: This is a public submission. Any work on this assignment does not bring Wealth42 or its employees any moat; and by design, is made to assess skills we need. Stories provided are unrelated to Wealth42's core business.* 
 
@@ -16,12 +16,12 @@ The goal of this challenge is to test your familiarity with concepts in *Python 
 ## Instructions
 * Explore the [PDFs](https://github.com/wealth42/nick-fury/tree/master/Python%20Engineering%20Intern/Resources/) provided.
 * Select **any one** of the two PDFs to work on.
-* Write script in Python to parse the selected PDF. The script extract the data in the PDF and save the output in a json file.
-* Sample JSON output file is provided for your reference for each PDF. You may choose to structure your output differently but you have to document your reasons for going with the format you choose, essentially mentioning how your output is more efficient in certain operations. Keep in mind, the output is just a sample and not the entire json that is expected. You need to parse the entire document and return the complete the entire JSON.
+* Write a script in Python to parse the selected PDF. The script extracts the data in the PDF and saves the output in a JSON file.
+* Sample JSON output file is provided for your reference for each PDF. Bonus points for enhancement of the JSON output with reasoning. Keep in mind, the output is just a sample and not the entire json that is expected. You need to parse the entire document and return the complete JSON.
 * Try to generalize the logic as much as possible -
     * try not to use excessively large number of _if statements_
     * write generalized regex to parse similar type of lines
-    * json output should have correct data types
+    * json output should have appropriate data points
 * Document list of assumptions made, which are not covered in the stories but have been used in building the script.
 * Ask us anything – hiring at wealth42 dot com.
 
