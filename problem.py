@@ -5,3 +5,5 @@ for page in file:
     txt=open(f'pdf1.json','a')
     txt.writelines(text)
     txt.close()
+
+    #i never worked on Pymupdf
