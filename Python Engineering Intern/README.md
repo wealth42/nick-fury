@@ -1,4 +1,4 @@
-# Python Engineering Intern challenge assignments for Wealth42
+# Python Engineering Intern challenge assignments for Wealth42 SOLUTION
 
 ## Introduction
 The goal of this challenge is to test your familiarity with concepts in *Python and Data Extraction*. To read more about the recruitment process and open opportunities at Wealth42, click [here](https://bit.ly/w42-careers)
@@ -58,3 +58,11 @@ Cite any external piece of code you're using, preferably with a link to the sour
 2. [Data Extraction from Unstructured PDFs](https://www.analyticsvidhya.com/blog/2021/06/data-extraction-from-unstructured-pdfs/)
 3. [Pandas](https://pandas.pydata.org/docs/user_guide/index.html)
 4. [Version control with git](https://try.github.io/)
+
+## Approach to the problem statement
+1. I used PyPDF2 and camelot to convert the pdf table to csv file.
+2. Then I converted .csv file to dataframes using pandas library.
+3. Finally using json dumps converted to .json file.
+
+## Detailed explaination
+Using PyPDF2 and camelot converted the pdf image table to .csv file, through **to_csv** method then the generated csv file is appled to pandas to convert it to dataframe, once the dataframe is created creating a empty json file to store the converted data now its easy to convert the data to **.json** file using loads() and dumps() methods and writing the data in json format.
