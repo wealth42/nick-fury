@@ -1,4 +1,4 @@
-index,MTLGPUFamilyApple1,MTLGPUFamilyApple2,MTLGPUFamilyApple3,MTLGPUFamilyApple4,MTLGPUFamilyApple5,MTLGPUFamilyApple6,MTLGPUFamilyApple7,MTLGPUFamilyMac1,MTLGPUFamilyMac2,MTLGPUFamilyMacCatalyst1,MTLGPUFamilyMacCatalyst2,,,,
+index,,,,,,,,,,,,,,,
 "Maximumnumberofvertexattributes,pervertexdescriptor",31,31,31,31,31,31,31,31,31,31,31,,,,
 "Maximumnumberofentriesinthe bufferargument table,
 pergraphicsorcompute function",31,31,31,31,31,31,31,31,31,31,31,,,,

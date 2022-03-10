@@ -1,10 +1,17 @@
-import csv
+import pandas as pd
 import json
+# making dataframe
+df = pd.read_csv("pdf2_csv.csv")
+#df.set_index("",inplace=True)
 
-csvfile = open('pdf2_csv.csv', 'r')
-jsonfile = open('file2.json', 'w')
+#creating a json file
+jsonfile = open('json_file_2.json', 'w')
+# output the dataframe
+#print(df)
 
-fieldnames = ("Retention code","Group code","Retention Description","Calcium, Ca","Iron, Fe","Magnesium, Mg","Phosphorus, P","Potassium, K","Sodium, Na","Zinc, Zn","Copper, Cu","Vitamin C, total ascorbic acid","Thiamin","Riboflavin","Niacin","Vitamin B-6","Folate, food","Folic acid","Folate, total","Choline, total","Vitamin B-12","Vitamin A, IU","Vitamin A, RE","Alcohol, ethyl","Carotene, beta","Carotene, alpha","Cryptoxanthin, beta","Lycopene","Lutein + zeaxanthin")
-reader = csv.DictReader( csvfile, fieldnames)
-out = json.dumps( [ row for row in reader ] )
+#converting to json data
+result = df.to_json(orient="records")
+parsed = json.loads(result)
+out = json.dumps(parsed, indent=4)
 jsonfile.write(out)
+

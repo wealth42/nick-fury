@@ -1,10 +1,18 @@
-import csv
+import pandas as pd
 import json
+# making dataframe
+df = pd.read_csv("pdf1_csv.csv")
+df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+df.set_index("index",inplace=True)
 
-csvfile = open('pdf1_csv.csv', 'r')
-jsonfile = open('file1.json', 'w')
+#creating a json file
+jsonfile = open('json_file_1.json', 'w')
+# output the dataframe
+#print(df)
 
-fieldnames = (" ","MTLGPUFamilyApple1","MTLGPUFamilyApple2","MTLGPUFamilyApple3","MTLGPUFamilyApple4","MTLGPUFamilyApple5","MTLGPUFamilyApple6","MTLGPUFamilyApple7","MTLGPUFamilyMac1","MTLGPUFamilyMac2","MTLGPUFamilyMacCatalyst1","MTLGPUFamilyMacCatalyst2")
-reader = csv.DictReader( csvfile, fieldnames)
-out = json.dumps( [ row for row in reader ] )
+#converting to json data
+result = df.to_json(orient="index")
+parsed = json.loads(result)
+out = json.dumps(parsed, indent=4)
 jsonfile.write(out)
+
