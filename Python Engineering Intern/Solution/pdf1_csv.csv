@@ -1,0 +1,34 @@
+,MTLGPUFamilyApple1,MTLGPUFamilyApple2,MTLGPUFamilyApple3,MTLGPUFamilyApple4,MTLGPUFamilyApple5,MTLGPUFamilyApple6,MTLGPUFamilyApple7,MTLGPUFamilyMac1,MTLGPUFamilyMac2,MTLGPUFamilyMacCatalyst1,MTLGPUFamilyMacCatalyst2
+"Maximumnumberofvertexattributes,pervertex
+descriptor",31,31,31,31,31,31,31,31,31,31,31
+"Maximumnumberofentriesinthe bufferargument table,
+pergraphicsorcompute function",31,31,31,31,31,31,31,31,31,31,31
+"Maximumnumberofentriesinthe texture argument table,
+pergraphicsorcompute function",31,31,31,96,96,128,128,128,128,128,128
+"Maximumnumberofentriesinthe samplerstate argument table,pergraphicsorcompute function3",16,16,16,16,16,16,16,16,16,16,16
+"Maximumnumberofentriesinthe threadgroupmemory
+argument table,percompute function",31,31,31,31,31,31,31,31,31,31,31
+"Maximumnumberofinlinedconstant databuffers,per
+graphicsorcompute function",31,31,31,31,31,31,31,14,14,14,14
+"Maximumlengthofaninlinedconstant databuffer,per
+graphicsorcompute function",4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB
+Maximumthreadsperthreadgroup,512,512,512,1024,1024,1024,1024,1024,1024,1024,1024
+Maximumtotalthreadgroupmemoryallocation,16352B,16352B,16 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB
+Maximumtotaltile memoryallocation4,Not accessible,Not accessible,Not accessible,32 KB,32 KB,32 KB,32 KB,Not accessible,Not accessible,Not accessible,Not accessible
+Threadgroupmemorylengthalignment,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B
+"Maximumfunctionmemoryallocationforabufferinthe 
+constant addressspace",No limit,No limit,No limit,No limit,No limit,No limit,No limit,64KB,64KB,64KB,64KB
+"Maximumnumberofinputs(scalarsorvectors) to afragment function,declaredwiththe stage_inqualifier5",60,60,60,124,124,124,124,32,32,32,32
+"Maximumnumberofinput componentsto afragment function,declaredwiththe stage_inqualifier5",60,60,60,124,124,124,124,124,124,124,124
+Maximumnumberoffunctionconstants,65536,65536,65536,65536,65536,65536,65536,65536,65536,65536,65536
+Maximumtessellationfactor,Not available,Not available,16,16,64,64,64,64,64,64,64
+"Maximumnumberofviewportsandscissorrectangles,pervertexfunction",1,1,1,1,16,16,16,16,16,16,16
+"Maximumnumberofrasterordergroups,perfragment 
+function",Not available,Not available,Not available,8,8,8,8,8,8,8,8
+Maximumnumberofbuffersinside anargument buffer,31,31,31,96,96,5000006,5000006,Variesbytier7,Variesbytier7,Variesbytier7,Variesbytier7
+Maximumnumberoftexturesinside anargument buffer,31,31,31,96,96,5000006,5000006,Variesbytier7,Variesbytier7,Variesbytier7,Variesbytier7
+Maximumnumberofsamplersinside anargument buffer,16,16,16,16,16,1024,1024,Variesbytier7,Variesbytier7,Variesbytier7,Variesbytier7
+Minimumbufferoffset alignment,4 B,4 B,4 B,4 B,4 B,4 B,4 B,256B,256B,256B,256B
+Maximum1Dtexture width,8192px,8192px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px
+Maximum2Dtexture widthandheight,8192px,8192px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px
+,,,,,,,,,,,
