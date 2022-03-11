@@ -310,5 +310,18 @@
         "MTLGPUFamilyMac2": "16384 px",
         "MTLGPUFamilyMacCatalyst1": "16384 px",
         "MTLGPUFamilyMacCatalyst2": "16384 px"
+    },
+    "nan": {
+        "MTLGPUFamilyApple1": null,
+        "MTLGPUFamilyApple2": null,
+        "MTLGPUFamilyApple3": null,
+        "MTLGPUFamilyApple4": null,
+        "MTLGPUFamilyApple5": null,
+        "MTLGPUFamilyApple6": null,
+        "MTLGPUFamilyApple7": null,
+        "MTLGPUFamilyMac1": null,
+        "MTLGPUFamilyMac2": null,
+        "MTLGPUFamilyMacCatalyst1": null,
+        "MTLGPUFamilyMacCatalyst2": null
     }
 }
