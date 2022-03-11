@@ -60,9 +60,9 @@ Cite any external piece of code you're using, preferably with a link to the sour
 4. [Version control with git](https://try.github.io/)
 
 ## Approach to the problem statement
-1. I used PyPDF2 and camelot to convert the pdf table to csv file.
+1. I used tabula to convert the pdf table to csv file.
 2. Then I converted .csv file to dataframes using pandas library.
 3. Finally using json dumps converted to .json file.
 
 ## Detailed explaination
-Using PyPDF2 and camelot converted the pdf image table to .csv file, through **to_csv** method then the generated csv file is appled to pandas to convert it to dataframe, once the dataframe is created creating a empty json file to store the converted data now its easy to convert the data to **.json** file using loads() and dumps() methods and writing the data in json format.
+Using **tabula** converted the pdf image table to .csv file, using the library **converted_into** through **to_csv** method then the generated csv file is appled to pandas to convert it to dataframe, once the dataframe is created creating a empty json file to store the converted data now its easy to convert the data to **.json** file using loads() and dumps() methods and writing the data in json format.
