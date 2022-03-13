@@ -1,0 +1,25 @@
+index,MTLGPUFamilyApple1,MTLGPUFamilyApple2,MTLGPUFamilyApple3,MTLGPUFamilyApple4,MTLGPUFamilyApple5,MTLGPUFamilyApple6,MTLGPUFamilyApple7,MTLGPUFamilyMac1,MTLGPUFamilyMac2,MTLGPUFamilyMacCatalyst1,MTLGPUFamilyMacCatalyst2
+Maximum number of vertex attributes per vertexdescriptor,31,31,31,31,31,31,31,31,31,31,31
+Maximum number of entries in the buffer argument table per graphics or compute function,31,31,31,31,31,31,31,31,31,31,31
+Maximum number of entries in the texture argument table per graphics or compute function,31,31,31,96,96,128,128,128,128,128,128
+Maximum number of entries in the sampler state argument table per graphics or compute function,16,16,16,16,16,16,16,16,16,16,16
+Maximum number of entries in the threadgroup memory argument table per compute function,31,31,31,31,31,31,31,31,31,31,31
+Maximum number of inlined constant data buffers per graphics or compute function,31,31,31,31,31,31,31,14,14,14,14
+Maximum length of an inlined constant data buffer per graphics or compute function,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB,4 KB
+Maximum threads per threadgroup,512,512,512,1024,1024,1024,1024,1024,1024,1024,1024
+Maximum total threadgroup memory allocation,16352 B,16352 B,16 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB,32 KB
+Maximum total tile memory allocation,Not accessible,Not accessible,Not accessible,32 KB,32 KB,32 KB,32 KB,Not accessible,Not accessible,Not accessible,Not accessible
+Threadgroup memory length alignment,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B,16 B
+Maximum function memory allocation for a buffer in the constant address space,No limit,No limit,No limit,No limit,No limit,No limit,No limit,64 KB,64 KB,64 KB,64 KB
+Maximum number of inputs (scalars or vectors) to a fragment function declared with the stage_in qualifier,60,60,60,124,124,124,124,32,32,32,32
+Maximum number of input components to a fragment function declared with the stage_in qualifier,60,60,60,124,124,124,124,124,124,124,124
+Maximum number of function constants,65536,65536,65536,65536,65536,65536,65536,65536,65536,65536,65536
+Maximum tessellation factor,Not available,Not available,16,16,64,64,64,64,64,64,64
+Maximum number of viewports and scissor rectangles per vertex function,1,1,1,16,16,16,16,16,16,16
+Maximum number of raster order groups per fragment function,Not available,Not available,Not available,8,8,8,8,8,8,8,8
+Maximum number of buffers inside an argument buffer,31,31,31,96,96,5000006,5000006,Varies by tier7,Varies by tier7,Varies by tier7,Varies by tier7
+Maximum number of textures inside an argument buffer,31,31,31,96,96,5000006,5000006,Varies by tier7,Varies by tier7,Varies by tier7,Varies by tier7
+Maximum number of samplers inside an argument buffer,16,16,16,16,16,1024,1024,Varies by tier7,Varies by tier7,Varies by tier7,Varies by tier7
+Minimum buffer offset alignment,4 B,4 B,4 B,4 B,4 B,4 B,4 B,256 B,256 B,256 B,256 B
+Maximum 1D texture width,8192 px,8192 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px
+Maximum 2D texture width and height,8192 px,8192 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px,16384 px
