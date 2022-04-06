@@ -1,9 +1,9 @@
 ## UI/UX challenge assignments for Wealth42
 
 ### Introduction
-The goal of this challenge is to test your familiarity with either Adobe XD or Sketch to build concepts. To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-hiring)
+The goal of this challenge is to test your familiarity with Figma to build concepts. To read more about the recruitment process and open opportunities at Wealth42, click [here](http://bit.ly/w42-careers)
 
-*   You can select any one of the stories mentioned in the [stories](../stories/) folder, and build a few screens that showcase your skills as a UI developer. 
+*   You can select any one of the stories mentioned in the [stories](../stories/) folder, and build a few screens that showcase your skills as a UI designer. 
 *   Follow [Submission Process](#submission-process) to complete the assignment.
 *   For success, ensure you get as many checks as in our [Assessment Criteria](#assessment-criteria)
 *   We typically take 5 days to evaluate this submission.
